@@ -89,84 +89,44 @@ class DefaultStyle extends React.Component {
                                         </Link>
                                         <ul className="dropdown_menu">
                                             <li className="nav-item">
-                                                <Link activeClassName="active" href="/features">
-                                                    <a className="nav-link">Features</a>
+                                                <Link activeClassName="active" href="/smart-office">
+                                                    <a className="nav-link">Smart Offices</a>
                                                 </Link>
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link activeClassName="active" href="#">
-                                                    <a className="nav-link">Services</a>
+                                                <Link activeClassName="active" href="/smart-property">
+                                                    <a className="nav-link">Smart Properties</a>
                                                 </Link>
-                                                <ul className="dropdown_menu">
-                                                    <li className="nav-item">
-                                                        <Link activeClassName="active" href="/services">
-                                                            <a className="nav-link">Services</a>
-                                                        </Link>
-                                                    </li>
-                                                    
-                                                    <li className="nav-item">
-                                                        <Link activeClassName="active" href="/service-details">
-                                                            <a className="nav-link">Service Details</a>
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="#">
-                                                    <a className="nav-link">Project</a>
-                                                </Link>
-                                                <ul className="dropdown_menu">
-                                                    <li className="nav-item">
-                                                        <Link activeClassName="active" href="/project">
-                                                            <a className="nav-link">Project</a>
-                                                        </Link>
-                                                    </li>
-                                                    
-                                                    <li className="nav-item">
-                                                        <Link activeClassName="active" href="/project-details">
-                                                            <a className="nav-link">Project Details</a>
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-    
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/team">
-                                                    <a className="nav-link">Team</a>
-                                                </Link>
-                                            </li>
-    
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/pricing">
-                                                    <a className="nav-link">Pricing</a>
-                                                </Link>
-                                            </li>
-                                            
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/faq">
-                                                    <a className="nav-link">FAQ</a>
-                                                </Link>
-                                            </li>
+					    </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    activeClassName="active" 
-                                                    href="/coming-soon"
-                                                >
-                                                    <a className="nav-link">Coming Soon</a>
+                                                <Link activeClassName="active" href="/smart-city">
+                                                    <a className="nav-link">Smart Cities</a>
                                                 </Link>
-                                            </li>
+					    </li>
 
                                             <li className="nav-item">
-                                                <Link 
-                                                    activeClassName="active" 
-                                                    href="/error"
-                                                >
-                                                    <a className="nav-link">Error Status</a>
+                                                <Link activeClassName="active" href="/smart-hospital">
+                                                    <a className="nav-link">Smart Healthcare</a>
                                                 </Link>
-                                            </li>
+					    </li>
+                                            <li className="nav-item">
+
+                                            <li className="nav-item">
+                                                <Link activeClassName="active" href="/smart-port">
+                                                    <a className="nav-link">Smart Container Terminals</a>
+                                                </Link>
+					    </li>
+
+                                                <Link activeClassName="active" href="/sw-development">
+                                                    <a className="nav-link">AI and ML Platform</a>
+                                                </Link>
+					    </li>
+
+
+
+
                                         </ul>
                                     </li>
 

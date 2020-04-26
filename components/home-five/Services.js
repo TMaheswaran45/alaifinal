@@ -37,7 +37,7 @@ class Services extends Component {
                                 <h3>Smart Property</h3>
                                 <p>Smart homes, Visitor Management, Security Cameras</p>
                                 
-                                <Link href="#">
+                                <Link href="/smart-property?style=default">
                                     <a><Icon.ArrowRight /></a>
                                 </Link>
                             </div>
@@ -52,7 +52,7 @@ class Services extends Component {
                                 <h3>Smart City</h3>
                                 <p>Smart Bin, Smart Lockers, Traffic signal Management</p>
                                 
-                                <Link href="#">
+                                <Link href="/smart-city?style=default">
                                     <a><Icon.ArrowRight /></a>
                                 </Link>
                             </div>
@@ -67,7 +67,7 @@ class Services extends Component {
                                 <h3>Smart Hospitals</h3>
                                 <p>Automatic Attendance and Body temperature check</p>
                                 
-                                <Link href="#">
+                                <Link href="/smart-hospital?style=default">
                                     <a><Icon.ArrowRight /></a>
                                 </Link>
                             </div>
@@ -96,7 +96,7 @@ class Services extends Component {
                                 <h3>Software Development</h3>
                                 <p>App Development, Data analytics, Machine Learning</p>
                                 
-                                <Link href="#">
+                                <Link href="/sw-development?style=default">
                                     <a><Icon.ArrowRight /></a>
                                 </Link>
                             </div>
