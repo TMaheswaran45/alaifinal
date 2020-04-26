@@ -1762,7 +1762,7 @@ var Services = /*#__PURE__*/function (_Component) {
       }, __jsx("i", {
         className: "flaticon-software"
       })), __jsx("h3", null, "Smart Offices"), __jsx("p", null, "Attendance, Meeting room booking based on Face recognition, QR Code"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/home-four?style=default"
+        href: "/smart-office?style=default"
       }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_7__["ArrowRight"], null))))), __jsx("div", {
         className: "col-lg-4 col-md-6"
       }, __jsx("div", {
@@ -1802,7 +1802,7 @@ var Services = /*#__PURE__*/function (_Component) {
       }, __jsx("i", {
         className: "flaticon-factory"
       })), __jsx("h3", null, "Smart Port"), __jsx("p", null, "Container and Vehicle movement, Productivity measurement"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "#"
+        href: "/smart-port?style=default"
       }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_7__["ArrowRight"], null))))), __jsx("div", {
         className: "col-lg-4 col-md-6"
       }, __jsx("div", {

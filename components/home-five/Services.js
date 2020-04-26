@@ -22,7 +22,7 @@ class Services extends Component {
 
                                 <h3>Smart Offices</h3>
                                 <p>Attendance, Meeting room booking based on Face recognition, QR Code</p>
-                                <Link href="/home-four?style=default">
+                                <Link href="/smart-office?style=default">
                                     <a><Icon.ArrowRight /></a>
                                 </Link>
                             </div>
@@ -81,8 +81,7 @@ class Services extends Component {
 
                                 <h3>Smart Port</h3>
                                 <p>Container and Vehicle movement, Productivity measurement</p>
-                                
-                                <Link href="#">
+                                <Link href="/smart-port?style=default">
                                     <a><Icon.ArrowRight /></a>
                                 </Link>
                             </div>
