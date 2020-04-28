@@ -267,7 +267,7 @@ class MainBanner extends Component {
                                 <div className="repair-banner-image">
                                     <ReactWOW delay='0.6s' animation='zoomIn'>
                                         <img
-                                            src={require('../../static/images/utility.jpg')}
+                                            src={require('../../static/images/home.jpeg')}
                                             className="wow zoomIn"
                                             data-wow-delay="0.6s"
                                             alt="image"

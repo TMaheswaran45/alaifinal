@@ -7,6 +7,8 @@ import GoTop from '../components/Layouts/GoTop'
 import MainBanner from '../components/sw-development/MainBanner';
 import About from '../components/sw-development/About';
 import Cta from '../components/sw-development/Cta';
+
+import Services from '../components/sw-development/Services';
 import Funfacts from '../components/home-one/Funfacts';
 import Team from '../components/home-five/Team';
 import Feedback from '../components/home-five/Feedback';

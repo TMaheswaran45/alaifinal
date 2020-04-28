@@ -12,7 +12,7 @@ class MainBanner extends Component {
                             <div className="repair-banner-image">
                                 <ReactWOW delay='0.6s' animation='zoomIn'>
                                     <img
-                                        src={require('../../static/images/office-banner-1.jpg')}
+                                        src={require('../../static/images/city-banner-1.jpg')}
                                         className="wow zoomIn"
                                         data-wow-delay="0.6s"
                                         alt="image"
@@ -43,7 +43,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>Smart Lockers</h1>
+                                    <h2>Smart Lockers</h2>
                                     <p>Hi Tech lockers that open and close based on face recognition. Register up to 1000 users with a single installation. No more headaches with lost locker keys or pins</p>
                                     <Link href="#">
                                         <a className="btn btn-primary">Get Started</a>
@@ -86,14 +86,13 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>Biometric Access Control + Thermal Scanning</h1>
+                                    <h2>Thermal Scanning & Social Distancing Enforcement</h2>
                                     <ul>
-                                        <li>Enable access to your employees using face recognition</li>
-                                        <li>Automatically check temperature on entry and stop access if temperature is beyond threshold</li>
-                                        <li>Automatically check for sickness based on emotions and alert accordingly</li>
+                                        <li>Alert if someone has a fever while entering the premises</li>
+                                        <li>Ensure social distancing by using buzzers when its not followed</li>
                                     </ul>
                                     <Link href="#">
-                                        <a className="btn btn-primary">Get Started</a>
+                                        <a className="btn btn-primary">Know More</a>
                                     </Link>
                                 </div>
                             </div>
@@ -110,11 +109,10 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>Facility Booking and Access System</h1>
+                                    <h2>Smart Waste Management</h2>
                                     <ul>
-                                        <li>Select and reserve meeting rooms based on availability</li>
-                                        <li>Enable access based on QR Code / Biometrics</li>
-                                        <li>Automatically turn on / off utilities in meeting room based on schedule</li>
+                                        <li>Automatically Notify garbage collection team for collection of filled trash cans </li>
+                                        <li>Alert mainenance team as soon as the recycle bin is filled to a certain extent</li>
                                     </ul>
                                     <Link href="#">
                                         <a className="btn btn-primary">Get Started</a>
@@ -126,7 +124,7 @@ class MainBanner extends Component {
                                 <div className="repair-banner-image">
                                     <ReactWOW delay='0.6s' animation='zoomIn'>
                                         <img
-                                            src={require('../../static/images/visitor.jpg')}
+                                            src={require('../../static/images/smartbin.jpg')}
                                             className="wow zoomIn"
                                             data-wow-delay="0.6s"
                                             alt="image"

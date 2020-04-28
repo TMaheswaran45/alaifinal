@@ -77,11 +77,7 @@ class DefaultStyle extends React.Component {
                                         </a>
                                  </li>
 
-                                    <li className="nav-item">
-                                        <Link activeClassName="active" href="/about">
-                                            <a className="nav-link">About</a>
-                                        </Link>
-                                    </li>
+
                                     
                                     <li className="nav-item">
                                         <Link activeClassName="active" href="#">
@@ -98,31 +94,30 @@ class DefaultStyle extends React.Component {
                                                 <Link activeClassName="active" href="/smart-property">
                                                     <a className="nav-link">Smart Properties</a>
                                                 </Link>
-					    </li>
+					                        </li>
 
                                             <li className="nav-item">
                                                 <Link activeClassName="active" href="/smart-city">
                                                     <a className="nav-link">Smart Cities</a>
                                                 </Link>
-					    </li>
+					                        </li>
 
                                             <li className="nav-item">
                                                 <Link activeClassName="active" href="/smart-hospital">
                                                     <a className="nav-link">Smart Healthcare</a>
                                                 </Link>
-					    </li>
-                                            <li className="nav-item">
-
+					                        </li>
+                                            
                                             <li className="nav-item">
                                                 <Link activeClassName="active" href="/smart-port">
                                                     <a className="nav-link">Smart Container Terminals</a>
                                                 </Link>
-					    </li>
-
+					                        </li>
+                                            <li className="nav-item">
                                                 <Link activeClassName="active" href="/sw-development">
-                                                    <a className="nav-link">AI and ML Platform</a>
+                                                    <a className="nav-link">Software Services</a>
                                                 </Link>
-					    </li>
+					                        </li>
 
 
 
@@ -130,40 +125,18 @@ class DefaultStyle extends React.Component {
                                         </ul>
                                     </li>
 
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link">Shop <Icon.ChevronDown /></a>
-                                        <ul className="dropdown_menu">
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/products">
-                                                    <a className="nav-link">Products</a>
-                                                </Link>
-                                            </li>
 
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/product-details">
-                                                    <a className="nav-link">Products Details</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
 
                                     <li className="nav-item">
-                                        <Link activeClassName="active" href="#">
-                                            <a className="nav-link">Blog <Icon.ChevronDown /></a>
+                                        <Link activeClassName="active" href="/products">
+                                            <a className="nav-link">Products</a>
                                         </Link>
-                                        <ul className="dropdown_menu">
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/blog">
-                                                    <a className="nav-link">Blog</a>
-                                                </Link>
-                                            </li>
-                                            
-                                            <li className="nav-item">
-                                                <Link activeClassName="active" href="/blog-details">
-                                                    <a className="nav-link">Blog Details</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
+                                    </li>
+
+                                    <li className="nav-item">
+                                        <Link activeClassName="active" href="/about">
+                                            <a className="nav-link">About</a>
+                                        </Link>
                                     </li>
     
                                     <li className="nav-item">
@@ -175,11 +148,7 @@ class DefaultStyle extends React.Component {
                                 </ul>
                             </div>
     
-                            <div className="others-option">
-                                <Link href="#">
-                                    <a className="btn btn-light">Support</a>
-                                </Link>
-                            </div>
+
                         </nav>
                     </div> 
                 </div>

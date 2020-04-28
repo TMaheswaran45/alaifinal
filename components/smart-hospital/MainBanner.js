@@ -12,7 +12,7 @@ class MainBanner extends Component {
                             <div className="repair-banner-image">
                                 <ReactWOW delay='0.6s' animation='zoomIn'>
                                     <img
-                                        src={require('../../static/images/office-banner-1.jpg')}
+                                        src={require('../../static/images/health-banner-1.webp')}
                                         className="wow zoomIn"
                                         data-wow-delay="0.6s"
                                         alt="image"
@@ -43,7 +43,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>Smart Lockers</h1>
+                                    <h1>Smart Health Assistant</h1>
                                     <p>Hi Tech lockers that open and close based on face recognition. Register up to 1000 users with a single installation. No more headaches with lost locker keys or pins</p>
                                     <Link href="#">
                                         <a className="btn btn-primary">Get Started</a>
@@ -55,7 +55,7 @@ class MainBanner extends Component {
                                 <div className="repair-banner-image">
                                     <ReactWOW delay='0.6s' animation='zoomIn'>
                                         <img
-                                            src={require('../../static/images/smartlocker.jpg')}
+                                            src={require('../../static/images/healthcare_assistant.jpg')}
                                             className="wow zoomIn"
                                             data-wow-delay="0.6s"
                                             alt="image"
@@ -76,7 +76,7 @@ class MainBanner extends Component {
 
                                     <ReactWOW delay='0.6s' animation='zoomIn'>
                                         <img
-                                            src={require('../../static/images/visitor.jpg')}
+                                            src={require('../../static/images/patient_monitor.jpg')}
                                             className="wow zoomIn"
                                             data-wow-delay="0.6s"
                                             alt="image"
@@ -86,7 +86,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>Biometric Access Control + Thermal Scanning</h1>
+                                    <h1>Patient Monitoring</h1>
                                     <ul>
                                         <li>Enable access to your employees using face recognition</li>
                                         <li>Automatically check temperature on entry and stop access if temperature is beyond threshold</li>
@@ -110,7 +110,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>Facility Booking and Access System</h1>
+                                    <h1>Tele Consultation Platform</h1>
                                     <ul>
                                         <li>Select and reserve meeting rooms based on availability</li>
                                         <li>Enable access based on QR Code / Biometrics</li>
@@ -126,7 +126,7 @@ class MainBanner extends Component {
                                 <div className="repair-banner-image">
                                     <ReactWOW delay='0.6s' animation='zoomIn'>
                                         <img
-                                            src={require('../../static/images/visitor.jpg')}
+                                            src={require('../../static/images/tele-consult.jpg')}
                                             className="wow zoomIn"
                                             data-wow-delay="0.6s"
                                             alt="image"

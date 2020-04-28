@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/smart-property.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/sw-development.js"],{
 
 /***/ "./components/Layouts/DefaultStyle.js":
 /*!********************************************!*\
@@ -147,13 +147,6 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
-        href: "/about"
-      }, __jsx("a", {
-        className: "nav-link"
-      }, "About"))), __jsx("li", {
-        className: "nav-item"
-      }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        activeClassName: "active",
         href: "#"
       }, __jsx("a", {
         href: "#",
@@ -190,26 +183,19 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         className: "nav-link"
       }, "Smart Healthcare"))), __jsx("li", {
         className: "nav-item"
-      }, __jsx("li", {
-        className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
         href: "/smart-port"
       }, __jsx("a", {
         className: "nav-link"
-      }, "Smart Container Terminals"))), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }, "Smart Container Terminals"))), __jsx("li", {
+        className: "nav-item"
+      }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
         href: "/sw-development"
       }, __jsx("a", {
         className: "nav-link"
-      }, "AI and ML Platform"))))), __jsx("li", {
-        className: "nav-item"
-      }, __jsx("a", {
-        href: "#",
-        className: "nav-link"
-      }, "Shop ", __jsx(react_feather__WEBPACK_IMPORTED_MODULE_11__["ChevronDown"], null)), __jsx("ul", {
-        className: "dropdown_menu"
-      }, __jsx("li", {
+      }, "Software Services"))))), __jsx("li", {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
@@ -220,46 +206,17 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
-        href: "/product-details"
+        href: "/about"
       }, __jsx("a", {
         className: "nav-link"
-      }, "Products Details"))))), __jsx("li", {
-        className: "nav-item"
-      }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        activeClassName: "active",
-        href: "#"
-      }, __jsx("a", {
-        className: "nav-link"
-      }, "Blog ", __jsx(react_feather__WEBPACK_IMPORTED_MODULE_11__["ChevronDown"], null))), __jsx("ul", {
-        className: "dropdown_menu"
-      }, __jsx("li", {
-        className: "nav-item"
-      }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        activeClassName: "active",
-        href: "/blog"
-      }, __jsx("a", {
-        className: "nav-link"
-      }, "Blog"))), __jsx("li", {
-        className: "nav-item"
-      }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        activeClassName: "active",
-        href: "/blog-details"
-      }, __jsx("a", {
-        className: "nav-link"
-      }, "Blog Details"))))), __jsx("li", {
+      }, "About"))), __jsx("li", {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
         href: "/contact"
       }, __jsx("a", {
         className: "nav-link"
-      }, "Contact"))))), __jsx("div", {
-        className: "others-option"
-      }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        href: "#"
-      }, __jsx("a", {
-        className: "btn btn-light"
-      }, "Support")))))));
+      }, "Contact")))))))));
     }
   }]);
 
@@ -1169,9 +1126,9 @@ var Funfacts = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/smart-property/About.js":
+/***/ "./components/sw-development/About.js":
 /*!********************************************!*\
-  !*** ./components/smart-property/About.js ***!
+  !*** ./components/sw-development/About.js ***!
   \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1269,9 +1226,9 @@ var About = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./components/smart-property/Blog.js":
+/***/ "./components/sw-development/Blog.js":
 /*!*******************************************!*\
-  !*** ./components/smart-property/Blog.js ***!
+  !*** ./components/sw-development/Blog.js ***!
   \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1411,9 +1368,9 @@ var Blog = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ "./components/smart-property/Cta.js":
+/***/ "./components/sw-development/Cta.js":
 /*!******************************************!*\
-  !*** ./components/smart-property/Cta.js ***!
+  !*** ./components/sw-development/Cta.js ***!
   \******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1489,9 +1446,9 @@ var Cta = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./components/smart-property/MainBanner.js":
+/***/ "./components/sw-development/MainBanner.js":
 /*!*************************************************!*\
-  !*** ./components/smart-property/MainBanner.js ***!
+  !*** ./components/sw-development/MainBanner.js ***!
   \*************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1552,7 +1509,7 @@ var MainBanner = /*#__PURE__*/function (_Component) {
         delay: "0.6s",
         animation: "zoomIn"
       }, __jsx("img", {
-        src: __webpack_require__(/*! ../../static/images/property-banner-1.jpg */ "./static/images/property-banner-1.jpg"),
+        src: __webpack_require__(/*! ../../static/images/sw-banner-1.jpg */ "./static/images/sw-banner-1.jpg"),
         className: "wow zoomIn",
         "data-wow-delay": "0.6s",
         alt: "image"
@@ -1568,7 +1525,7 @@ var MainBanner = /*#__PURE__*/function (_Component) {
         className: "col-lg-12"
       }, __jsx("div", {
         className: "repair-banner-content"
-      }, __jsx("p", null, "Alai Labs provides an integrated property management system with multiple modules"), __jsx("p", null, "Building owners or Resident Associations have the option of choosing from these module that would be the most useful to them"), __jsx("p", null, "We also provide complete smart home solutions")))), __jsx("div", {
+      }, __jsx("p", null, "At ALAI Labs, we thrive on bringing Artificial Intelligence (AI) to remote areas and applications with low infrastructure and connectivity. "), __jsx("p", null, "Our AI Solution based on high-speed cognitive vision, with on board Deep learning VPU\u2019s, for real-time processing and enabled with a very low power long-range wireless module for connectivity with the cloud. Our Deep learning camera can be trained to perform any vision-based classification task for continuous monitoring and instant pattern notification on pre-defined events; the inference data pushed to the cloud were ALAI back end Machine Learning stack further process and enable data visualization."), __jsx("p", null, "Our proven Solution: We enable (Container terminals) ports to create data and bring intelligence to it, with our Deep learning and connected vision system. Our IoT platform and vision system help ports to track movable assets inside the container terminal by collecting movement data to improve productivity. We strongly believe with our proven Edge-AI and IOT ML platform, we can offer data collection for any tracking system."), __jsx("p", null, "We are a group of researchers with Industrial background working on a common interest. We are based in Singapore, and we do have a development centre in Chennai as well. Our focus is on providing an optics-based (Vision) AI solution on edge.")))), __jsx("div", {
         className: "container"
       }, __jsx("div", {
         className: "row align-items-center"
@@ -1576,11 +1533,11 @@ var MainBanner = /*#__PURE__*/function (_Component) {
         className: "col-lg-6"
       }, __jsx("div", {
         className: "repair-banner-content"
-      }, __jsx("h2", null, "Visitor Management System"), __jsx("ul", null, __jsx("li", null, "Register your visitors with their face or other details"), __jsx("li", null, "Share the QR code generated with the visitor"), __jsx("li", null, "Visitor enters the apartment either after his face is matched or after presenting the QR code"), __jsx("li", null, "Unregistered Visitor? No problem. Get the visitor to talk to the resident using the video call module installed at the guards gate")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      }, __jsx("h2", null, "App Development"), __jsx("p", null, "We have a small pool of app development experts (Android, iOS & Hybrid) who have developed some remarkable apps in the las few years"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "#"
       }, __jsx("a", {
         className: "btn btn-primary"
-      }, "Get Started")))), __jsx("div", {
+      }, "Contact Us")))), __jsx("div", {
         className: "col-lg-6"
       }, __jsx("div", {
         className: "repair-banner-image"
@@ -1588,7 +1545,7 @@ var MainBanner = /*#__PURE__*/function (_Component) {
         delay: "0.6s",
         animation: "zoomIn"
       }, __jsx("img", {
-        src: __webpack_require__(/*! ../../static/images/visitormanagement.png */ "./static/images/visitormanagement.png"),
+        src: __webpack_require__(/*! ../../static/images/appdev.jpg */ "./static/images/appdev.jpg"),
         className: "wow zoomIn",
         "data-wow-delay": "0.6s",
         alt: "image"
@@ -1608,7 +1565,7 @@ var MainBanner = /*#__PURE__*/function (_Component) {
         delay: "0.6s",
         animation: "zoomIn"
       }, __jsx("img", {
-        src: __webpack_require__(/*! ../../static/images/barrier.jpg */ "./static/images/barrier.jpg"),
+        src: __webpack_require__(/*! ../../static/images/modeltrain.jpeg */ "./static/images/modeltrain.jpeg"),
         className: "wow zoomIn",
         "data-wow-delay": "0.6s",
         alt: "image"
@@ -1616,11 +1573,11 @@ var MainBanner = /*#__PURE__*/function (_Component) {
         className: "col-lg-6"
       }, __jsx("div", {
         className: "repair-banner-content"
-      }, __jsx("h2", null, "Automated Vehicle Access System"), __jsx("ul", null, __jsx("li", null, "Register license plates of vehicles of owners in the property"), __jsx("li", null, "Automatically open gate once plate is recognized")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      }, __jsx("h2", null, "Model Training"), __jsx("ul", null, __jsx("li", null, "Enable access to your employees using face recognition"), __jsx("li", null, "Automatically check temperature on entry and stop access if temperature is beyond threshold"), __jsx("li", null, "Automatically check for sickness based on emotions and alert accordingly")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "#"
       }, __jsx("a", {
         className: "btn btn-primary"
-      }, "Download Brochure"))))), __jsx("div", {
+      }, "Get Started"))))), __jsx("div", {
         className: "row align-items-center"
       }, __jsx("div", {
         className: "col-lg-6"
@@ -1632,63 +1589,7 @@ var MainBanner = /*#__PURE__*/function (_Component) {
         className: "col-lg-6"
       }, __jsx("div", {
         className: "repair-banner-content"
-      }, __jsx("h2", null, "Incident Management System"), __jsx("ul", null, __jsx("li", null, "Snap a incident in your apartment like overflowing garbage, illegal parking and report to management using the app"), __jsx("li", null, "Track resolution status using the app"), __jsx("li", null, "Management can view and track all incidents using smart phone")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "#"
-      }, __jsx("a", {
-        className: "btn btn-primary"
-      }, "View More Details")))), __jsx("div", {
-        className: "col-lg-6"
-      }, __jsx("div", {
-        className: "repair-banner-image"
-      }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        delay: "0.6s",
-        animation: "zoomIn"
-      }, __jsx("img", {
-        src: __webpack_require__(/*! ../../static/images/incident.jpg */ "./static/images/incident.jpg"),
-        className: "wow zoomIn",
-        "data-wow-delay": "0.6s",
-        alt: "image"
-      }))))), __jsx("div", {
-        className: "row align-items-center"
-      }, __jsx("div", {
-        className: "col-lg-6"
-      }, __jsx("br", null), __jsx("br", null)), __jsx("div", {
-        className: "col-lg-6"
-      }, __jsx("br", null), __jsx("br", null))), __jsx("div", {
-        className: "row align-items-center"
-      }, __jsx("div", {
-        className: "col-lg-6"
-      }, __jsx("div", {
-        className: "repair-banner-image"
-      }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        delay: "0.6s",
-        animation: "zoomIn"
-      }, __jsx("img", {
-        src: __webpack_require__(/*! ../../static/images/facility.jpg */ "./static/images/facility.jpg"),
-        className: "wow zoomIn",
-        "data-wow-delay": "0.6s",
-        alt: "image"
-      })))), __jsx("div", {
-        className: "col-lg-6"
-      }, __jsx("div", {
-        className: "repair-banner-content"
-      }, __jsx("h2", null, "Facility Reservation"), __jsx("ul", null, __jsx("li", null, "Check availability of common facilities like Tennis courts, Banquet Halls, Swimming Pool"), __jsx("li", null, "Reserve your slot online"), __jsx("li", null, "Enjoy using it")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "#"
-      }, __jsx("a", {
-        className: "btn btn-primary"
-      }, "Download Brochure"))))), __jsx("div", {
-        className: "row align-items-center"
-      }, __jsx("div", {
-        className: "col-lg-6"
-      }, __jsx("br", null), __jsx("br", null)), __jsx("div", {
-        className: "col-lg-6"
-      }, __jsx("br", null), __jsx("br", null))), __jsx("div", {
-        className: "row align-items-center"
-      }, __jsx("div", {
-        className: "col-lg-6"
-      }, __jsx("div", {
-        className: "repair-banner-content"
-      }, __jsx("h2", null, "Common Utility Control"), __jsx("ul", null, __jsx("li", null, "Turn on/Turn off common utilities like lights, motor etc remotely"), __jsx("li", null, "Birds eye view of status of utilities"), __jsx("li", null, "Monitor energy consumption of common utilities"), __jsx("li", null, "Save on utility bills by using smart management features built in the app")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      }, __jsx("h2", null, "BPM"), __jsx("ul", null, __jsx("li", null, "Select and reserve meeting rooms based on availability"), __jsx("li", null, "Enable access based on QR Code / Biometrics"), __jsx("li", null, "Automatically turn on / off utilities in meeting room based on schedule")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "#"
       }, __jsx("a", {
         className: "btn btn-primary"
@@ -1700,7 +1601,7 @@ var MainBanner = /*#__PURE__*/function (_Component) {
         delay: "0.6s",
         animation: "zoomIn"
       }, __jsx("img", {
-        src: __webpack_require__(/*! ../../static/images/utility.jpg */ "./static/images/utility.jpg"),
+        src: __webpack_require__(/*! ../../static/images/bpm.jpg */ "./static/images/bpm.jpg"),
         className: "wow zoomIn",
         "data-wow-delay": "0.6s",
         alt: "image"
@@ -1714,7 +1615,7 @@ var MainBanner = /*#__PURE__*/function (_Component) {
         delay: "0.6s",
         animation: "zoomIn"
       }, __jsx("img", {
-        src: __webpack_require__(/*! ../../static/images/facility.jpg */ "./static/images/facility.jpg"),
+        src: __webpack_require__(/*! ../../static/images/rpa.jpg */ "./static/images/rpa.jpg"),
         className: "wow zoomIn",
         "data-wow-delay": "0.6s",
         alt: "image"
@@ -1722,39 +1623,11 @@ var MainBanner = /*#__PURE__*/function (_Component) {
         className: "col-lg-6"
       }, __jsx("div", {
         className: "repair-banner-content"
-      }, __jsx("h2", null, "Secure Access to Facilities"), __jsx("ul", null, __jsx("li", null, "Secure access to facilities using Smart Property App"), __jsx("li", null, "Provide access using face recognition terminals or simple app based access")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      }, __jsx("h2", null, "RPA"), __jsx("ul", null, __jsx("li", null, "Enable access to your employees using face recognition"), __jsx("li", null, "Automatically check temperature on entry and stop access if temperature is beyond threshold"), __jsx("li", null, "Automatically check for sickness based on emotions and alert accordingly")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "#"
       }, __jsx("a", {
         className: "btn btn-primary"
-      }, "Download Brochure"))))), __jsx("div", {
-        className: "row align-items-center"
-      }, __jsx("div", {
-        className: "col-lg-6"
-      }, __jsx("br", null), __jsx("br", null)), __jsx("div", {
-        className: "col-lg-6"
-      }, __jsx("br", null), __jsx("br", null))), __jsx("div", {
-        className: "row align-items-center"
-      }, __jsx("div", {
-        className: "col-lg-6"
-      }, __jsx("div", {
-        className: "repair-banner-content"
-      }, __jsx("h2", null, "Smart Home Solutions"), __jsx("ul", null, __jsx("li", null, "We provide complete home automation solution"), __jsx("li", null, "The home automation systems are used for controlling the indoor & outdoor lights, heat, ventilation, air conditioning in the house, to lock or open the doors & gates, to control electrical & electronic appliances and so on using various control systems with appropriate sensors. It may also include home security such as access control and alarm systems."), __jsx("li", null, __jsx("b", null, "CAMO FIT WIFI Hidden Smart Switch "), " - Perfect intelligent control solutions for your home or workplace. It also Fits for various household appliances, such as lamps, washer machine. With the help of CAMO FIT WIFI Hidden Smart Switch we can control our voice and compatible with amazon Alex, Google home, IFTTT. "), __jsx("li", null, __jsx("b", null, "QUICK FIT WIFI & RF Smart Switch "), " - Absolutely secure and perfect combination between the wireless and wired switch. It is Exquisite, elegant and it is thunder and lighting resistance.")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "#"
-      }, __jsx("a", {
-        className: "btn btn-primary"
-      }, "Get Started")))), __jsx("div", {
-        className: "col-lg-6"
-      }, __jsx("div", {
-        className: "repair-banner-image"
-      }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        delay: "0.6s",
-        animation: "zoomIn"
-      }, __jsx("img", {
-        src: __webpack_require__(/*! ../../static/images/utility.jpg */ "./static/images/utility.jpg"),
-        className: "wow zoomIn",
-        "data-wow-delay": "0.6s",
-        alt: "image"
-      }))))))));
+      }, "Get Started"))))))));
     }
   }]);
 
@@ -1765,9 +1638,9 @@ var MainBanner = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ "./components/smart-property/Services.js":
+/***/ "./components/sw-development/Services.js":
 /*!***********************************************!*\
-  !*** ./components/smart-property/Services.js ***!
+  !*** ./components/sw-development/Services.js ***!
   \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -5771,21 +5644,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsmart-property&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fsmart-property.js!./":
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsw-development&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fsw-development.js!./":
 /*!*********************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsmart-property&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fsmart-property.js ***!
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsw-development&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fsw-development.js ***!
   \*********************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/smart-property", function() {
-      var mod = __webpack_require__(/*! ./pages/smart-property.js */ "./pages/smart-property.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/sw-development", function() {
+      var mod = __webpack_require__(/*! ./pages/sw-development.js */ "./pages/sw-development.js")
       if(true) {
-        module.hot.accept(/*! ./pages/smart-property.js */ "./pages/smart-property.js", function() {
-          if(!next.router.components["/smart-property"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/smart-property.js */ "./pages/smart-property.js")
-          next.router.update("/smart-property", updatedPage)
+        module.hot.accept(/*! ./pages/sw-development.js */ "./pages/sw-development.js", function() {
+          if(!next.router.components["/sw-development"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/sw-development.js */ "./pages/sw-development.js")
+          next.router.update("/sw-development", updatedPage)
         })
       }
       return mod
@@ -36513,9 +36386,9 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/smart-property.js":
+/***/ "./pages/sw-development.js":
 /*!*********************************!*\
-  !*** ./pages/smart-property.js ***!
+  !*** ./pages/sw-development.js ***!
   \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -36531,14 +36404,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layouts_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layouts/Header */ "./components/Layouts/Header.js");
 /* harmony import */ var _components_Layouts_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Layouts/Footer */ "./components/Layouts/Footer.js");
 /* harmony import */ var _components_Layouts_GoTop__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Layouts/GoTop */ "./components/Layouts/GoTop.js");
-/* harmony import */ var _components_smart_property_MainBanner__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/smart-property/MainBanner */ "./components/smart-property/MainBanner.js");
-/* harmony import */ var _components_smart_property_About__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/smart-property/About */ "./components/smart-property/About.js");
-/* harmony import */ var _components_smart_property_Cta__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/smart-property/Cta */ "./components/smart-property/Cta.js");
-/* harmony import */ var _components_smart_property_Services__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/smart-property/Services */ "./components/smart-property/Services.js");
+/* harmony import */ var _components_sw_development_MainBanner__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/sw-development/MainBanner */ "./components/sw-development/MainBanner.js");
+/* harmony import */ var _components_sw_development_About__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/sw-development/About */ "./components/sw-development/About.js");
+/* harmony import */ var _components_sw_development_Cta__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/sw-development/Cta */ "./components/sw-development/Cta.js");
+/* harmony import */ var _components_sw_development_Services__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/sw-development/Services */ "./components/sw-development/Services.js");
 /* harmony import */ var _components_home_one_Funfacts__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/home-one/Funfacts */ "./components/home-one/Funfacts.js");
 /* harmony import */ var _components_home_five_Team__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/home-five/Team */ "./components/home-five/Team.js");
 /* harmony import */ var _components_home_five_Feedback__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/home-five/Feedback */ "./components/home-five/Feedback.js");
-/* harmony import */ var _components_smart_property_Blog__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/smart-property/Blog */ "./components/smart-property/Blog.js");
+/* harmony import */ var _components_sw_development_Blog__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/sw-development/Blog */ "./components/sw-development/Blog.js");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -36559,7 +36432,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     className: "preloader"
   }, __jsx("div", {
     className: "spinner"
-  }))), __jsx(_components_Layouts_Header__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx(_components_smart_property_MainBanner__WEBPACK_IMPORTED_MODULE_6__["default"], null), __jsx(_components_smart_property_Cta__WEBPACK_IMPORTED_MODULE_8__["default"], null), __jsx(_components_home_five_Team__WEBPACK_IMPORTED_MODULE_11__["default"], null), __jsx(_components_home_five_Feedback__WEBPACK_IMPORTED_MODULE_12__["default"], null), __jsx(_components_Layouts_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null), __jsx(_components_Layouts_GoTop__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }))), __jsx(_components_Layouts_Header__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx(_components_sw_development_MainBanner__WEBPACK_IMPORTED_MODULE_6__["default"], null), __jsx(_components_sw_development_Cta__WEBPACK_IMPORTED_MODULE_8__["default"], null), __jsx(_components_home_five_Team__WEBPACK_IMPORTED_MODULE_11__["default"], null), __jsx(_components_home_five_Feedback__WEBPACK_IMPORTED_MODULE_12__["default"], null), __jsx(_components_Layouts_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null), __jsx(_components_Layouts_GoTop__WEBPACK_IMPORTED_MODULE_5__["default"], {
     scrollStepInPx: "50",
     delayInMs: "16.66"
   })));
@@ -36633,14 +36506,14 @@ module.exports = "/_next/static/images/alai_logo-f49327dec228e11d2f7c1768453728e
 
 /***/ }),
 
-/***/ "./static/images/barrier.jpg":
-/*!***********************************!*\
-  !*** ./static/images/barrier.jpg ***!
-  \***********************************/
+/***/ "./static/images/appdev.jpg":
+/*!**********************************!*\
+  !*** ./static/images/appdev.jpg ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/barrier-21bcfbb56fcbea733ad99ca704500969.jpg";
+module.exports = "/_next/static/images/appdev-f318ebc439aa784d06eb6340e0146ff8.jpg";
 
 /***/ }),
 
@@ -36674,6 +36547,17 @@ module.exports = "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAA1wAAAK8CAAAAAD
 /***/ (function(module, exports) {
 
 module.exports = "data:image/jpeg;base64,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"
+
+/***/ }),
+
+/***/ "./static/images/bpm.jpg":
+/*!*******************************!*\
+  !*** ./static/images/bpm.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/bpm-3520c8112c18a364a59074718d256992.jpg";
 
 /***/ }),
 
@@ -36732,28 +36616,6 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVR
 
 /***/ }),
 
-/***/ "./static/images/facility.jpg":
-/*!************************************!*\
-  !*** ./static/images/facility.jpg ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/facility-0f4dfd4132837954276f0850d89c7c84.jpg";
-
-/***/ }),
-
-/***/ "./static/images/incident.jpg":
-/*!************************************!*\
-  !*** ./static/images/incident.jpg ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/incident-efc86fe50f00f37a5800da989c3bc84b.jpg";
-
-/***/ }),
-
 /***/ "./static/images/map.png":
 /*!*******************************!*\
   !*** ./static/images/map.png ***!
@@ -36765,14 +36627,25 @@ module.exports = "/_next/static/images/map-caeeab2fb5d346ea94236e9df14bfff0.png"
 
 /***/ }),
 
-/***/ "./static/images/property-banner-1.jpg":
-/*!*********************************************!*\
-  !*** ./static/images/property-banner-1.jpg ***!
-  \*********************************************/
+/***/ "./static/images/modeltrain.jpeg":
+/*!***************************************!*\
+  !*** ./static/images/modeltrain.jpeg ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/property-banner-1-5dd910b8ae3413daf8b987c3098636bc.jpg";
+module.exports = "/_next/static/images/modeltrain-3c0ab3bc2c4f8e90cdf110bd1d0c38e7.jpeg";
+
+/***/ }),
+
+/***/ "./static/images/rpa.jpg":
+/*!*******************************!*\
+  !*** ./static/images/rpa.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/rpa-349b309cf3ec73ecccd12e5d6c5b5231.jpg";
 
 /***/ }),
 
@@ -36820,6 +36693,17 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAACSCAYAAADo
 
 /***/ }),
 
+/***/ "./static/images/sw-banner-1.jpg":
+/*!***************************************!*\
+  !*** ./static/images/sw-banner-1.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/sw-banner-1-5b8fa3723b9468b00f3d26be6ae77b9b.jpg";
+
+/***/ }),
+
 /***/ "./static/images/team-image/team1.jpg":
 /*!********************************************!*\
   !*** ./static/images/team-image/team1.jpg ***!
@@ -36842,36 +36726,14 @@ module.exports = "/_next/static/images/technology-f0b2c9028dcde5d082a4ab685b80f0
 
 /***/ }),
 
-/***/ "./static/images/utility.jpg":
-/*!***********************************!*\
-  !*** ./static/images/utility.jpg ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/utility-4127639276894dfacd737ba7bbebca44.jpg";
-
-/***/ }),
-
-/***/ "./static/images/visitormanagement.png":
-/*!*********************************************!*\
-  !*** ./static/images/visitormanagement.png ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/visitormanagement-71354a8155406f428168e65c969e44d6.png";
-
-/***/ }),
-
-/***/ 1:
+/***/ 8:
 /*!*************************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fsmart-property&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fsmart-property.js ***!
+  !*** multi next-client-pages-loader?page=%2Fsw-development&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fsw-development.js ***!
   \*************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fsmart-property&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fsmart-property.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsmart-property&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fsmart-property.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fsw-development&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fsw-development.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsw-development&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fsw-development.js!./");
 
 
 /***/ }),
@@ -36887,5 +36749,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=smart-property.js.map
+},[[8,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=sw-development.js.map

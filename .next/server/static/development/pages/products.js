@@ -3,12 +3,6 @@ module.exports =
 /******/ 	// The module cache
 /******/ 	var installedModules = require('../../../ssr-module-cache.js');
 /******/
-/******/ 	// object to store loaded chunks
-/******/ 	// "0" means "already loaded"
-/******/ 	var installedChunks = {
-/******/ 		"static/development/pages/smart-property.js": 0
-/******/ 	};
-/******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
 /******/
@@ -92,16 +86,9 @@ module.exports =
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
 /******/
-/******/ 	// uncaught error handler for webpack runtime
-/******/ 	__webpack_require__.oe = function(err) {
-/******/ 		process.nextTick(function() {
-/******/ 			throw err; // catch this error by using import().catch()
-/******/ 		});
-/******/ 	};
-/******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 10);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -245,13 +232,6 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       className: "nav-item"
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
       activeClassName: "active",
-      href: "/about"
-    }, __jsx("a", {
-      className: "nav-link"
-    }, "About"))), __jsx("li", {
-      className: "nav-item"
-    }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      activeClassName: "active",
       href: "#"
     }, __jsx("a", {
       href: "#",
@@ -288,26 +268,19 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       className: "nav-link"
     }, "Smart Healthcare"))), __jsx("li", {
       className: "nav-item"
-    }, __jsx("li", {
-      className: "nav-item"
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
       activeClassName: "active",
       href: "/smart-port"
     }, __jsx("a", {
       className: "nav-link"
-    }, "Smart Container Terminals"))), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    }, "Smart Container Terminals"))), __jsx("li", {
+      className: "nav-item"
+    }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
       activeClassName: "active",
       href: "/sw-development"
     }, __jsx("a", {
       className: "nav-link"
-    }, "AI and ML Platform"))))), __jsx("li", {
-      className: "nav-item"
-    }, __jsx("a", {
-      href: "#",
-      className: "nav-link"
-    }, "Shop ", __jsx(react_feather__WEBPACK_IMPORTED_MODULE_4__["ChevronDown"], null)), __jsx("ul", {
-      className: "dropdown_menu"
-    }, __jsx("li", {
+    }, "Software Services"))))), __jsx("li", {
       className: "nav-item"
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
       activeClassName: "active",
@@ -318,46 +291,17 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       className: "nav-item"
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
       activeClassName: "active",
-      href: "/product-details"
+      href: "/about"
     }, __jsx("a", {
       className: "nav-link"
-    }, "Products Details"))))), __jsx("li", {
-      className: "nav-item"
-    }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      activeClassName: "active",
-      href: "#"
-    }, __jsx("a", {
-      className: "nav-link"
-    }, "Blog ", __jsx(react_feather__WEBPACK_IMPORTED_MODULE_4__["ChevronDown"], null))), __jsx("ul", {
-      className: "dropdown_menu"
-    }, __jsx("li", {
-      className: "nav-item"
-    }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      activeClassName: "active",
-      href: "/blog"
-    }, __jsx("a", {
-      className: "nav-link"
-    }, "Blog"))), __jsx("li", {
-      className: "nav-item"
-    }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      activeClassName: "active",
-      href: "/blog-details"
-    }, __jsx("a", {
-      className: "nav-link"
-    }, "Blog Details"))))), __jsx("li", {
+    }, "About"))), __jsx("li", {
       className: "nav-item"
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
       activeClassName: "active",
       href: "/contact"
     }, __jsx("a", {
       className: "nav-link"
-    }, "Contact"))))), __jsx("div", {
-      className: "others-option"
-    }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      href: "#"
-    }, __jsx("a", {
-      className: "btn btn-light"
-    }, "Support")))))));
+    }, "Contact")))))))));
   }
 
 }
@@ -643,252 +587,9 @@ const ActiveLink = (_ref) => {
 
 /***/ }),
 
-/***/ "./components/home-five/Feedback.js":
-/*!******************************************!*\
-  !*** ./components/home-five/Feedback.js ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-slick */ "react-slick");
-/* harmony import */ var react_slick__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_slick__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-feather */ "react-feather");
-/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_feather__WEBPACK_IMPORTED_MODULE_2__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
-
-
-
-const NextArrow = props => {
-  const {
-    onClick
-  } = props;
-  return __jsx("button", {
-    className: "next-arrow slick-arrow",
-    onClick: onClick
-  }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["ArrowRight"], null));
-};
-
-const PrevArrow = props => {
-  const {
-    onClick
-  } = props;
-  return __jsx("button", {
-    className: "prev-arrow slick-arrow",
-    onClick: onClick
-  }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["ArrowLeft"], null));
-};
-
-class Feedback extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(...args) {
-    super(...args);
-
-    _defineProperty(this, "state", {
-      imagesSlider: null,
-      thumbnailsSlider: null,
-      oldSlide: 0,
-      activeSlide: 0,
-      activeSlide2: 0
-    });
-
-    _defineProperty(this, "renderSliderFullContent", () => {
-      return DEFAULT_PROPS.map(({
-        name,
-        profession,
-        image,
-        content
-      }) => {
-        return __jsx("div", {
-          key: name
-        }, __jsx("div", {
-          className: "item"
-        }, __jsx("div", {
-          className: "single-repair-feedback"
-        }, __jsx("div", {
-          className: "client-img"
-        }, __jsx("img", {
-          src: image,
-          alt: "image"
-        }), __jsx("h3", null, name), __jsx("span", null, profession)), __jsx("p", null, content))));
-      });
-    });
-
-    _defineProperty(this, "renderSliderImages", () => {
-      return DEFAULT_PROPS.map(({
-        name,
-        image
-      }) => {
-        return __jsx("div", {
-          key: name
-        }, __jsx("div", {
-          className: "item"
-        }, __jsx("div", {
-          className: "img-fill"
-        }, __jsx("img", {
-          src: image,
-          alt: "client"
-        }))));
-      });
-    });
-  }
-
-  componentDidMount() {
-    this.setState({
-      imagesSlider: this.slider1,
-      thumbnailsSlider: this.slider2
-    });
-  }
-
-  render() {
-    const sliderSettings1 = {
-      speed: 100,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      cssEase: 'linear',
-      fade: true,
-      autoplay: true,
-      draggable: true,
-      asNavFor: this.state.thumbnailsSlider,
-      draggable: false,
-      arrows: false,
-      nextArrow: false,
-      prevArrow: false
-    };
-    const sliderSettings2 = {
-      speed: 300,
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      cssEase: 'linear',
-      autoplay: true,
-      centerMode: true,
-      draggable: false,
-      focusOnSelect: true,
-      asNavFor: this.state.imagesSlider,
-      nextArrow: __jsx(NextArrow, null),
-      prevArrow: __jsx(PrevArrow, null),
-      beforeChange: (current, next) => this.setState({
-        oldSlide: current,
-        activeSlide: next
-      }),
-      afterChange: current => this.setState({
-        activeSlide2: current
-      })
-    };
-    return __jsx("section", {
-      className: "feedback-area ptb-80 bg-f7fafd"
-    }, __jsx("div", {
-      className: "container"
-    }, __jsx("div", {
-      className: "section-title"
-    }, __jsx("h2", null, "What users Saying"), __jsx("div", {
-      className: "bar"
-    }), __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")), __jsx("div", {
-      className: "feedback-slides"
-    }, __jsx("div", {
-      className: "client-feedback"
-    }, __jsx("div", null, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_1___default.a, _extends({
-      ref: slider => this.slider1 = slider
-    }, sliderSettings1), this.renderSliderFullContent()))), __jsx("div", {
-      className: "client-thumbnails"
-    }, __jsx("div", null, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_1___default.a, _extends({
-      ref: slider => this.slider2 = slider
-    }, sliderSettings2), this.renderSliderImages()))))), __jsx("div", {
-      className: "shape1"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/shape1.png */ "./static/images/shape1.png"),
-      alt: "shape"
-    })), __jsx("div", {
-      className: "shape2 rotateme"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/shape2.svg */ "./static/images/shape2.svg"),
-      alt: "shape"
-    })), __jsx("div", {
-      className: "shape4"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/shape4.svg */ "./static/images/shape4.svg"),
-      alt: "shape"
-    })), __jsx("div", {
-      className: "shape5"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/shape5.png */ "./static/images/shape5.png"),
-      alt: "shape"
-    })), __jsx("div", {
-      className: "shape6 rotateme"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/shape4.svg */ "./static/images/shape4.svg"),
-      alt: "shape"
-    })), __jsx("div", {
-      className: "shape7"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/shape4.svg */ "./static/images/shape4.svg"),
-      alt: "shape"
-    })), __jsx("div", {
-      className: "shape8 rotateme"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/shape2.svg */ "./static/images/shape2.svg"),
-      alt: "shape"
-    })));
-  }
-
-}
-
-const DEFAULT_PROPS = [{
-  name: 'David Gale',
-  profession: 'Web Developer',
-  image: __webpack_require__(/*! ../../static/images/client-image/client2.jpg */ "./static/images/client-image/client2.jpg"),
-  content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-}, {
-  name: 'Matt Damon',
-  profession: 'Software Engineer',
-  image: __webpack_require__(/*! ../../static/images/client-image/client4.jpg */ "./static/images/client-image/client4.jpg"),
-  content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-}, {
-  name: 'Nicky Parsons',
-  profession: 'Fictional Character',
-  image: __webpack_require__(/*! ../../static/images/client-image/client1.jpg */ "./static/images/client-image/client1.jpg"),
-  content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-}, {
-  name: 'Jason Momoa',
-  profession: 'American Actor',
-  image: __webpack_require__(/*! ../../static/images/client-image/client5.jpg */ "./static/images/client-image/client5.jpg"),
-  content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-}, {
-  name: 'Gennady Korotkevich',
-  profession: 'Sport Programmer',
-  image: __webpack_require__(/*! ../../static/images/client-image/client3.jpg */ "./static/images/client-image/client3.jpg"),
-  content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-}, {
-  name: 'Petr Mitrichev',
-  profession: 'Russian Programmer',
-  image: __webpack_require__(/*! ../../static/images/client-image/client2.jpg */ "./static/images/client-image/client2.jpg"),
-  content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-}, {
-  name: 'Reid W. Barton',
-  profession: 'Mathematics',
-  image: __webpack_require__(/*! ../../static/images/client-image/client5.jpg */ "./static/images/client-image/client5.jpg"),
-  content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-}, {
-  name: 'Lisa Sauermann',
-  profession: 'Mathematician',
-  image: __webpack_require__(/*! ../../static/images/client-image/client1.jpg */ "./static/images/client-image/client1.jpg"),
-  content: 'Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-}];
-/* harmony default export */ __webpack_exports__["default"] = (Feedback);
-
-/***/ }),
-
-/***/ "./components/home-five/Team.js":
+/***/ "./components/products/Items.js":
 /*!**************************************!*\
-  !*** ./components/home-five/Team.js ***!
+  !*** ./components/products/Items.js ***!
   \**************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -899,100 +600,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-feather */ "react-feather");
-/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_feather__WEBPACK_IMPORTED_MODULE_2__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-class Team extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    return __jsx("section", {
-      className: "team-area iot-team-area ptb-80 bg-f9f6f6"
-    }, __jsx("div", {
-      className: "container"
-    }, __jsx("div", {
-      className: "section-title"
-    }, __jsx("h2", null, "Our Awesome Team"), __jsx("div", {
-      className: "bar"
-    }), __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")), __jsx("div", {
-      className: "row"
-    }, __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-team"
-    }, __jsx("div", {
-      className: "team-image"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/team-image/team1.jpg */ "./static/images/team-image/team1.jpg"),
-      alt: "image"
-    })), __jsx("div", {
-      className: "team-content"
-    }, __jsx("div", {
-      className: "team-info"
-    }, __jsx("h3", null, "Lakshmana Prabhu"), __jsx("span", null, "CEO & Founder")), __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["Linkedin"], null))))), __jsx("p", null, "Passionate about solving real world problems. Avid Learner")))), __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-team"
-    }, __jsx("div", {
-      className: "team-image"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/team-image/team1.jpg */ "./static/images/team-image/team1.jpg"),
-      alt: "image"
-    })), __jsx("div", {
-      className: "team-content"
-    }, __jsx("div", {
-      className: "team-info"
-    }, __jsx("h3", null, "T K Viswanathan"), __jsx("span", null, "Director & Head of Technology")), __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["Twitter"], null)))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["Linkedin"], null))))), __jsx("p", null, "Passionate about solving real world problems. Avid Learner")))), __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-team"
-    }, __jsx("div", {
-      className: "team-image"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/team-image/team1.jpg */ "./static/images/team-image/team1.jpg"),
-      alt: "image"
-    })), __jsx("div", {
-      className: "team-content"
-    }, __jsx("div", {
-      className: "team-info"
-    }, __jsx("h3", null, "Dr. Thiru Kanagasabapathy"), __jsx("span", null, "Partner & Advisor")), __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["Facebook"], null)))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["Linkedin"], null))))), __jsx("p", null, "Passionate about solving real world problems. Avid Learner")))))));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Team);
-
-/***/ }),
-
-/***/ "./components/home-one/Funfacts.js":
-/*!*****************************************!*\
-  !*** ./components/home-one/Funfacts.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dynamic */ "next/dynamic");
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var odometer_themes_odometer_theme_default_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! odometer/themes/odometer-theme-default.css */ "./node_modules/odometer/themes/odometer-theme-default.css");
-/* harmony import */ var odometer_themes_odometer_theme_default_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(odometer_themes_odometer_theme_default_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-feather */ "react-feather");
+/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_feather__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-toastify */ "react-toastify");
+/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_toastify__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-toastify/dist/ReactToastify.css */ "./node_modules/react-toastify/dist/ReactToastify.css");
+/* harmony import */ var react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _store_actions_cartActions__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../store/actions/cartActions */ "./store/actions/cartActions.js");
+/* harmony import */ var _QuickView__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./QuickView */ "./components/products/QuickView.js");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -1000,290 +617,271 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-const Odometer = next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(() => Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! react-odometerjs */ "react-odometerjs", 7)), {
-  ssr: false,
-  loading: () => 0,
-  loadableGenerated: {
-    webpack: () => [/*require.resolve*/(/*! react-odometerjs */ "react-odometerjs")],
-    modules: ['react-odometerjs']
-  }
-});
 
 
-class Funfacts extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+
+
+
+
+class Items extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   constructor(...args) {
     super(...args);
 
     _defineProperty(this, "state", {
-      download: 0,
-      feedback: 0,
-      worker: 0,
-      contributor: 0
+      modalOpen: false,
+      modalImage: '',
+      price: 0,
+      idd: null
     });
-  }
 
-  componentDidMount() {
-    this.setState({
-      download: 600,
-      feedback: 250,
-      worker: 333,
-      contributor: 474
+    _defineProperty(this, "handleAddToCart", id => {
+      this.props.addToCart(id);
+      react_toastify__WEBPACK_IMPORTED_MODULE_4__["toast"].success('Added to the cart', {
+        position: "bottom-left",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true
+      });
+    });
+
+    _defineProperty(this, "openModal", () => {
+      this.setState({
+        modalOpen: true
+      });
+    });
+
+    _defineProperty(this, "closeModal", () => {
+      this.setState({
+        modalOpen: false
+      });
+    });
+
+    _defineProperty(this, "handleModalData", (image, price, id) => {
+      this.setState({
+        modalImage: image,
+        price: price,
+        idd: id
+      });
     });
   }
 
   render() {
+    let {
+      products
+    } = this.props;
     const {
-      download,
-      feedback,
-      worker,
-      contributor
+      modalOpen
     } = this.state;
     return __jsx("section", {
-      className: "funfacts-area ptb-80"
-    }, __jsx("div", {
+      className: "shop-area ptb-80"
+    }, __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_4__["ToastContainer"], null), __jsx("div", {
       className: "container"
     }, __jsx("div", {
-      className: "section-title"
-    }, __jsx("h2", null, "We always try to understand users expectation"), __jsx("div", {
-      className: "bar"
-    }), __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")), __jsx("div", {
+      className: "woocommerce-topbar"
+    }, __jsx("div", {
+      className: "row align-items-center"
+    }, __jsx("div", {
+      className: "col-lg-9 col-md-7"
+    }, __jsx("div", {
+      className: "woocommerce-result-count"
+    }, __jsx("p", null, "Showing 1-8 of 14 results"))), __jsx("div", {
+      className: "col-lg-3 col-md-5"
+    }, __jsx("div", {
+      className: "woocommerce-topbar-ordering"
+    }, __jsx("select", {
+      className: "form-control"
+    }, __jsx("option", {
+      value: "1"
+    }, "Sort by Popularity"), __jsx("option", {
+      value: "2"
+    }, "Sort by Average Rating"), __jsx("option", {
+      value: "0"
+    }, "Sort by Latest"), __jsx("option", {
+      value: "3"
+    }, "Sort by price: Low to High"), __jsx("option", {
+      value: "4"
+    }, "Sort by price: High to Low"), __jsx("option", {
+      value: "5"
+    }, "Sort by New")))))), __jsx("div", {
       className: "row"
+    }, products.map((data, idx) => __jsx("div", {
+      className: "col-lg-3 col-md-6",
+      key: idx
     }, __jsx("div", {
-      className: "col-lg-3 col-md-3 col-6"
+      className: "single-products"
     }, __jsx("div", {
-      className: "funfact"
-    }, __jsx("h3", null, __jsx(Odometer, {
-      format: "d",
-      duration: 500,
-      value: download
-    }), "K"), __jsx("p", null, "Downloaded"))), __jsx("div", {
-      className: "col-lg-3 col-md-3 col-6"
-    }, __jsx("div", {
-      className: "funfact"
-    }, __jsx("h3", null, __jsx(Odometer, {
-      format: "d",
-      duration: "500",
-      value: feedback
-    }), "K"), __jsx("p", null, "Feedback"))), __jsx("div", {
-      className: "col-lg-3 col-md-3 col-6"
-    }, __jsx("div", {
-      className: "funfact"
-    }, __jsx("h3", null, __jsx(Odometer, {
-      format: "d",
-      duration: "500",
-      value: worker
-    }), "K"), __jsx("p", null, "Workers"))), __jsx("div", {
-      className: "col-lg-3 col-md-3 col-6"
-    }, __jsx("div", {
-      className: "funfact"
-    }, __jsx("h3", null, __jsx(Odometer, {
-      format: "d",
-      duration: "500",
-      value: contributor
-    }), "K"), __jsx("p", null, "Contributors")))), __jsx("div", {
-      className: "contact-cta-box"
-    }, __jsx("h3", null, "Have any question about us?"), __jsx("p", null, "Don't hesitate to contact us"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      className: "products-image"
+    }, __jsx("img", {
+      src: data.image,
+      alt: "image"
+    }), __jsx("ul", null, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: "#"
     }, __jsx("a", {
-      className: "btn btn-primary"
-    }, "Contact Us"))), __jsx("div", {
-      className: "map-bg"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/map.png */ "./static/images/map.png"),
-      alt: "map"
-    }))));
+      onClick: e => {
+        e.preventDefault();
+        this.openModal();
+        this.handleModalData(data.image, data.price, data.id);
+      }
+    }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_3__["Search"], null)))), __jsx("li", null, __jsx("a", {
+      href: "#"
+    }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_3__["Heart"], null))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/product-details"
+    }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_3__["Link"], null)))))), __jsx("div", {
+      className: "products-content"
+    }, __jsx("h3", null, __jsx("a", {
+      href: "#"
+    }, data.title)), __jsx("span", null, "$", data.price), __jsx("ul", null, __jsx("li", null, __jsx("i", {
+      className: "flaticon-star-1"
+    })), __jsx("li", null, __jsx("i", {
+      className: "flaticon-star-1"
+    })), __jsx("li", null, __jsx("i", {
+      className: "flaticon-star-1"
+    })), __jsx("li", null, __jsx("i", {
+      className: "flaticon-star-1"
+    })), __jsx("li", null, __jsx("i", {
+      className: "flaticon-star-1"
+    }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "#"
+    }, __jsx("a", {
+      className: "add-to-cart-btn",
+      onClick: e => {
+        e.preventDefault();
+        this.handleAddToCart(data.id);
+      }
+    }, "Add to Cart")))))), __jsx("div", {
+      className: "col-lg-12 col-md-12"
+    }, __jsx("div", {
+      className: "pagination-area"
+    }, __jsx("nav", {
+      "aria-label": "Page navigation"
+    }, __jsx("ul", {
+      className: "pagination justify-content-center"
+    }, __jsx("li", {
+      className: "page-item"
+    }, __jsx("a", {
+      className: "page-link",
+      href: "#"
+    }, "Prev")), __jsx("li", {
+      className: "page-item active"
+    }, __jsx("a", {
+      className: "page-link",
+      href: "#"
+    }, "1")), __jsx("li", {
+      className: "page-item"
+    }, __jsx("a", {
+      className: "page-link",
+      href: "#"
+    }, "2")), __jsx("li", {
+      className: "page-item"
+    }, __jsx("a", {
+      className: "page-link",
+      href: "#"
+    }, "3")), __jsx("li", {
+      className: "page-item"
+    }, __jsx("a", {
+      className: "page-link",
+      href: "#"
+    }, "Next")))))))), modalOpen ? __jsx(_QuickView__WEBPACK_IMPORTED_MODULE_7__["default"], {
+      closeModal: this.closeModal,
+      idd: this.state.idd,
+      image: this.state.modalImage,
+      price: this.state.price
+    }) : '');
   }
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Funfacts);
+const mapStateToProps = state => {
+  return {
+    products: state.products
+  };
+};
+
+const mapDispatchToProps = dispatch => {
+  return {
+    addToCart: id => {
+      dispatch(Object(_store_actions_cartActions__WEBPACK_IMPORTED_MODULE_6__["addToCart"])(id));
+    }
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, mapDispatchToProps)(Items));
 
 /***/ }),
 
-/***/ "./components/smart-property/About.js":
-/*!********************************************!*\
-  !*** ./components/smart-property/About.js ***!
-  \********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-feather */ "react-feather");
-/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_feather__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-wow */ "react-wow");
-/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_wow__WEBPACK_IMPORTED_MODULE_2__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-class About extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  render() {
-    return __jsx("section", {
-      className: "repair-about-area ptb-80"
-    }, __jsx("div", {
-      className: "container"
-    }, __jsx("div", {
-      className: "row"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-about-content"
-    }, __jsx("span", {
-      className: "sub-title"
-    }, "About Us"), __jsx("h2", null, "We have 35 years of experience in repair services"), __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."), __jsx("ul", null, __jsx("li", null, __jsx("span", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_1__["Check"], null), " Experienced Professionals")), __jsx("li", null, __jsx("span", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_1__["Check"], null), " Expert Technical Skills")), __jsx("li", null, __jsx("span", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_1__["Check"], null), " Excellent Reputation")), __jsx("li", null, __jsx("span", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_1__["Check"], null), " Friendly Service")), __jsx("li", null, __jsx("span", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_1__["Check"], null), " Trustworthy See Reviews")), __jsx("li", null, __jsx("span", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_1__["Check"], null), " Affordable Diagnosis"))))), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-about-image"
-    }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      animation: "fadeInDown"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/about1.jpg */ "./static/images/about1.jpg"),
-      className: "wow fadeInDown",
-      alt: "image"
-    })), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      animation: "zoomIn"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/about2.jpg */ "./static/images/about2.jpg"),
-      className: "wow zoomIn",
-      alt: "image"
-    })), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      animation: "fadeInUp"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/about3.jpg */ "./static/images/about3.jpg"),
-      className: "wow fadeInUp",
-      alt: "image"
-    })), __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/about-shape1.png */ "./static/images/about-shape1.png"),
-      alt: "image"
-    }), __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/about-shape2.png */ "./static/images/about-shape2.png"),
-      alt: "image"
-    }))))));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (About);
-
-/***/ }),
-
-/***/ "./components/smart-property/Blog.js":
-/*!*******************************************!*\
-  !*** ./components/smart-property/Blog.js ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Blog; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-feather */ "react-feather");
-/* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_feather__WEBPACK_IMPORTED_MODULE_2__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  render() {
-    return __jsx("section", {
-      className: "blog-area ptb-80"
-    }, __jsx("div", {
-      className: "container"
-    }, __jsx("div", {
-      className: "section-title"
-    }, __jsx("h2", null, "The News from Our Blog"), __jsx("div", {
-      className: "bar"
-    }), __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")), __jsx("div", {
-      className: "row"
-    }, __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-blog-post"
-    }, __jsx("div", {
-      className: "blog-image"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", null, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/blog-image/blog1.jpg */ "./static/images/blog-image/blog1.jpg"),
-      alt: "image"
-    }))), __jsx("div", {
-      className: "date"
-    }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["Calendar"], null), " March 15, 2019")), __jsx("div", {
-      className: "blog-post-content"
-    }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", null, "The security risks of changing package owners"))), __jsx("span", null, "By", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      href: "#"
-    }, "admin"))), __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", {
-      className: "read-more-btn"
-    }, "Read More ", __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["ArrowRight"], null)))))), __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-blog-post"
-    }, __jsx("div", {
-      className: "blog-image"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", null, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/blog-image/blog2.jpg */ "./static/images/blog-image/blog2.jpg"),
-      alt: "image"
-    }))), __jsx("div", {
-      className: "date"
-    }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["Calendar"], null), " March 17, 2019")), __jsx("div", {
-      className: "blog-post-content"
-    }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", null, "Tips to Protecting Your Business and Family"))), __jsx("span", null, "By", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "smith"))), __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", {
-      className: "read-more-btn"
-    }, "Read More ", __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["ArrowRight"], null)))))), __jsx("div", {
-      className: "col-lg-4 col-md-6 offset-lg-0 offset-md-3"
-    }, __jsx("div", {
-      className: "single-blog-post"
-    }, __jsx("div", {
-      className: "blog-image"
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", null, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/blog-image/blog3.jpg */ "./static/images/blog-image/blog3.jpg"),
-      alt: "image"
-    }))), __jsx("div", {
-      className: "date"
-    }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["Calendar"], null), " March 19, 2019")), __jsx("div", {
-      className: "blog-post-content"
-    }, __jsx("h3", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", null, "Protect Your Workplace from Cyber Attacks"))), __jsx("span", null, "By", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, "john"))), __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "/blog-details"
-    }, __jsx("a", {
-      className: "read-more-btn"
-    }, "Read More ", __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["ArrowRight"], null)))))))));
-  }
-
-}
-
-/***/ }),
-
-/***/ "./components/smart-property/Cta.js":
+/***/ "./components/products/PageTitle.js":
 /*!******************************************!*\
-  !*** ./components/smart-property/Cta.js ***!
+  !*** ./components/products/PageTitle.js ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return PageTitle; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+function PageTitle() {
+  return __jsx("div", {
+    className: "page-title-area"
+  }, __jsx("div", {
+    className: "d-table"
+  }, __jsx("div", {
+    className: "d-table-cell"
+  }, __jsx("div", {
+    className: "container"
+  }, __jsx("h2", null, "Products")))), __jsx("div", {
+    className: "shape1"
+  }, __jsx("img", {
+    src: __webpack_require__(/*! ../../static/images/shape1.png */ "./static/images/shape1.png"),
+    alt: "shape"
+  })), __jsx("div", {
+    className: "shape2 rotateme"
+  }, __jsx("img", {
+    src: __webpack_require__(/*! ../../static/images/shape2.svg */ "./static/images/shape2.svg"),
+    alt: "shape"
+  })), __jsx("div", {
+    className: "shape3"
+  }, __jsx("img", {
+    src: __webpack_require__(/*! ../../static/images/shape3.svg */ "./static/images/shape3.svg"),
+    alt: "shape"
+  })), __jsx("div", {
+    className: "shape4"
+  }, __jsx("img", {
+    src: __webpack_require__(/*! ../../static/images/shape4.svg */ "./static/images/shape4.svg"),
+    alt: "shape"
+  })), __jsx("div", {
+    className: "shape5"
+  }, __jsx("img", {
+    src: __webpack_require__(/*! ../../static/images/shape5.png */ "./static/images/shape5.png"),
+    alt: "shape"
+  })), __jsx("div", {
+    className: "shape6 rotateme"
+  }, __jsx("img", {
+    src: __webpack_require__(/*! ../../static/images/shape4.svg */ "./static/images/shape4.svg"),
+    alt: "shape"
+  })), __jsx("div", {
+    className: "shape7"
+  }, __jsx("img", {
+    src: __webpack_require__(/*! ../../static/images/shape4.svg */ "./static/images/shape4.svg"),
+    alt: "shape"
+  })), __jsx("div", {
+    className: "shape8 rotateme"
+  }, __jsx("img", {
+    src: __webpack_require__(/*! ../../static/images/shape2.svg */ "./static/images/shape2.svg"),
+    alt: "shape"
+  })));
+}
+
+/***/ }),
+
+/***/ "./components/products/QuickView.js":
+/*!******************************************!*\
+  !*** ./components/products/QuickView.js ***!
   \******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1292,389 +890,159 @@ class Blog extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-class Cta extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  render() {
-    return __jsx("section", {
-      className: "repair-cta-area bg-0f054b"
-    }, __jsx("div", {
-      className: "container"
-    }, __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "cta-repair-content"
-    }, __jsx("h3", null, "We'll help you get back to work"), __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "btn btn-primary"
-    }, "Contact Us")))), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "cta-repair-img"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/technology.jpg */ "./static/images/technology.jpg"),
-      alt: "image"
-    }))))));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Cta);
-
-/***/ }),
-
-/***/ "./components/smart-property/MainBanner.js":
-/*!*************************************************!*\
-  !*** ./components/smart-property/MainBanner.js ***!
-  \*************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-wow */ "react-wow");
-/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_wow__WEBPACK_IMPORTED_MODULE_2__);
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-class MainBanner extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  render() {
-    return __jsx("div", {
-      className: "repair-main-banner"
-    }, __jsx("div", {
-      className: "container"
-    }, __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-12"
-    }, __jsx("div", {
-      className: "repair-banner-image"
-    }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      delay: "0.6s",
-      animation: "zoomIn"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/property-banner-1.jpg */ "./static/images/property-banner-1.jpg"),
-      className: "wow zoomIn",
-      "data-wow-delay": "0.6s",
-      alt: "image"
-    }))))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("br", null), __jsx("br", null)), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("br", null), __jsx("br", null))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-12"
-    }, __jsx("div", {
-      className: "repair-banner-content"
-    }, __jsx("p", null, "Alai Labs provides an integrated property management system with multiple modules"), __jsx("p", null, "Building owners or Resident Associations have the option of choosing from these module that would be the most useful to them"), __jsx("p", null, "We also provide complete smart home solutions")))), __jsx("div", {
-      className: "container"
-    }, __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-content"
-    }, __jsx("h2", null, "Visitor Management System"), __jsx("ul", null, __jsx("li", null, "Register your visitors with their face or other details"), __jsx("li", null, "Share the QR code generated with the visitor"), __jsx("li", null, "Visitor enters the apartment either after his face is matched or after presenting the QR code"), __jsx("li", null, "Unregistered Visitor? No problem. Get the visitor to talk to the resident using the video call module installed at the guards gate")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "btn btn-primary"
-    }, "Get Started")))), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-image"
-    }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      delay: "0.6s",
-      animation: "zoomIn"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/visitormanagement.png */ "./static/images/visitormanagement.png"),
-      className: "wow zoomIn",
-      "data-wow-delay": "0.6s",
-      alt: "image"
-    }))))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("br", null), __jsx("br", null)), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("br", null), __jsx("br", null))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-image"
-    }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      delay: "0.6s",
-      animation: "zoomIn"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/barrier.jpg */ "./static/images/barrier.jpg"),
-      className: "wow zoomIn",
-      "data-wow-delay": "0.6s",
-      alt: "image"
-    })))), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-content"
-    }, __jsx("h2", null, "Automated Vehicle Access System"), __jsx("ul", null, __jsx("li", null, "Register license plates of vehicles of owners in the property"), __jsx("li", null, "Automatically open gate once plate is recognized")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "btn btn-primary"
-    }, "Download Brochure"))))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("br", null), __jsx("br", null)), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("br", null), __jsx("br", null))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-content"
-    }, __jsx("h2", null, "Incident Management System"), __jsx("ul", null, __jsx("li", null, "Snap a incident in your apartment like overflowing garbage, illegal parking and report to management using the app"), __jsx("li", null, "Track resolution status using the app"), __jsx("li", null, "Management can view and track all incidents using smart phone")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "btn btn-primary"
-    }, "View More Details")))), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-image"
-    }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      delay: "0.6s",
-      animation: "zoomIn"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/incident.jpg */ "./static/images/incident.jpg"),
-      className: "wow zoomIn",
-      "data-wow-delay": "0.6s",
-      alt: "image"
-    }))))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("br", null), __jsx("br", null)), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("br", null), __jsx("br", null))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-image"
-    }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      delay: "0.6s",
-      animation: "zoomIn"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/facility.jpg */ "./static/images/facility.jpg"),
-      className: "wow zoomIn",
-      "data-wow-delay": "0.6s",
-      alt: "image"
-    })))), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-content"
-    }, __jsx("h2", null, "Facility Reservation"), __jsx("ul", null, __jsx("li", null, "Check availability of common facilities like Tennis courts, Banquet Halls, Swimming Pool"), __jsx("li", null, "Reserve your slot online"), __jsx("li", null, "Enjoy using it")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "btn btn-primary"
-    }, "Download Brochure"))))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("br", null), __jsx("br", null)), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("br", null), __jsx("br", null))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-content"
-    }, __jsx("h2", null, "Common Utility Control"), __jsx("ul", null, __jsx("li", null, "Turn on/Turn off common utilities like lights, motor etc remotely"), __jsx("li", null, "Birds eye view of status of utilities"), __jsx("li", null, "Monitor energy consumption of common utilities"), __jsx("li", null, "Save on utility bills by using smart management features built in the app")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "btn btn-primary"
-    }, "Get Started")))), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-image"
-    }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      delay: "0.6s",
-      animation: "zoomIn"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/utility.jpg */ "./static/images/utility.jpg"),
-      className: "wow zoomIn",
-      "data-wow-delay": "0.6s",
-      alt: "image"
-    }))))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-image"
-    }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      delay: "0.6s",
-      animation: "zoomIn"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/facility.jpg */ "./static/images/facility.jpg"),
-      className: "wow zoomIn",
-      "data-wow-delay": "0.6s",
-      alt: "image"
-    })))), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-content"
-    }, __jsx("h2", null, "Secure Access to Facilities"), __jsx("ul", null, __jsx("li", null, "Secure access to facilities using Smart Property App"), __jsx("li", null, "Provide access using face recognition terminals or simple app based access")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "btn btn-primary"
-    }, "Download Brochure"))))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("br", null), __jsx("br", null)), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("br", null), __jsx("br", null))), __jsx("div", {
-      className: "row align-items-center"
-    }, __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-content"
-    }, __jsx("h2", null, "Smart Home Solutions"), __jsx("ul", null, __jsx("li", null, "We provide complete home automation solution"), __jsx("li", null, "The home automation systems are used for controlling the indoor & outdoor lights, heat, ventilation, air conditioning in the house, to lock or open the doors & gates, to control electrical & electronic appliances and so on using various control systems with appropriate sensors. It may also include home security such as access control and alarm systems."), __jsx("li", null, __jsx("b", null, "CAMO FIT WIFI Hidden Smart Switch "), " - Perfect intelligent control solutions for your home or workplace. It also Fits for various household appliances, such as lamps, washer machine. With the help of CAMO FIT WIFI Hidden Smart Switch we can control our voice and compatible with amazon Alex, Google home, IFTTT. "), __jsx("li", null, __jsx("b", null, "QUICK FIT WIFI & RF Smart Switch "), " - Absolutely secure and perfect combination between the wireless and wired switch. It is Exquisite, elegant and it is thunder and lighting resistance.")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", {
-      className: "btn btn-primary"
-    }, "Get Started")))), __jsx("div", {
-      className: "col-lg-6"
-    }, __jsx("div", {
-      className: "repair-banner-image"
-    }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_2___default.a, {
-      delay: "0.6s",
-      animation: "zoomIn"
-    }, __jsx("img", {
-      src: __webpack_require__(/*! ../../static/images/utility.jpg */ "./static/images/utility.jpg"),
-      className: "wow zoomIn",
-      "data-wow-delay": "0.6s",
-      alt: "image"
-    }))))))));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (MainBanner);
-
-/***/ }),
-
-/***/ "./components/smart-property/Services.js":
-/*!***********************************************!*\
-  !*** ./components/smart-property/Services.js ***!
-  \***********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-feather */ "react-feather");
 /* harmony import */ var react_feather__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_feather__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-toastify */ "react-toastify");
+/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_toastify__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-toastify/dist/ReactToastify.css */ "./node_modules/react-toastify/dist/ReactToastify.css");
+/* harmony import */ var react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _store_actions_cartActions__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../store/actions/cartActions */ "./store/actions/cartActions.js");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
 
-class Services extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+
+
+
+
+
+class QuickView extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+
+    _defineProperty(this, "state", {
+      qty: 1,
+      max: 10,
+      min: 1
+    });
+
+    _defineProperty(this, "handleAddToCartFromView", () => {
+      this.props.addQuantityWithNumber(this.props.idd, this.state.qty);
+      react_toastify__WEBPACK_IMPORTED_MODULE_3__["toast"].success('Added to the cart', {
+        position: "bottom-left",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true
+      });
+      setTimeout(() => {
+        this.props.closeModal();
+      }, 5000);
+    });
+
+    _defineProperty(this, "IncrementItem", () => {
+      this.setState(prevState => {
+        if (prevState.qty < 10) {
+          return {
+            qty: prevState.qty + 1
+          };
+        } else {
+          return null;
+        }
+      });
+    });
+
+    _defineProperty(this, "DecreaseItem", () => {
+      this.setState(prevState => {
+        if (prevState.qty > 1) {
+          return {
+            qty: prevState.qty - 1
+          };
+        } else {
+          return null;
+        }
+      });
+    });
+
+    _defineProperty(this, "handleSubmit", e => {
+      e.preventDefault();
+    });
+  }
+
   render() {
-    return __jsx("section", {
-      className: "repair-services-area ptb-80 bg-f7fafd"
+    const {
+      closeModal
+    } = this.props;
+    return __jsx("div", {
+      className: "modal fade show",
+      style: {
+        paddingRight: '16px',
+        display: 'block'
+      }
+    }, __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_3__["ToastContainer"], null), __jsx("div", {
+      className: "modal-dialog modal-dialog-centered",
+      role: "document"
     }, __jsx("div", {
-      className: "container"
+      className: "modal-content"
+    }, __jsx("button", {
+      type: "button",
+      onClick: closeModal,
+      className: "close",
+      "data-dismiss": "modal",
+      "aria-label": "Close"
+    }, __jsx("span", {
+      "aria-hidden": "true"
+    }, "\xD7")), __jsx("div", {
+      className: "row align-items-center"
     }, __jsx("div", {
-      className: "section-title"
-    }, __jsx("h2", null, "Our Featured Services that We Provide"), __jsx("div", {
-      className: "bar"
-    }), __jsx("p", null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")), __jsx("div", {
-      className: "row"
+      className: "col-lg-6"
     }, __jsx("div", {
-      className: "col-lg-4 col-md-6"
+      className: "products-image"
+    }, __jsx("img", {
+      src: this.props.image,
+      alt: "image"
+    }))), __jsx("div", {
+      className: "col-lg-6"
     }, __jsx("div", {
-      className: "single-repair-services bg1"
+      className: "products-content"
+    }, __jsx("h3", null, "Wood Pencil"), __jsx("div", {
+      className: "price"
+    }, __jsx("span", null, "$", this.props.price - 3), " $", this.props.price), __jsx("p", null, "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."), __jsx("form", {
+      onSubmit: this.handleSubmit
     }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-monitor"
-    })), __jsx("h3", null, "Laptop Repair"), __jsx("p", null, "Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      className: "quantity"
+    }, __jsx("span", {
+      className: "minus-btn",
+      onClick: this.DecreaseItem
+    }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["Minus"], null)), __jsx("input", {
+      type: "text",
+      value: this.state.qty,
+      min: this.state.min,
+      max: this.state.max,
+      onChange: e => this.setState({
+        qty: e.target.value
+      })
+    }), __jsx("span", {
+      className: "plus-btn",
+      onClick: this.IncrementItem
+    }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["Plus"], null))), __jsx("button", {
+      type: "submit",
+      onClick: this.handleAddToCartFromView
+    }, "Add to Cart")), __jsx("div", {
+      className: "product-meta"
+    }, __jsx("span", null, "Category: ", __jsx("a", {
       href: "#"
-    }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["ArrowRight"], null))))), __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-repair-services bg2"
-    }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-idea"
-    })), __jsx("h3", null, "Computer Repair"), __jsx("p", null, "Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    }, "Pencil")), __jsx("span", null, "Tag: ", __jsx("a", {
       href: "#"
-    }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["ArrowRight"], null))))), __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-repair-services bg3"
-    }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-layout"
-    })), __jsx("h3", null, "Apple Products Repair"), __jsx("p", null, "Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["ArrowRight"], null))))), __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-repair-services bg4"
-    }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-update-arrows"
-    })), __jsx("h3", null, "Software Update"), __jsx("p", null, "Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["ArrowRight"], null))))), __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-repair-services bg5"
-    }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-smartphone"
-    })), __jsx("h3", null, "Smartphone Repair"), __jsx("p", null, "Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["ArrowRight"], null))))), __jsx("div", {
-      className: "col-lg-4 col-md-6"
-    }, __jsx("div", {
-      className: "single-repair-services bg6"
-    }, __jsx("div", {
-      className: "icon"
-    }, __jsx("i", {
-      className: "flaticon-hard-disk"
-    })), __jsx("h3", null, "Data Backup & Recovery"), __jsx("p", null, "Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua."), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-      href: "#"
-    }, __jsx("a", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_2__["ArrowRight"], null))))))));
+    }, "Prints")))))))));
   }
 
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Services);
+const mapDispatchToProps = dispatch => {
+  return {
+    addQuantityWithNumber: (id, qty) => {
+      dispatch(Object(_store_actions_cartActions__WEBPACK_IMPORTED_MODULE_5__["addQuantityWithNumber"])(id, qty));
+    }
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(null, mapDispatchToProps)(QuickView));
 
 /***/ }),
 
@@ -3603,10 +2971,10 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./node_modules/odometer/themes/odometer-theme-default.css":
-/*!*****************************************************************!*\
-  !*** ./node_modules/odometer/themes/odometer-theme-default.css ***!
-  \*****************************************************************/
+/***/ "./node_modules/react-toastify/dist/ReactToastify.css":
+/*!************************************************************!*\
+  !*** ./node_modules/react-toastify/dist/ReactToastify.css ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3614,10 +2982,10 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./pages/smart-property.js":
-/*!*********************************!*\
-  !*** ./pages/smart-property.js ***!
-  \*********************************/
+/***/ "./pages/products.js":
+/*!***************************!*\
+  !*** ./pages/products.js ***!
+  \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3627,19 +2995,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_preloading_screen__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-preloading-screen */ "react-preloading-screen");
 /* harmony import */ var react_preloading_screen__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_preloading_screen__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-no-ssr */ "react-no-ssr");
-/* harmony import */ var react_no_ssr__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_no_ssr__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Layouts_Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layouts/Header */ "./components/Layouts/Header.js");
-/* harmony import */ var _components_Layouts_Footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Layouts/Footer */ "./components/Layouts/Footer.js");
-/* harmony import */ var _components_Layouts_GoTop__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Layouts/GoTop */ "./components/Layouts/GoTop.js");
-/* harmony import */ var _components_smart_property_MainBanner__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/smart-property/MainBanner */ "./components/smart-property/MainBanner.js");
-/* harmony import */ var _components_smart_property_About__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/smart-property/About */ "./components/smart-property/About.js");
-/* harmony import */ var _components_smart_property_Cta__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/smart-property/Cta */ "./components/smart-property/Cta.js");
-/* harmony import */ var _components_smart_property_Services__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/smart-property/Services */ "./components/smart-property/Services.js");
-/* harmony import */ var _components_home_one_Funfacts__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/home-one/Funfacts */ "./components/home-one/Funfacts.js");
-/* harmony import */ var _components_home_five_Team__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/home-five/Team */ "./components/home-five/Team.js");
-/* harmony import */ var _components_home_five_Feedback__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/home-five/Feedback */ "./components/home-five/Feedback.js");
-/* harmony import */ var _components_smart_property_Blog__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/smart-property/Blog */ "./components/smart-property/Blog.js");
+/* harmony import */ var _components_Layouts_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layouts/Header */ "./components/Layouts/Header.js");
+/* harmony import */ var _components_Layouts_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Layouts/Footer */ "./components/Layouts/Footer.js");
+/* harmony import */ var _components_Layouts_GoTop__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Layouts/GoTop */ "./components/Layouts/GoTop.js");
+/* harmony import */ var _components_products_PageTitle__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/products/PageTitle */ "./components/products/PageTitle.js");
+/* harmony import */ var _components_products_Items__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/products/Items */ "./components/products/Items.js");
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -3649,75 +3009,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+class Products extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  render() {
+    return __jsx(react_preloading_screen__WEBPACK_IMPORTED_MODULE_1__["Preloader"], null, __jsx(react_preloading_screen__WEBPACK_IMPORTED_MODULE_1__["Placeholder"], null, __jsx("div", {
+      className: "preloader"
+    }, __jsx("div", {
+      className: "spinner"
+    }))), __jsx(_components_Layouts_Header__WEBPACK_IMPORTED_MODULE_2__["default"], null), __jsx(_components_products_PageTitle__WEBPACK_IMPORTED_MODULE_5__["default"], null), __jsx(_components_products_Items__WEBPACK_IMPORTED_MODULE_6__["default"], null), __jsx(_components_Layouts_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx(_components_Layouts_GoTop__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      scrollStepInPx: "50",
+      delayInMs: "16.66"
+    }));
+  }
 
+}
 
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (() => __jsx(react_no_ssr__WEBPACK_IMPORTED_MODULE_2___default.a, null, __jsx(react_preloading_screen__WEBPACK_IMPORTED_MODULE_1__["Preloader"], null, __jsx(react_preloading_screen__WEBPACK_IMPORTED_MODULE_1__["Placeholder"], null, __jsx("div", {
-  className: "preloader"
-}, __jsx("div", {
-  className: "spinner"
-}))), __jsx(_components_Layouts_Header__WEBPACK_IMPORTED_MODULE_3__["default"], null), __jsx(_components_smart_property_MainBanner__WEBPACK_IMPORTED_MODULE_6__["default"], null), __jsx(_components_smart_property_Cta__WEBPACK_IMPORTED_MODULE_8__["default"], null), __jsx(_components_home_five_Team__WEBPACK_IMPORTED_MODULE_11__["default"], null), __jsx(_components_home_five_Feedback__WEBPACK_IMPORTED_MODULE_12__["default"], null), __jsx(_components_Layouts_Footer__WEBPACK_IMPORTED_MODULE_4__["default"], null), __jsx(_components_Layouts_GoTop__WEBPACK_IMPORTED_MODULE_5__["default"], {
-  scrollStepInPx: "50",
-  delayInMs: "16.66"
-}))));
-
-/***/ }),
-
-/***/ "./static/images/about-shape1.png":
-/*!****************************************!*\
-  !*** ./static/images/about-shape1.png ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/about-shape1-e71b41368bb41ac764696421e06fa98a.png";
-
-/***/ }),
-
-/***/ "./static/images/about-shape2.png":
-/*!****************************************!*\
-  !*** ./static/images/about-shape2.png ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/about-shape2-724fe494707877d149a155b9f554dd0b.png";
-
-/***/ }),
-
-/***/ "./static/images/about1.jpg":
-/*!**********************************!*\
-  !*** ./static/images/about1.jpg ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgApQEJAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9MooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooqG7uBa27Sldx6Ko7mgCais77ZeQMjXUEYiYgZQ8rn1qW6upUmW3tow8xG47jwo96ALlFVbW4mkkeG4iCSpg/L0Ye1VY7rU508yGGAxknaTn1x60AalFMiLmJDIAHwNwHTNPoAKKKRmCqWY4AGST2oAWiqUOoJcX5giKtGE3FvfNTXdz9miDBS7sQqKO5NAE9FUYrm7SeOO6hRVk4VkPQ+hps1zem7kitY4mWMDJfOefxoA0KKgtWuWjJukRXzwE6YqegAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAqOWFJwokGQrBhz3FSVT1NpBabYkdi7BW2DJx3oAgupv7Qb7Hbjcu4eZJ2UA/wA6jeO4n1W6SGXygAm5+4GOg/z2p8V80EYjj024VR0AQ1LP51peNcRQtNHIoDqvUEdDQA20kuYpprSZ/MdU3xv6jpVeOy1GG1VludjIOIh0qzBFPcSzXMimFmj8uMHqo9T+NRi7vRB5BtJDPjbv/hPvmgC9aT/abSObGCw5+veoNSgZ4RPFxNCd6n1HcVPaQfZrWOHOSo5+tQah5sqJbRK3704dwOFXvzQBFYlr65N664VRsiX09TWiQGBBAIPBBrPt4nsb5oURzbSjcpAJCN71o0AZ6xpHrgCIqj7PnCjH8VN1PzTdWaw43ktgnoDgc/hUpR/7ZEm1tnkY3Y4zu6Zp19FKfKngXdJC2Qv94HgigCsv2uwuoRLcGeKVthz1BPSh7K8ku7h0n8hGYEEclsDFODT39xDut3hhibed/BLDpinNPdWk8qvBLPGzbkZOcD0oAfp80ziWC4IaWFsFh3HartU7CKVfOnnXbJM2dvoB0FXKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAr3cnliH995Ss+GfjptJ78dQKjiuZD8iYmYsdrE7QVGOenqcVZeMO0bHOUbcPyI/rSSwiQq25kZejL1/WgCMXQ2o7LtU7gxJ+6V6j9D+VC3asm/aQoj8xvVfb9D+VK1rG0CxHdtU568k98/Xn86ctvGpl4JEv3gen0/n+dAEdveLPJs+Tdt3DZIG49/TrTBesLZJpI0QSY2BpPUZ5OOKsRxGM8yyOMYAYjj9P5037OggjiBYCMAKwPIwMZoAjS8EkQKKrOX2AK+RnGevpiltCzPcl12t5vIzn+FaebfdGFaSQsG3B8jIP5Y/SlhhEIfDMxdtxLHnOAP6UAVxM8M103l7o1cFm3YIGxc4Hep3uBG8iuMbV3D/aH/6/5imtaK8kjGSTEhBdARg4AH9KJIjNdRlkwkXIYkfMf8/yFADp5HSylkHyyLGW9cHFRy3Y2qEEoYugy0TAYLAHkj0qeWMSxPG2QHUqce9EkYkUKc4DBuPYg/0oAgRZftbIbmUqqq2CF5yT7e1RpdyIJvM+Ylm8oY64Yrt/l+dWxGBK0nOWUKfwz/jSLBGoA2hsMWBYZIJJPH50AV4ZZfLtw77mMzoxwOQN3+Aq5UDWwKKFkdCrlwwxnJznqPc09YmG3dNI5Vs5OBnjGDgDigCKDzZkSYzEBsMECjGPT1zQfNmmkVJTGsZC8KCScA9+3NPW2CN8ssipnOwEY/ln9aJLcO5dZJI2Iw2wjn8xQBWa6lBhfI2qHMoA67WCk/qTUkc8kl9gN+5KsFGOpBXJ/Uj8KmW3jUpgcIpQDtg4zn8qUQoroyjbsUqFHAwcf4UASUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z"
-
-/***/ }),
-
-/***/ "./static/images/about2.jpg":
-/*!**********************************!*\
-  !*** ./static/images/about2.jpg ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgBVAH5AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9MooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA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KKKACiiigBGVXXayhgexGaYlvBG25IY1PqqgVJRQAUUUUAFFFFABUbwQyNueKNm9WUE1JRQAAYGB0ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiikDAkgEEg4PtQAtFIGBJAIJBwfaloAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooArXjAeQGMgUyYby92T8rf3efSo45JgREmRuLMplBJCjH49TVtkVipIyVOR7HBH9TSSQpKBvB4OQQSCPxFAEH2srGkjgBfmVseoz0/I/pSLdsUZymPLiLOvcNzx+h/SpzBEYljKDYpBA9MUqxIpchRlzlvegCC3uJJJNrqcFd2RGyge3PWoxdTi1ilcJum27QqMduQT25NWo4I4jlAemOWJwPbPSjyI/JWLb8igADPTHTmgCBbmVo1G0CRpNgLIVB4znB56frTrTfvufM27vN529PurUn2eLy/LIJGc5LEnPrnrSxQxwhhGuNx3HknJ/GgCqZJYpLuRdnlo4ZgQcn5Fzj0qaW5MMjKwByuY8fxHpj8yPzpzWsLSGQp8zEE/McHHTI/ChomkuUdwuyPlOckk9z+tACXJdbCZicOIicrxzjtUc08mxR5EseZEG4lf7w9DVl0WSNkYZVgQR7UOiuMMMjIP4g5FAFZIVF4675cKiMAZWPOW9/YVCk8kXmAsWMruIsnOGDEY+nQ/nV8IokLgfMQAT7DOP5mhEVBhRgZJ/EnJoApwl1jtlMjN+/dSSeSBv6/kKvVE1vEyBSGADFxtYggnOeR9TSrAi7fvHa24FnLYOMdz6GgCG3QyxRztJJvbDEBjge2OntS7DcTyhpJFEZAUIxXsDnjr1/SpPs0Qk3hSDnOAxxn1x0okt4pW3OpzjGVYjI98daAKbSykwyB2OxZCwHRwrAZx9MmpIZGlvhIHPlOjhFzwQCvP6n8KtCJFZSFAKqVXHYHH+ApSimQOR8wBAPscZ/kKAHUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//2Q=="
-
-/***/ }),
-
-/***/ "./static/images/about3.jpg":
-/*!**********************************!*\
-  !*** ./static/images/about3.jpg ***!
-  \**********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgApQEJAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9MooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooqG7uBa27Sldx6Ko7mgCais77ZeQMjXUEYiYgZQ8rn1qW6upUmW3tow8xG47jwo96ALlFVbW4mkkeG4iCSpg/L0Ye1VY7rU508yGGAxknaTn1x60AalFMiLmJDIAHwNwHTNPoAKKKRmCqWY4AGST2oAWiqUOoJcX5giKtGE3FvfNTXdz9miDBS7sQqKO5NAE9FUYrm7SeOO6hRVk4VkPQ+hps1zem7kitY4mWMDJfOefxoA0KKgtWuWjJukRXzwE6YqegAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAqOWFJwokGQrBhz3FSVT1NpBabYkdi7BW2DJx3oAgupv7Qb7Hbjcu4eZJ2UA/wA6jeO4n1W6SGXygAm5+4GOg/z2p8V80EYjj024VR0AQ1LP51peNcRQtNHIoDqvUEdDQA20kuYpprSZ/MdU3xv6jpVeOy1GG1VludjIOIh0qzBFPcSzXMimFmj8uMHqo9T+NRi7vRB5BtJDPjbv/hPvmgC9aT/abSObGCw5+veoNSgZ4RPFxNCd6n1HcVPaQfZrWOHOSo5+tQah5sqJbRK3704dwOFXvzQBFYlr65N664VRsiX09TWiQGBBAIPBBrPt4nsb5oURzbSjcpAJCN71o0AZ6xpHrgCIqj7PnCjH8VN1PzTdWaw43ktgnoDgc/hUpR/7ZEm1tnkY3Y4zu6Zp19FKfKngXdJC2Qv94HgigCsv2uwuoRLcGeKVthz1BPSh7K8ku7h0n8hGYEEclsDFODT39xDut3hhibed/BLDpinNPdWk8qvBLPGzbkZOcD0oAfp80ziWC4IaWFsFh3HartU7CKVfOnnXbJM2dvoB0FXKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAr3cnliH995Ss+GfjptJ78dQKjiuZD8iYmYsdrE7QVGOenqcVZeMO0bHOUbcPyI/rSSwiQq25kZejL1/WgCMXQ2o7LtU7gxJ+6V6j9D+VC3asm/aQoj8xvVfb9D+VK1rG0CxHdtU568k98/Xn86ctvGpl4JEv3gen0/n+dAEdveLPJs+Tdt3DZIG49/TrTBesLZJpI0QSY2BpPUZ5OOKsRxGM8yyOMYAYjj9P5037OggjiBYCMAKwPIwMZoAjS8EkQKKrOX2AK+RnGevpiltCzPcl12t5vIzn+FaebfdGFaSQsG3B8jIP5Y/SlhhEIfDMxdtxLHnOAP6UAVxM8M103l7o1cFm3YIGxc4Hep3uBG8iuMbV3D/aH/6/5imtaK8kjGSTEhBdARg4AH9KJIjNdRlkwkXIYkfMf8/yFADp5HSylkHyyLGW9cHFRy3Y2qEEoYugy0TAYLAHkj0qeWMSxPG2QHUqce9EkYkUKc4DBuPYg/0oAgRZftbIbmUqqq2CF5yT7e1RpdyIJvM+Ylm8oY64Yrt/l+dWxGBK0nOWUKfwz/jSLBGoA2hsMWBYZIJJPH50AV4ZZfLtw77mMzoxwOQN3+Aq5UDWwKKFkdCrlwwxnJznqPc09YmG3dNI5Vs5OBnjGDgDigCKDzZkSYzEBsMECjGPT1zQfNmmkVJTGsZC8KCScA9+3NPW2CN8ssipnOwEY/ln9aJLcO5dZJI2Iw2wjn8xQBWa6lBhfI2qHMoA67WCk/qTUkc8kl9gN+5KsFGOpBXJ/Uj8KmW3jUpgcIpQDtg4zn8qUQoroyjbsUqFHAwcf4UASUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z"
+/* harmony default export */ __webpack_exports__["default"] = (Products);
 
 /***/ }),
 
@@ -3732,127 +3038,6 @@ module.exports = "/_next/static/images/alai_logo-f49327dec228e11d2f7c1768453728e
 
 /***/ }),
 
-/***/ "./static/images/barrier.jpg":
-/*!***********************************!*\
-  !*** ./static/images/barrier.jpg ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/barrier-21bcfbb56fcbea733ad99ca704500969.jpg";
-
-/***/ }),
-
-/***/ "./static/images/blog-image/blog1.jpg":
-/*!********************************************!*\
-  !*** ./static/images/blog-image/blog1.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,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"
-
-/***/ }),
-
-/***/ "./static/images/blog-image/blog2.jpg":
-/*!********************************************!*\
-  !*** ./static/images/blog-image/blog2.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,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"
-
-/***/ }),
-
-/***/ "./static/images/blog-image/blog3.jpg":
-/*!********************************************!*\
-  !*** ./static/images/blog-image/blog3.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,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"
-
-/***/ }),
-
-/***/ "./static/images/client-image/client1.jpg":
-/*!************************************************!*\
-  !*** ./static/images/client-image/client1.jpg ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAXwBfAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9MooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKilmERUbHdmzhVHOB1NAEtFQNcgMgSN5NwDZTGAD9TUrSIpIZ1GBk5Pb1oAdRUUs4iKgI7s2SFQc4HemtcgMgSN5NwDZTGAD9TQBPRRRQAUUUUAFFFFABVa6jd2jZFckZGUYAjP17VZooAoSWjbI4xCHZY1RZc/cI7/AP6qku4ZJXjKICIzu6/e5Hy/59BVuigCtdRu7RsiuSMjKMARn69qhktG2RxiEOyxqiy5+4R3/wD1VfooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k="
-
-/***/ }),
-
-/***/ "./static/images/client-image/client2.jpg":
-/*!************************************************!*\
-  !*** ./static/images/client-image/client2.jpg ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAXwBfAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9MooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKilmERUbHdmzhVHOB1NAEtFQNcgMgSN5NwDZTGAD9TUrSIpIZ1GBk5Pb1oAdRUUs4iKgI7s2SFQc4HemtcgMgSN5NwDZTGAD9TQBPRRRQAUUUUAFFFFABVa6jd2jZFckZGUYAjP17VZooAoSWjbI4xCHZY1RZc/cI7/AP6qku4ZJXjKICIzu6/e5Hy/59BVuigCtdRu7RsiuSMjKMARn69qhktG2RxiEOyxqiy5+4R3/wD1VfooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k="
-
-/***/ }),
-
-/***/ "./static/images/client-image/client3.jpg":
-/*!************************************************!*\
-  !*** ./static/images/client-image/client3.jpg ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAXwBfAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9MooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKilmERUbHdmzhVHOB1NAEtFQNcgMgSN5NwDZTGAD9TUrSIpIZ1GBk5Pb1oAdRUUs4iKgI7s2SFQc4HemtcgMgSN5NwDZTGAD9TQBPRRRQAUUUUAFFFFABVa6jd2jZFckZGUYAjP17VZooAoSWjbI4xCHZY1RZc/cI7/AP6qku4ZJXjKICIzu6/e5Hy/59BVuigCtdRu7RsiuSMjKMARn69qhktG2RxiEOyxqiy5+4R3/wD1VfooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k="
-
-/***/ }),
-
-/***/ "./static/images/client-image/client4.jpg":
-/*!************************************************!*\
-  !*** ./static/images/client-image/client4.jpg ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAXwBfAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9MooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKilmERUbHdmzhVHOB1NAEtFQNcgMgSN5NwDZTGAD9TUrSIpIZ1GBk5Pb1oAdRUUs4iKgI7s2SFQc4HemtcgMgSN5NwDZTGAD9TQBPRRRQAUUUUAFFFFABVa6jd2jZFckZGUYAjP17VZooAoSWjbI4xCHZY1RZc/cI7/AP6qku4ZJXjKICIzu6/e5Hy/59BVuigCtdRu7RsiuSMjKMARn69qhktG2RxiEOyxqiy5+4R3/wD1VfooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k="
-
-/***/ }),
-
-/***/ "./static/images/client-image/client5.jpg":
-/*!************************************************!*\
-  !*** ./static/images/client-image/client5.jpg ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAXwBfAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9MooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKilmERUbHdmzhVHOB1NAEtFQNcgMgSN5NwDZTGAD9TUrSIpIZ1GBk5Pb1oAdRUUs4iKgI7s2SFQc4HemtcgMgSN5NwDZTGAD9TQBPRRRQAUUUUAFFFFABVa6jd2jZFckZGUYAjP17VZooAoSWjbI4xCHZY1RZc/cI7/AP6qku4ZJXjKICIzu6/e5Hy/59BVuigCtdRu7RsiuSMjKMARn69qhktG2RxiEOyxqiy5+4R3/wD1VfooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD/9k="
-
-/***/ }),
-
-/***/ "./static/images/facility.jpg":
-/*!************************************!*\
-  !*** ./static/images/facility.jpg ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/facility-0f4dfd4132837954276f0850d89c7c84.jpg";
-
-/***/ }),
-
-/***/ "./static/images/incident.jpg":
-/*!************************************!*\
-  !*** ./static/images/incident.jpg ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/incident-efc86fe50f00f37a5800da989c3bc84b.jpg";
-
-/***/ }),
-
 /***/ "./static/images/map.png":
 /*!*******************************!*\
   !*** ./static/images/map.png ***!
@@ -3861,17 +3046,6 @@ module.exports = "/_next/static/images/incident-efc86fe50f00f37a5800da989c3bc84b
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/map-caeeab2fb5d346ea94236e9df14bfff0.png";
-
-/***/ }),
-
-/***/ "./static/images/property-banner-1.jpg":
-/*!*********************************************!*\
-  !*** ./static/images/property-banner-1.jpg ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/property-banner-1-5dd910b8ae3413daf8b987c3098636bc.jpg";
 
 /***/ }),
 
@@ -3897,6 +3071,17 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5v
 
 /***/ }),
 
+/***/ "./static/images/shape3.svg":
+/*!**********************************!*\
+  !*** ./static/images/shape3.svg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOC41NjIiIGhlaWdodD0iMjguNTk0IiB2aWV3Qm94PSIwIDAgMjguNTYyIDI4LjU5NCI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogbm9uZTsKICAgICAgICBzdHJva2U6ICNlMWUxZTE7CiAgICAgICAgc3Ryb2tlLXdpZHRoOiAzcHg7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgPC9kZWZzPgogIDxjaXJjbGUgY2xhc3M9ImNscy0xIiBjeD0iMTQuMjgxIiBjeT0iMTQuMjk3IiByPSIxMi43ODEiLz4KPC9zdmc+Cg=="
+
+/***/ }),
+
 /***/ "./static/images/shape4.svg":
 /*!**********************************!*\
   !*** ./static/images/shape4.svg ***!
@@ -3919,70 +3104,108 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAACSCAYAAADo
 
 /***/ }),
 
-/***/ "./static/images/team-image/team1.jpg":
-/*!********************************************!*\
-  !*** ./static/images/team-image/team1.jpg ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./store/actions/action-types/cart-actions.js":
+/*!****************************************************!*\
+  !*** ./store/actions/action-types/cart-actions.js ***!
+  \****************************************************/
+/*! exports provided: ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING, ADD_QUANTITY_WITH_NUMBER, ORDER_FORM, CHECKOUT_CHARGE, RESET_CART */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA+Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBkZWZhdWx0IHF1YWxpdHkK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgAfQB9AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A9MooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiop5/J2fIzbmC5HQZIHP50w3Lq+TFiLfs3Fuc5x09M0AWKKrWt0bnJAjCgfwybj+IxxUvnxmTZu+bdtxg9cZoAkoqKSfZPFFsY+YSN3YcE/0piXLs8YeLYsmdh3c9M8jtwKALFFVrW6NzkgRhQP4ZNx/EY4qzQAUUUUAFFFFABRRRQAUUUUARzxmSMKMZDq3PswP9KgEVwbgu6xMN3ykuflHsMdat0UAVoIJFlDyCMbU2Dy+/Tn26dKBBIL03GU5+Qj/Z7fjmrNFAEckZeSFhjCPuP/AHyR/WoIIrhZN8yxFjnLhySPoMVbooArQQSLKHkEY2psHl9+nPt06VZoooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q=="
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ADD_TO_CART", function() { return ADD_TO_CART; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "REMOVE_ITEM", function() { return REMOVE_ITEM; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SUB_QUANTITY", function() { return SUB_QUANTITY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ADD_QUANTITY", function() { return ADD_QUANTITY; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ADD_SHIPPING", function() { return ADD_SHIPPING; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ADD_QUANTITY_WITH_NUMBER", function() { return ADD_QUANTITY_WITH_NUMBER; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ORDER_FORM", function() { return ORDER_FORM; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CHECKOUT_CHARGE", function() { return CHECKOUT_CHARGE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RESET_CART", function() { return RESET_CART; });
+//Types should be in const to avoid typos and duplication since it's a string and could be easily miss spelled
+const ADD_TO_CART = 'ADD_TO_CART';
+const REMOVE_ITEM = 'REMOVE_ITEM';
+const SUB_QUANTITY = 'SUB_QUANTITY';
+const ADD_QUANTITY = 'ADD_QUANTITY';
+const ADD_SHIPPING = 'ADD_SHIPPING';
+const ADD_QUANTITY_WITH_NUMBER = 'ADD_QUANTITY_WITH_NUMBER';
+const ORDER_FORM = 'ORDER_FORM';
+const CHECKOUT_CHARGE = 'CHECKOUT_CHARGE';
+const RESET_CART = 'RESET_CART';
 
 /***/ }),
 
-/***/ "./static/images/technology.jpg":
+/***/ "./store/actions/cartActions.js":
 /*!**************************************!*\
-  !*** ./static/images/technology.jpg ***!
+  !*** ./store/actions/cartActions.js ***!
   \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: addToCart, removeItem, subtractQuantity, addQuantity, addQuantityWithNumber, resetCart */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-module.exports = "/_next/static/images/technology-f0b2c9028dcde5d082a4ab685b80f0ee.jpg";
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addToCart", function() { return addToCart; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "removeItem", function() { return removeItem; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "subtractQuantity", function() { return subtractQuantity; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addQuantity", function() { return addQuantity; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addQuantityWithNumber", function() { return addQuantityWithNumber; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "resetCart", function() { return resetCart; });
+/* harmony import */ var _action_types_cart_actions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./action-types/cart-actions */ "./store/actions/action-types/cart-actions.js");
+ //add cart action
+
+const addToCart = id => {
+  return {
+    type: _action_types_cart_actions__WEBPACK_IMPORTED_MODULE_0__["ADD_TO_CART"],
+    id
+  };
+}; //remove item action
+
+const removeItem = id => {
+  return {
+    type: _action_types_cart_actions__WEBPACK_IMPORTED_MODULE_0__["REMOVE_ITEM"],
+    id
+  };
+}; //subtract qt action
+
+const subtractQuantity = id => {
+  return {
+    type: _action_types_cart_actions__WEBPACK_IMPORTED_MODULE_0__["SUB_QUANTITY"],
+    id
+  };
+}; //add qt action
+
+const addQuantity = id => {
+  return {
+    type: _action_types_cart_actions__WEBPACK_IMPORTED_MODULE_0__["ADD_QUANTITY"],
+    id
+  };
+}; //add qt action with quantity number
+
+const addQuantityWithNumber = (id, qty) => {
+  return {
+    type: _action_types_cart_actions__WEBPACK_IMPORTED_MODULE_0__["ADD_QUANTITY_WITH_NUMBER"],
+    id,
+    qty
+  };
+}; // Reset cart after form submit
+
+const resetCart = () => {
+  return {
+    type: _action_types_cart_actions__WEBPACK_IMPORTED_MODULE_0__["RESET_CART"]
+  };
+};
 
 /***/ }),
 
-/***/ "./static/images/utility.jpg":
-/*!***********************************!*\
-  !*** ./static/images/utility.jpg ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/utility-4127639276894dfacd737ba7bbebca44.jpg";
-
-/***/ }),
-
-/***/ "./static/images/visitormanagement.png":
-/*!*********************************************!*\
-  !*** ./static/images/visitormanagement.png ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/visitormanagement-71354a8155406f428168e65c969e44d6.png";
-
-/***/ }),
-
-/***/ 3:
-/*!***************************************!*\
-  !*** multi ./pages/smart-property.js ***!
-  \***************************************/
+/***/ 10:
+/*!*********************************!*\
+  !*** multi ./pages/products.js ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/murali/Downloads/alai-website-static/default/alai-ws-mp/pages/smart-property.js */"./pages/smart-property.js");
+module.exports = __webpack_require__(/*! /Users/murali/Downloads/alai-website-static/default/alai-ws-mp/pages/products.js */"./pages/products.js");
 
-
-/***/ }),
-
-/***/ "next/dynamic":
-/*!*******************************!*\
-  !*** external "next/dynamic" ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/dynamic");
 
 /***/ }),
 
@@ -4041,28 +3264,6 @@ module.exports = require("react-feather");
 
 /***/ }),
 
-/***/ "react-no-ssr":
-/*!*******************************!*\
-  !*** external "react-no-ssr" ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-no-ssr");
-
-/***/ }),
-
-/***/ "react-odometerjs":
-/*!***********************************!*\
-  !*** external "react-odometerjs" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-odometerjs");
-
-/***/ }),
-
 /***/ "react-preloading-screen":
 /*!******************************************!*\
   !*** external "react-preloading-screen" ***!
@@ -4085,25 +3286,14 @@ module.exports = require("react-redux");
 
 /***/ }),
 
-/***/ "react-slick":
-/*!******************************!*\
-  !*** external "react-slick" ***!
-  \******************************/
+/***/ "react-toastify":
+/*!*********************************!*\
+  !*** external "react-toastify" ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react-slick");
-
-/***/ }),
-
-/***/ "react-wow":
-/*!****************************!*\
-  !*** external "react-wow" ***!
-  \****************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-wow");
+module.exports = require("react-toastify");
 
 /***/ }),
 
@@ -4119,4 +3309,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=smart-property.js.map
+//# sourceMappingURL=products.js.map
