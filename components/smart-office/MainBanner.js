@@ -76,7 +76,7 @@ class MainBanner extends Component {
 
                                     <ReactWOW delay='0.6s' animation='zoomIn'>
                                         <img
-                                            src={require('../../static/images/visitor.jpg')}
+                                            src={require('../../static/images/thermal.png')}
                                             className="wow zoomIn"
                                             data-wow-delay="0.6s"
                                             alt="image"

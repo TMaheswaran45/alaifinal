@@ -76,7 +76,7 @@ class MainBanner extends Component {
 
                                     <ReactWOW delay='0.6s' animation='zoomIn'>
                                         <img
-                                            src={require('../../static/images/visitor.jpg')}
+                                            src={require('../../static/images/thermal.png')}
                                             className="wow zoomIn"
                                             data-wow-delay="0.6s"
                                             alt="image"
@@ -135,6 +135,41 @@ class MainBanner extends Component {
                         </div>
 
                     </div>
+
+                    <div className="row align-items-center">
+                            <div className="col-lg-6"><br /><br /></div>
+                            <div className="col-lg-6"><br /><br /></div>
+                        </div>
+
+                        <div className="row align-items-center">
+                            <div className="col-lg-6">
+                                <div className="repair-banner-image">
+
+                                    <ReactWOW delay='0.6s' animation='zoomIn'>
+                                        <img
+                                            src={require('../../static/images/smartclass.jpg')}
+                                            className="wow zoomIn"
+                                            data-wow-delay="0.6s"
+                                            alt="image"
+                                        />
+                                    </ReactWOW>
+                                </div>
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="repair-banner-content">
+                                    <h2>Smart Classroom</h2>
+                                    <ul>
+                                        <li>Alert if someone has a fever while entering the premises</li>
+                                        <li>Ensure social distancing by using buzzers when its not followed</li>
+                                    </ul>
+                                    <Link href="#">
+                                        <a className="btn btn-primary">Know More</a>
+                                    </Link>
+                                </div>
+                            </div>
+
+
+                        </div>
                 </div>
             </div>
         );

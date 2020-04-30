@@ -31,10 +31,9 @@ class MainBanner extends Component {
                     <div className="col-lg-12">
                         <div className="repair-banner-content">
      
-                            <p>At ALAI Labs, we thrive on bringing Artificial Intelligence (AI) to remote areas and applications with low infrastructure and connectivity. </p>
-                            <p>Our AI Solution based on high-speed cognitive vision, with on board Deep learning VPU’s, for real-time processing and enabled with a very low power long-range wireless module for connectivity with the cloud. Our Deep learning camera can be trained to perform any vision-based classification task for continuous monitoring and instant pattern notification on pre-defined events; the inference data pushed to the cloud were ALAI back end Machine Learning stack further process and enable data visualization.</p>
-                            <p>Our proven Solution: We enable (Container terminals) ports to create data and bring intelligence to it, with our Deep learning and connected vision system. Our IoT platform and vision system help ports to track movable assets inside the container terminal by collecting movement data to improve productivity. We strongly believe with our proven Edge-AI and IOT ML platform, we can offer data collection for any tracking system.</p>
-                            <p>We are a group of researchers with Industrial background working on a common interest. We are based in Singapore, and we do have a development centre in Chennai as well. Our focus is on providing an optics-based (Vision) AI solution on edge.</p>
+                            <p>At ALAI Labs, we believe in providing ingenious solutions that work even in remote areas with below par infrastructure and connectivity. </p>
+                            <p>Our AI Solution involving high-resolution camera with deep learning VPUs and LoRa based wireless module is used for object classification/detection,movable asset tracking, controlling utilities and event monitoring. The information gathered is procedded onboard and pushed to cloud for generating detailed insights, analysis and data visualization</p>
+                            <p>Our solutions have been received very well and have already stated resulting in productivity improvements and cost savings</p>
                         </div>
                     </div>
                 </div>
@@ -44,7 +43,7 @@ class MainBanner extends Component {
                         <div className="repair-banner-image">
                             <ReactWOW delay='0.6s' animation='zoomIn'>
                                 <img
-                                    src={require('../../static/images/visitor.jpg')}
+                                    src={require('../../static/images/cranes.jpg')}
                                     className="wow zoomIn"
                                     data-wow-delay="0.6s"
                                     alt="image"
@@ -88,7 +87,7 @@ class MainBanner extends Component {
                         <div className="repair-banner-image">
                             <ReactWOW delay='0.6s' animation='zoomIn'>
                                 <img
-                                    src={require('../../static/images/visitor.jpg')}
+                                    src={require('../../static/images/port-truck.gif')}
                                     className="wow zoomIn"
                                     data-wow-delay="0.6s"
                                     alt="image"
@@ -108,7 +107,7 @@ class MainBanner extends Component {
                         <div className="repair-banner-image">
                             <ReactWOW delay='0.6s' animation='zoomIn'>
                                 <img
-                                    src={require('../../static/images/visitor.jpg')}
+                                    src={require('../../static/images/analytics.png')}
                                     className="wow zoomIn"
                                     data-wow-delay="0.6s"
                                     alt="image"
@@ -121,8 +120,8 @@ class MainBanner extends Component {
                             <h2>Analytics</h2>
                             <ul>
                             <li>Save fuel and time through improved routing and data collection.</li>
-                            <li>SMicroscopic and macroscopic modelling for cargo handling.</li>
-                            <li>SKPI dashboard for Terminal Operators abstracting the technology and jargons (AI & Machine Learning).</li>
+                            <li>Microscopic and macroscopic modelling for cargo handling.</li>
+                            <li>KPI dashboard for Terminal Operators abstracting the technology and jargons (AI & Machine Learning).</li>
                             </ul>
                         </div>
                     </div>
