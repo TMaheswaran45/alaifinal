@@ -16,75 +16,33 @@ const initState = {
     products: [
         {
             id: 1,
-            title: "Wood Pencil",
-            price: 350,
-            image: require("../../static/images/shop-image/shop-image1.jpg")
+            title: "Concealed Smart Switch",
+            price: 10.50,
+            image: require("../../static/images/shop-image/hidden_switch.png")
         },
         {
             id: 2,
-            title: "T-Shirt",
-            price: 120,
-            image: require("../../static/images/shop-image/shop-image2.jpg")
+            title: "Touch Switch",
+            price: 14.50,
+            image: require("../../static/images/shop-image/touch_switch.png")
         },
         {
             id: 3,
-            title: "Casual Shoe",
-            price: 160,
-            image: require("../../static/images/shop-image/shop-image3.jpg")
+            title: "Indoor Camera",
+            price: 160.00,
+            image: require("../../static/images/shop-image/indoor_cam.png")
         },
         {
             id: 4,
-            title: "Coffee Bag",
+            title: "Outdoor Camera",
             price: 130,
-            image: require("../../static/images/shop-image/shop-image4.jpg")
+            image: require("../../static/images/shop-image/outdoor_cam.png")
         },
         {
             id: 5,
-            title: "Single Chair",
+            title: "Energy Meter",
             price: 90,
-            image: require("../../static/images/shop-image/shop-image5.jpg")
-        },
-        {
-            id: 6,
-            title: "Business Card",
-            price: 180,
-            image: require("../../static/images/shop-image/shop-image6.jpg")
-        },
-        {
-            id: 7,
-            title: "Book Cover",
-            price: 330,
-            image: require("../../static/images/shop-image/shop-image7.jpg")
-        },
-        {
-            id: 8,
-            title: "Wall Watch",
-            price: 140,
-            image: require("../../static/images/shop-image/shop-image8.jpg")
-        },
-        {
-            id: 9,
-            title: "Wood Pencil",
-            price: 430,
-            image: require("../../static/images/shop-image/shop-image1.jpg")
-        },
-        {
-            id: 10,
-            title: "T-Shirt",
-            price: 650,
-            image: require("../../static/images/shop-image/shop-image2.jpg")
-        },
-        {
-            id: 11,
-            title: "Casual Shoe",
-            price: 230,
-            image: require("../../static/images/shop-image/shop-image3.jpg")
-        },
-        {
-            id: 12,
-            title: "Coffee Bag",
-            price: 670,
-            image: require("../../static/images/shop-image/shop-image4.jpg")
+            image: require("../../static/images/shop-image/energymeter.png")
         }
     ],
     addedItems:[],

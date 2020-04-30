@@ -16,15 +16,20 @@ export default function About() {
 							<div className="section-title">
 								<h2>About Us</h2>
 								<div className="bar"></div>
-								<p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
+								<p>Alai Labs was founded in 2016 in Singapore by three aspiring enterpreneurs with the aim of bring smaart homes with in the reach of everyone.
+Alai Labs is head quartered in Singapore, while the R&D and technology delivery center is in chennai.
+We are a 20 member strong team of highly passionate and enthusiastic people focussed on delivering exciting products and solutions for our customers.
+Though we started out with products for smart homes, we have diversified a lot in the last 4 years working on multiple domains and projects. 
+Healthcare, Port operations, Smart Home/property management, Biometrics based access control  are some of the areas where we have made our presence felt.
+The team has a very exciting blend of skill sets that enables it to solve complex problems and deploy solutions rapidly.
+With the experience we have gained in the past 4 years as a team, added to the excellent industrial connects and combined with the expertise of the founding team, the company is poised for a very bright future.
+Alai Labs is built on the core values of doing the right thing always, transparency, honoring commitments to customers, freedom of expression and keeping the employees happy. 
+We foster a culture of openness and respect for every other team member. Everyone in our team is considered as valuable as the core founders. 
+When it comes to decision making on product ideas and engineering, everyone's view points/opinions are taken into consideration. 
+This makes everyone in the team responsible and passionate about the work they do.</p>
 							</div>
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sagittis egestas ante, sed viverra nunc tincidunt nec nteger nonsed condimntum elit, sit amet feugiat lorem. Proin tempus sagittis velit vitae scelerisque.</p>
-
-							<p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. In sagittis eg esta ante, sed viverra nunc tinci dunt nec elei fend et tiram.</p>
-
-							<p>Business-to-business metrics analytics value proposition funding angel investor entrepreneur alpha ramen equity gamification. Social proof partner network research.</p>
-						</div>
+							</div>
 					</div>
 				</div>
 
