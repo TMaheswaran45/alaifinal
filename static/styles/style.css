@@ -4551,8 +4551,8 @@ Page Title CSS
   z-index: 1;
   background: transparent url(../images/banner-bg1.jpg) right top no-repeat;
   text-align: center;
-  padding-top: 190px;
-  padding-bottom: 100px;
+  padding-top: 120px;
+  padding-bottom: 40px;
 }
 
 .page-title-area h2 {
@@ -5321,7 +5321,7 @@ CTA CSS
   background: #ffffff;
   -webkit-box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
   box-shadow: 0 13px 27px 0 rgba(68, 206, 111, 0.25);
-}
+} 
 
 .cta-right-content .buy-btn .btn-primary:hover, .cta-right-content .buy-btn .btn-primary:focus {
   color: #44ce6f;
@@ -5643,6 +5643,7 @@ Repair Services CSS
 
 .single-repair-services h3 {
   font-size: 19px;
+  color: #FFFFFF;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   margin-top: 22px;
@@ -5652,7 +5653,7 @@ Repair Services CSS
 
 .single-repair-services .icon {
   display: inline-block;
-  color: #44ce6f;
+  color: #FFFFFF;
   width: 85px;
   height: 85px;
   line-height: 85px;
@@ -5664,12 +5665,15 @@ Repair Services CSS
 
 .single-repair-services .icon i::before {
   font-size: 35px;
+  color: #FFFFFF;
+
 }
 
 .single-repair-services p {
   margin-bottom: 25px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  color: #FFFFFF;
 }
 
 .single-repair-services a {
@@ -5719,11 +5723,17 @@ Repair CTA CSS
 .repair-cta-area {
   overflow: hidden;
   position: relative;
-  z-index: 1;
+  z-index: -1;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-image: url(../images/banner-bg.jpg);
+  background-image: url(../images/banner-bg2.jpg);
 }
+
+.repair-cta-area container {
+  padding-bottom: 10px;
+  background-image: url(../images/banner-bg2.jpg);
+}
+
 
 .cta-repair-content p {
   color: #000000;
@@ -5739,7 +5749,7 @@ Repair CTA CSS
 
 .cta-repair-img {
   text-align: right;
-  background-image: url(../images/banner-bg.jpg);
+  background-image: url(../images/banner-bg2.jpg);
 }
 
 .circle-box {

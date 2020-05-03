@@ -24,7 +24,6 @@ export default () => (
             <Header />
             <MainBanner />
             <Cta />
-            <Team />
             <Footer />
             <GoTop scrollStepInPx="50" delayInMs="16.66" />
         </Preloader>

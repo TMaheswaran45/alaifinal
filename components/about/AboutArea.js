@@ -14,7 +14,6 @@ export default function About() {
 					<div className="col-lg-6 col-md-12">
 						<div className="about-content">
 							<div className="section-title">
-								<h2>About Us</h2>
 								<div className="bar"></div>
 								<p>Alai Labs was founded in 2016 in Singapore by three aspiring enterpreneurs with the aim of bring smaart homes with in the reach of everyone.
 Alai Labs is head quartered in Singapore, while the R&D and technology delivery center is in chennai.
