@@ -155,8 +155,7 @@ class MainBanner extends Component {
                                 <div className="repair-banner-content">
                                     <h2>Smart Classroom</h2>
                                     <ul>
-                                        <li>Alert if someone has a fever while entering the premises</li>
-                                        <li>Ensure social distancing by using buzzers when its not followed</li>
+                                        <li>Check and alert malpractices during examinations using smart camera</li>
                                     </ul>
                                     <Link href="#">
                                         <a className="btn btn-primary">Know More</a>
