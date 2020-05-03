@@ -5332,8 +5332,8 @@ Repair Main Banner CSS
 =================================================*/
 .repair-main-banner {
   overflow-x: hidden;
-  padding-top: 200px;
-  padding-bottom: 140px;
+  padding-top: 100px;
+  padding-bottom: 40px;
 }
 
 .repair-banner-content h1 {
