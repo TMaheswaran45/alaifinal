@@ -8,17 +8,14 @@ class MainBanner extends Component {
             <div className="ml-main-banner">
                 <div className="container-fluid">
                     <div className="row align-items-center">
-                        <div className="col-lg-6 col-md-12">
+                        <div className="col-lg-4 col-md-12">
                             <h1>NextGen Solutions for a connected world</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
-                            <Link href="#">
-                                <a className="btn btn-primary">Get Started</a>
-                            </Link>
+                            <p>&nbsp;</p>
                         </div>
-                        <div className="col-lg-6 col-md-12">
+                        <div className="col-lg-8 col-md-12">
                             <div className="ml-banner-single-image">
                                 <ReactWOW delay='0.5s' animation='fadeInUp'>
-                                    <img src={require("../../static/images/ml-banner-image/ml-main-pic.png")} className="wow fadeInUp" data-wow-delay="0.5s" alt="image" />
+                                    <img src={require("../../static/images/ml-main-pic.png")} className="wow fadeInUp" data-wow-delay="0.5s" alt="image" />
                                 </ReactWOW>
                             </div>
                         </div>

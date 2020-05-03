@@ -6,7 +6,7 @@ import Footer from '../components/Layouts/Footer'
 import GoTop from '../components/Layouts/GoTop'
 import MainBanner from '../components/smart-hospital/MainBanner';
 import About from '../components/smart-hospital/About';
-import Cta from '../components/smart-hospital/Cta';
+import Cta from '../components/home-five/Cta';
 import Funfacts from '../components/home-one/Funfacts';
 import Team from '../components/home-five/Team';
 import Feedback from '../components/home-five/Feedback';
@@ -24,7 +24,6 @@ export default () => (
             <MainBanner />
             <Cta />
             <Team />
-            <Feedback />
             <Footer />
             <GoTop scrollStepInPx="50" delayInMs="16.66" />
         </Preloader>

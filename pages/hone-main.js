@@ -41,8 +41,6 @@ class Index extends React.Component {
                     <RecentWork />
                     {/* start-p/components/home-one/Pricing.js */}
                     <Pricing />
-                    {/* start-p/components/home-one/Feedback.js */}
-                    <Feedback />
                     {/* start-p/components/home-one/Partner.js */}
                     <Partner />
                     {/* start-p/components/Layouts/Footer.js */}

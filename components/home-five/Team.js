@@ -10,7 +10,7 @@ class Team extends React.Component {
                     <div className="section-title">
                         <h2>Our Awesome Team</h2>
                         <div className="bar"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p></p>
                     </div>
                 
 

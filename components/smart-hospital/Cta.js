@@ -10,7 +10,7 @@ class Cta extends Component {
                         <div className="col-lg-6">
                             <div className="cta-repair-content">
                                 <h3>We'll help you get back to work</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                <p>The solutions we have presented are just the tip of the iceberg. The possibilities IoT offers are limitless. our team with a very diversified skillset can offer you simple and realistic solutions to your needs. Please reach out to us to see how we can be of assistance. You would sure not regret it.</p>
                                 <Link href="#">
                                     <a className="btn btn-primary">Contact Us</a>
                                 </Link>

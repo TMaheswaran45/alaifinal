@@ -5584,27 +5584,27 @@ Repair Services CSS
 }
 
 .single-repair-services.bg1 {
-  background-image: url(../images/repair-services-img/repair-services-img1.jpg);
+  background-image: url(../images/repair-services-img/smart-office-sq.jpg);
 }
 
 .single-repair-services.bg2 {
-  background-image: url(../images/repair-services-img/repair-services-img2.jpg);
+  background-image: url(../images/repair-services-img/smart-property-sq.jpg);
 }
 
 .single-repair-services.bg3 {
-  background-image: url(../images/repair-services-img/repair-services-img3.jpg);
+  background-image: url(../images/repair-services-img/smart-city-sq.jpg);
 }
 
 .single-repair-services.bg4 {
-  background-image: url(../images/repair-services-img/repair-services-img4.jpg);
+  background-image: url(../images/repair-services-img/smart-healthcare-sq.jpg);
 }
 
 .single-repair-services.bg5 {
-  background-image: url(../images/repair-services-img/repair-services-img5.jpg);
+  background-image: url(../images/repair-services-img/smart-port-sq.jpg);
 }
 
 .single-repair-services.bg6 {
-  background-image: url(../images/repair-services-img/repair-services-img6.jpg);
+  background-image: url(../images/repair-services-img/sw-development-sq.jpg);
 }
 
 .single-repair-services::before {
@@ -5617,8 +5617,10 @@ Repair Services CSS
   left: 0;
   width: 100%;
   height: 100%;
-  background: #ffffff;
+  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
   z-index: -1;
+  opacity: 0;
+  visibility: hidden;
   border: 1px dashed #cdf1d8;
 }
 
@@ -5720,22 +5722,24 @@ Repair CTA CSS
   z-index: 1;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-image: url(../images/banner-bg.jpg);
 }
 
 .cta-repair-content p {
-  color: #ffffff;
+  color: #000000;
   opacity: .95;
   margin-bottom: 25px;
 }
 
 .cta-repair-content h3 {
-  color: #ffffff;
+  color: #000000;
   font-size: 25px;
   margin-bottom: 17px;
 }
 
 .cta-repair-img {
   text-align: right;
+  background-image: url(../images/banner-bg.jpg);
 }
 
 .circle-box {
@@ -6601,8 +6605,8 @@ ML Main Banner CSS
 .ml-main-banner {
   position: relative;
   z-index: 1;
-  padding-top: 130px;
-  padding-bottom: 140px;
+  padding-top: 80px;
+  padding-bottom: 40px;
   background-image: url(../images/banner-bg.jpg);
   background-position: bottom right;
   background-size: cover;

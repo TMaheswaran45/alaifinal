@@ -6,7 +6,7 @@ import Footer from '../components/Layouts/Footer'
 import GoTop from '../components/Layouts/GoTop'
 import MainBanner from '../components/sw-development/MainBanner';
 import About from '../components/sw-development/About';
-import Cta from '../components/sw-development/Cta';
+import Cta from '../components/home-five/Cta';
 
 import Services from '../components/sw-development/Services';
 import Funfacts from '../components/home-one/Funfacts';
@@ -26,7 +26,6 @@ export default () => (
             <MainBanner />
             <Cta />
             <Team />
-            <Feedback />
             <Footer />
             <GoTop scrollStepInPx="50" delayInMs="16.66" />
         </Preloader>

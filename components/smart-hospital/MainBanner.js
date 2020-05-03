@@ -30,11 +30,7 @@ class MainBanner extends Component {
                 <div className="row align-items-center">
                     <div className="col-lg-12">
                         <div className="repair-banner-content">
-     
-                            <p>At ALAI Labs, we thrive on bringing Artificial Intelligence (AI) to remote areas and applications with low infrastructure and connectivity. </p>
-                            <p>Our AI Solution based on high-speed cognitive vision, with on board Deep learning VPU’s, for real-time processing and enabled with a very low power long-range wireless module for connectivity with the cloud. Our Deep learning camera can be trained to perform any vision-based classification task for continuous monitoring and instant pattern notification on pre-defined events; the inference data pushed to the cloud were ALAI back end Machine Learning stack further process and enable data visualization.</p>
-                            <p>Our proven Solution: We enable (Container terminals) ports to create data and bring intelligence to it, with our Deep learning and connected vision system. Our IoT platform and vision system help ports to track movable assets inside the container terminal by collecting movement data to improve productivity. We strongly believe with our proven Edge-AI and IOT ML platform, we can offer data collection for any tracking system.</p>
-                            <p>We are a group of researchers with Industrial background working on a common interest. We are based in Singapore, and we do have a development centre in Chennai as well. Our focus is on providing an optics-based (Vision) AI solution on edge.</p>
+                            <p>We really believe Health care is an area where Artificial Intelligence, Machine Learning and Intelligent Vision systems can have great impact. Our solutions are quite intuitive and very affordable even for small or medium sized hospitals. We are working on more exciting solutions. Keep a tab on this page to get to know more.</p>
                         </div>
                     </div>
                 </div>
@@ -43,8 +39,10 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>Smart Health Assistant</h1>
-                                    <p>Hi Tech lockers that open and close based on face recognition. Register up to 1000 users with a single installation. No more headaches with lost locker keys or pins</p>
+                                    <h1>BlueGenie - Smart Health Assistant</h1>
+                                    <ul>
+                                    <li>Blue Genie is the smart device we have developed, capable of answering health related queries and displaying relevant information visually. BG works on natural language processing, converting your voice to a programmatical query on the health related data and responding via audio and visual information</li>
+                                    </ul>
                                     <Link href="#">
                                         <a className="btn btn-primary">Get Started</a>
                                     </Link>
@@ -88,9 +86,8 @@ class MainBanner extends Component {
                                 <div className="repair-banner-content">
                                     <h1>Patient Monitoring</h1>
                                     <ul>
-                                        <li>Enable access to your employees using face recognition</li>
-                                        <li>Automatically check temperature on entry and stop access if temperature is beyond threshold</li>
-                                        <li>Automatically check for sickness based on emotions and alert accordingly</li>
+                                        <li>Monitor Patient Vitals remotely (Temperature, Pressure) in ICU</li>
+                                        <li>Monitor progress of dialysis treatments remotely and avoid frequent trips to the beds</li>
                                     </ul>
                                     <Link href="#">
                                         <a className="btn btn-primary">Get Started</a>
@@ -112,9 +109,8 @@ class MainBanner extends Component {
                                 <div className="repair-banner-content">
                                     <h1>Tele Consultation Platform</h1>
                                     <ul>
-                                        <li>Select and reserve meeting rooms based on availability</li>
-                                        <li>Enable access based on QR Code / Biometrics</li>
-                                        <li>Automatically turn on / off utilities in meeting room based on schedule</li>
+                                        <li>With the advent of Covid 19, there has been a lot of need for Tele medicine and consultation</li>
+                                        <li>EWe have prtnered with Quapt Technologies to launch a diet consulation plaform. For more details visit oolsum.com</li>
                                     </ul>
                                     <Link href="#">
                                         <a className="btn btn-primary">Get Started</a>
