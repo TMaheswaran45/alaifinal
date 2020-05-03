@@ -113,23 +113,7 @@ class Items extends Component {
                                 <div className="products-content">
                                     <h3><a href="#">{data.title}</a></h3>
                                     <span>${data.price}</span>
-                                    <ul>
-                                        <li><i className="flaticon-star-1"></i></li>
-                                        <li><i className="flaticon-star-1"></i></li>
-                                        <li><i className="flaticon-star-1"></i></li>
-                                        <li><i className="flaticon-star-1"></i></li>
-                                        <li><i className="flaticon-star-1"></i></li>
-                                    </ul>
-                                    <Link href="#">
-                                        <a 
-                                            className="add-to-cart-btn"
-                                            onClick={(e) => {
-                                                e.preventDefault(); this.handleAddToCart(data.id)
-                                            }}
-                                        >
-                                            Add to Cart
-                                        </a>
-                                    </Link>
+
                                 </div>
                             </div>
                         </div>

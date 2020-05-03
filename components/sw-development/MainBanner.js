@@ -30,11 +30,7 @@ class MainBanner extends Component {
                 <div className="row align-items-center">
                     <div className="col-lg-12">
                         <div className="repair-banner-content">
-     
-                            <p>At ALAI Labs, we thrive on bringing Artificial Intelligence (AI) to remote areas and applications with low infrastructure and connectivity. </p>
-                            <p>Our AI Solution based on high-speed cognitive vision, with on board Deep learning VPU’s, for real-time processing and enabled with a very low power long-range wireless module for connectivity with the cloud. Our Deep learning camera can be trained to perform any vision-based classification task for continuous monitoring and instant pattern notification on pre-defined events; the inference data pushed to the cloud were ALAI back end Machine Learning stack further process and enable data visualization.</p>
-                            <p>Our proven Solution: We enable (Container terminals) ports to create data and bring intelligence to it, with our Deep learning and connected vision system. Our IoT platform and vision system help ports to track movable assets inside the container terminal by collecting movement data to improve productivity. We strongly believe with our proven Edge-AI and IOT ML platform, we can offer data collection for any tracking system.</p>
-                            <p>We are a group of researchers with Industrial background working on a common interest. We are based in Singapore, and we do have a development centre in Chennai as well. Our focus is on providing an optics-based (Vision) AI solution on edge.</p>
+                            <p>Our Team has a good mix of experience in AI, Machine Learning Algorithm and Training, App development on Android & Hybrid platforms, Business process modelling and Robotic Process Automation</p>
                         </div>
                     </div>
                 </div>
@@ -44,7 +40,7 @@ class MainBanner extends Component {
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
                                     <h2>App Development</h2>
-                                    <p>We have a small pool of app development experts (Android, iOS & Hybrid) who have developed some remarkable apps in the las few years</p>
+                                    <p>We have a small pool of app development experts (Android & Hybrid) who have developed some remarkable apps in the las few years</p>
                                     <Link href="#">
                                         <a className="btn btn-primary">Contact Us</a>
                                     </Link>
@@ -86,11 +82,10 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Model Training</h2>
+                                    <h2>AI & Machine Learning</h2>
                                     <ul>
-                                        <li>Enable access to your employees using face recognition</li>
-                                        <li>Automatically check temperature on entry and stop access if temperature is beyond threshold</li>
-                                        <li>Automatically check for sickness based on emotions and alert accordingly</li>
+                                        <li>Machine Learning - Modelling & Execution</li>
+                                        <li>Data Labelling & Training</li>
                                     </ul>
                                     <Link href="#">
                                         <a className="btn btn-primary">Get Started</a>
@@ -112,9 +107,7 @@ class MainBanner extends Component {
                                 <div className="repair-banner-content">
                                     <h2>BPM</h2>
                                     <ul>
-                                        <li>Select and reserve meeting rooms based on availability</li>
-                                        <li>Enable access based on QR Code / Biometrics</li>
-                                        <li>Automatically turn on / off utilities in meeting room based on schedule</li>
+                                        <li>Work with out consultants to model your business process using tools like Lombardi. We have people with more than 8 years of expertise with lombardi</li>
                                     </ul>
                                     <Link href="#">
                                         <a className="btn btn-primary">Get Started</a>
@@ -154,9 +147,7 @@ class MainBanner extends Component {
                                 <div className="repair-banner-content">
                                     <h2>RPA</h2>
                                     <ul>
-                                        <li>Enable access to your employees using face recognition</li>
-                                        <li>Automatically check temperature on entry and stop access if temperature is beyond threshold</li>
-                                        <li>Automatically check for sickness based on emotions and alert accordingly</li>
+                                        <li>Work with our experts to automate your repetitive business process using RPA tools like BluePrism</li>
                                     </ul>
                                     <Link href="#">
                                         <a className="btn btn-primary">Get Started</a>

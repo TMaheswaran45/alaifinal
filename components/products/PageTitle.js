@@ -6,7 +6,7 @@ export default function PageTitle() {
             <div className="d-table">
                 <div className="d-table-cell">
                     <div className="container">
-                        <h2>Products</h2>
+                        <h2>Product Lineup</h2>
                     </div>
                 </div>
             </div>

@@ -80,7 +80,7 @@ class Team extends React.Component {
 
 							<div className="team-content">
 								<div className="team-info">
-									<h3>Dr. Thiru Kanagasabapathy</h3>
+									<h3>Dr. Thiru Kanagasabapathi</h3>
 									<span>Partner & Advisor</span>
 								</div>
 

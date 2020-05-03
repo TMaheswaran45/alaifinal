@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
             <footer className="footer-area bg-f7fafd">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-4 col-md-6">
                             <div className="single-footer-widget">
                                 <div className="logo">
                                     <Link href="#">
@@ -17,45 +17,13 @@ export default class Footer extends React.Component {
                                         </a>
                                     </Link>
                                 </div>
-                                <p>ALAI Labs is an IoT Technology company based in Singapore with a development center in India. <br />At ALAI Labs, we are passionate about developing next-generation Smart property solutions. Our Products are smart and affordable with cognitive capabilities.</p>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-3 col-md-6">
-                            <div className="single-footer-widget pl-5">
-                                <h3>Company</h3>
-                                <ul className="list">
-                                    <li>
-                                        <Link href="/about">
-                                            <a>About Us</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/services">
-                                            <a>Services</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/features">
-                                            <a>Features</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/pricing">
-                                            <a>Our Pricing</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/blog">
-                                            <a>Latest News</a>
-                                        </Link>
-                                    </li>
-                                </ul>
+                                <p>ALAI Labs is an IoT Technology company based in Singapore with a development center in India. <br />At ALAI Labs, we are passionate about developing next-generation ingenious solutions. Our Products are affordable without compromising on the capability / quality.</p>
                             </div>
                         </div>
 
 
-                        <div className="col-lg-3 col-md-6">
+
+                        <div className="col-lg-4 col-md-6">
                             <div className="single-footer-widget">
                                 <h3>India Address</h3>
                                 
@@ -76,7 +44,7 @@ export default class Footer extends React.Component {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-4 col-md-6">
                             <div className="single-footer-widget">
                                 <h3>Singapore Address</h3>
                                 

@@ -31,9 +31,7 @@ class MainBanner extends Component {
                     <div className="col-lg-12">
                         <div className="repair-banner-content">
      
-                            <p>Alai Labs provides an integrated property management system with multiple modules</p>
-                            <p>Building owners or Resident Associations have the option of choosing from these module that would be the most useful to them</p>
-                            <p>We also provide complete smart home solutions</p>
+                            <p>Alai Labs provides an integrated property management system with multiple modules. Building owners or Resident Associations have the option of choosing from these module (listed below) that would be the most useful to them. We also provide complete smart home solutions to individual house owners.</p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +40,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Visitor Management System</h2>
+                                    <h2>Visitor Management System</h2><br/>
                                     <ul>
                                     <li>Register your visitors with their face or other details</li>
                                     <li>Share the QR code generated with the visitor</li>
@@ -90,7 +88,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Automated Vehicle Access System</h2>
+                                    <h2>Automated Vehicle Access</h2><br/>
                                     <ul>
                                         <li>Register license plates of vehicles of owners in the property</li>
                                         <li>Automatically open gate once plate is recognized</li>
@@ -113,7 +111,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Incident Management System</h2>
+                                    <h2>Incident Management System</h2><br/>
                                     <ul>
                                     <li>Snap a incident in your apartment like overflowing garbage, illegal parking and report to management using the app</li>
                                     <li>Track resolution status using the app</li>
@@ -160,7 +158,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Facility Reservation</h2>
+                                    <h2>Facility Reservation</h2><br/>
                                     <ul>
                                         <li>Check availability of common facilities like Tennis courts, Banquet Halls, Swimming Pool</li>
                                         <li>Reserve your slot online</li>
@@ -184,7 +182,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Common Utility Control</h2>
+                                    <h2>Common Utility Control</h2><br/>
                                     <ul>
                                         <li>Turn on/Turn off common utilities like lights, motor etc remotely</li>
                                         <li>Birds eye view of status of utilities</li>
@@ -227,7 +225,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Secure Access to Facilities</h2>
+                                    <h2>Secure Access to Facilities</h2><br/>
                                     <ul>
                                         <li>Secure access to facilities using Smart Property App</li>
                                         <li>Provide access using face recognition terminals or simple app based access</li>
@@ -250,10 +248,10 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Smart Home Solutions</h2>
+                                    <h2>Smart Home Solutions</h2><br/>
                                     <ul>
-                                        <li>We provide complete home automation solution</li>
-                                        <li>The home automation systems are used for controlling the indoor & outdoor lights, heat, ventilation, air conditioning in the house, to lock or open the doors & gates, to control electrical & electronic appliances and so on using various control systems with appropriate sensors. It may also include home security such as access control and alarm systems.</li>
+                                        <li>Complete home automation solution</li>
+                                        <li>Control indoor & outdoor lights, heat, ventilation, air conditioning in the house, lock or open the doors & gates, to control electrical & electronic appliances and so on using various control systems with appropriate sensors. It may also include home security such as access control and alarm systems.</li>
                                         <li><b>CAMO FIT WIFI Hidden Smart Switch </b> - Perfect intelligent control solutions for your home or workplace. It also Fits for various household appliances, such as lamps, washer machine. With the help of CAMO FIT WIFI Hidden Smart Switch we can control our voice and compatible with amazon Alex, Google home, IFTTT. </li>
                                         <li><b>QUICK FIT WIFI & RF Smart Switch </b> - Absolutely secure and perfect combination between the wireless and wired switch. It is Exquisite, elegant and it is thunder and lighting resistance.</li>
                                     </ul>

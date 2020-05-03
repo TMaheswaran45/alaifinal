@@ -290,7 +290,7 @@ var Footer = /*#__PURE__*/function (_React$Component) {
       }, __jsx("div", {
         className: "row"
       }, __jsx("div", {
-        className: "col-lg-3 col-md-6"
+        className: "col-lg-4 col-md-6"
       }, __jsx("div", {
         className: "single-footer-widget"
       }, __jsx("div", {
@@ -301,24 +301,8 @@ var Footer = /*#__PURE__*/function (_React$Component) {
         src: __webpack_require__(/*! ../../static/images/alai_logo.png */ "./static/images/alai_logo.png"),
         alt: "logo",
         width: "150px"
-      })))), __jsx("p", null, "ALAI Labs is an IoT Technology company based in Singapore with a development center in India. ", __jsx("br", null), "At ALAI Labs, we are passionate about developing next-generation Smart property solutions. Our Products are smart and affordable with cognitive capabilities."))), __jsx("div", {
-        className: "col-lg-3 col-md-6"
-      }, __jsx("div", {
-        className: "single-footer-widget pl-5"
-      }, __jsx("h3", null, "Company"), __jsx("ul", {
-        className: "list"
-      }, __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/about"
-      }, __jsx("a", null, "About Us"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/services"
-      }, __jsx("a", null, "Services"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/features"
-      }, __jsx("a", null, "Features"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/pricing"
-      }, __jsx("a", null, "Our Pricing"))), __jsx("li", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/blog"
-      }, __jsx("a", null, "Latest News")))))), __jsx("div", {
-        className: "col-lg-3 col-md-6"
+      })))), __jsx("p", null, "ALAI Labs is an IoT Technology company based in Singapore with a development center in India. ", __jsx("br", null), "At ALAI Labs, we are passionate about developing next-generation ingenious solutions. Our Products are affordable without compromising on the capability / quality."))), __jsx("div", {
+        className: "col-lg-4 col-md-6"
       }, __jsx("div", {
         className: "single-footer-widget"
       }, __jsx("h3", null, "India Address"), __jsx("ul", {
@@ -328,7 +312,7 @@ var Footer = /*#__PURE__*/function (_React$Component) {
       }, __jsx("a", null, "info@alai-labs.com"))), __jsx("li", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_7__["PhoneCall"], null), "Phone: ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "#"
       }, __jsx("a", null, "+91-44-4851-8350")))))), __jsx("div", {
-        className: "col-lg-3 col-md-6"
+        className: "col-lg-4 col-md-6"
       }, __jsx("div", {
         className: "single-footer-widget"
       }, __jsx("h3", null, "Singapore Address"), __jsx("ul", {
@@ -741,26 +725,7 @@ var Items = /*#__PURE__*/function (_Component) {
           className: "products-content"
         }, __jsx("h3", null, __jsx("a", {
           href: "#"
-        }, data.title)), __jsx("span", null, "$", data.price), __jsx("ul", null, __jsx("li", null, __jsx("i", {
-          className: "flaticon-star-1"
-        })), __jsx("li", null, __jsx("i", {
-          className: "flaticon-star-1"
-        })), __jsx("li", null, __jsx("i", {
-          className: "flaticon-star-1"
-        })), __jsx("li", null, __jsx("i", {
-          className: "flaticon-star-1"
-        })), __jsx("li", null, __jsx("i", {
-          className: "flaticon-star-1"
-        }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-          href: "#"
-        }, __jsx("a", {
-          className: "add-to-cart-btn",
-          onClick: function onClick(e) {
-            e.preventDefault();
-
-            _this2.handleAddToCart(data.id);
-          }
-        }, "Add to Cart")))));
+        }, data.title)), __jsx("span", null, "$", data.price))));
       }))), modalOpen ? __jsx(_QuickView__WEBPACK_IMPORTED_MODULE_14__["default"], {
         closeModal: this.closeModal,
         idd: this.state.idd,
@@ -814,7 +779,7 @@ function PageTitle() {
     className: "d-table-cell"
   }, __jsx("div", {
     className: "container"
-  }, __jsx("h2", null, "Products")))), __jsx("div", {
+  }, __jsx("h2", null, "Product Lineup")))), __jsx("div", {
     className: "shape1"
   }, __jsx("img", {
     src: __webpack_require__(/*! ../../static/images/shape1.png */ "./static/images/shape1.png"),
@@ -31495,7 +31460,7 @@ var resetCart = function resetCart() {
 
 /***/ }),
 
-/***/ 6:
+/***/ 3:
 /*!*************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fproducts&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fproducts.js ***!
   \*************************************************************************************************************************************************************************/
@@ -31518,5 +31483,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js","styles"]]]);
+},[[3,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=products.js.map
