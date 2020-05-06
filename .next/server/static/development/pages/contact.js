@@ -298,10 +298,10 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       className: "nav-item"
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
       activeClassName: "active",
-      href: "/contact"
+      href: "/"
     }, __jsx("a", {
       className: "nav-link"
-    }, "Contact")))))))));
+    }, "\xA0")))))))));
   }
 
 }

@@ -40,7 +40,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Visitor Management System</h2><br/>
+                                    <h3>Visitor Management System</h3><br/>
                                     <ul>
                                     <li>Register your visitors with their face or other details</li>
                                     <li>Share the QR code generated with the visitor</li>
@@ -88,7 +88,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Automated Vehicle Access</h2><br/>
+                                    <h3>Automated Vehicle Access</h3><br/>
                                     <ul>
                                         <li>Register license plates of vehicles of owners in the property</li>
                                         <li>Automatically open gate once plate is recognized</li>
@@ -111,7 +111,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Incident Management System</h2><br/>
+                                    <h3>Incident Management System</h3><br/>
                                     <ul>
                                     <li>Snap a incident in your apartment like overflowing garbage, illegal parking and report to management using the app</li>
                                     <li>Track resolution status using the app</li>
@@ -158,7 +158,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Facility Reservation</h2><br/>
+                                    <h3>Facility Reservation</h3><br/>
                                     <ul>
                                         <li>Check availability of common facilities like Tennis courts, Banquet Halls, Swimming Pool</li>
                                         <li>Reserve your slot online</li>
@@ -182,7 +182,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Common Utility Control</h2><br/>
+                                    <h3>Common Utility Control</h3><br/>
                                     <ul>
                                         <li>Turn on/Turn off common utilities like lights, motor etc remotely</li>
                                         <li>Birds eye view of status of utilities</li>
@@ -225,7 +225,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Secure Access to Facilities</h2><br/>
+                                    <h3>Secure Access to Facilities</h3><br/>
                                     <ul>
                                         <li>Secure access to facilities using Smart Property App</li>
                                         <li>Provide access using face recognition terminals or simple app based access</li>
@@ -248,7 +248,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Smart Home Solutions</h2><br/>
+                                    <h3>Smart Home Solutions</h3><br/>
                                     <ul>
                                         <li>Complete home automation solution</li>
                                         <li>Control indoor & outdoor lights, heat, ventilation, air conditioning in the house, lock or open the doors & gates, to control electrical & electronic appliances and so on using various control systems with appropriate sensors. It may also include home security such as access control and alarm systems.</li>

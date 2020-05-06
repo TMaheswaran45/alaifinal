@@ -39,7 +39,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>BlueGenie - Smart Health Assistant</h1>
+                                    <h3>BlueGenie - Smart Health Assistant</h3>
                                     <ul>
                                     <li>Blue Genie is the smart device we have developed, capable of answering health related queries and displaying relevant information visually. BG works on natural language processing, converting your voice to a programmatical query on the health related data and responding via audio and visual information</li>
                                     </ul>
@@ -84,7 +84,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>Patient Monitoring</h1>
+                                    <h3>Patient Monitoring</h3>
                                     <ul>
                                         <li>Monitor Patient Vitals remotely (Temperature, Pressure) in ICU</li>
                                         <li>Monitor progress of dialysis treatments remotely and avoid frequent trips to the beds</li>
@@ -107,7 +107,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>Tele Consultation Platform</h1>
+                                    <h3>Tele Consultation Platform</h3>
                                     <ul>
                                         <li>With the advent of Covid 19, there has been a lot of need for Tele medicine and consultation</li>
                                         <li>EWe have prtnered with Quapt Technologies to launch a diet consulation plaform. For more details visit oolsum.com</li>

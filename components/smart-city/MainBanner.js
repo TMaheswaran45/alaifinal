@@ -39,7 +39,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Smart Lockers</h2>
+                                    <h3>Smart Lockers</h3>
                                     <p>Hi Tech lockers that open and close based on face recognition. Register up to 1000 users with a single installation. No more headaches with lost locker keys or pins</p>
                                     <Link href="#">
                                         <a className="btn btn-primary">Get Started</a>
@@ -82,7 +82,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Thermal Scanning & Social Distancing Enforcement</h2>
+                                    <h3>Thermal Scanning & Social Distancing Enforcement</h3>
                                     <ul>
                                         <li>Alert if someone has a fever while entering the premises</li>
                                         <li>Ensure social distancing by using buzzers when its not followed</li>
@@ -105,7 +105,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Smart Waste Management</h2>
+                                    <h3>Smart Waste Management</h3>
                                     <ul>
                                         <li>Automatically Notify garbage collection team for collection of filled trash cans </li>
                                         <li>Alert mainenance team as soon as the recycle bin is filled to a certain extent</li>
@@ -153,7 +153,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>Smart Classroom</h2>
+                                    <h3>Smart Classroom</h3>
                                     <ul>
                                         <li>Check and alert malpractices during examinations using smart camera</li>
                                     </ul>

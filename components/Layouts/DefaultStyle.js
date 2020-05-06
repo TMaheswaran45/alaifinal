@@ -140,8 +140,8 @@ class DefaultStyle extends React.Component {
                                     </li>
     
                                     <li className="nav-item">
-                                        <Link activeClassName="active" href="/contact">
-                                            <a className="nav-link">Contact</a>
+                                        <Link activeClassName="active" href="/">
+                                            <a className="nav-link">&nbsp;</a>
                                         </Link>
                                     </li>
 

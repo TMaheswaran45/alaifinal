@@ -53,7 +53,7 @@ class MainBanner extends Component {
                     </div>
                     <div className="col-lg-6">
                         <div className="repair-banner-content">
-                            <h2>Add Intelligence to existing systems (Cranes)</h2>
+                            <h3>Add Intelligence to existing systems (Cranes)</h3>
                             <ul>
                                 <li>3 Point data collection</li>
                                 <li>Thorough data acquisition & IOT systems</li>
@@ -74,7 +74,7 @@ class MainBanner extends Component {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="repair-banner-content">
-                            <h2>Tracking</h2>
+                            <h3>Tracking</h3>
                             <ul>
                             <li>Container / Truck movement analysis /Routing history</li>
                             <li>Roadway congestion monitoring</li>
@@ -117,7 +117,7 @@ class MainBanner extends Component {
                     </div>
                     <div className="col-lg-6">
                         <div className="repair-banner-content">
-                            <h2>Analytics</h2>
+                            <h3>Analytics</h3>
                             <ul>
                             <li>Save fuel and time through improved routing and data collection.</li>
                             <li>Microscopic and macroscopic modelling for cargo handling.</li>

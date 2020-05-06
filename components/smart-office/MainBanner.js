@@ -40,7 +40,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>Smart Lockers</h1>
+                                    <h3>Smart Lockers</h3>
                                     <p>Hi Tech lockers that open and close based on face recognition. Register up to 1000 users with a single installation. No more headaches with lost locker keys or pins</p>
                                     <Link href="#">
                                         <a className="btn btn-primary">Get Started</a>
@@ -83,7 +83,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>Biometric Access Control + Thermal Scanning</h1>
+                                    <h3>Biometric Access Control + Thermal Scanning</h3>
                                     <ul>
                                         <li>Enable access to your employees using face recognition</li>
                                         <li>Automatically check temperature on entry and stop access if temperature is beyond threshold</li>
@@ -107,7 +107,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h1>Facility Booking and Access System</h1>
+                                    <h3>Facility Booking and Access System</h3>
                                     <ul>
                                         <li>Select and reserve meeting rooms based on availability</li>
                                         <li>Enable access based on QR Code / Biometrics</li>

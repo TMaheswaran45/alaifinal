@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -298,10 +298,10 @@ class DefaultStyle extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Componen
       className: "nav-item"
     }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_3__["default"], {
       activeClassName: "active",
-      href: "/contact"
+      href: "/"
     }, __jsx("a", {
       className: "nav-link"
-    }, "Contact")))))))));
+    }, "\xA0")))))))));
   }
 
 }
@@ -3130,7 +3130,7 @@ const resetCart = () => {
 
 /***/ }),
 
-/***/ 5:
+/***/ 7:
 /*!*********************************!*\
   !*** multi ./pages/products.js ***!
   \*********************************/

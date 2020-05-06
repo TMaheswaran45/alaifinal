@@ -213,10 +213,10 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
-        href: "/contact"
+        href: "/"
       }, __jsx("a", {
         className: "nav-link"
-      }, "Contact")))))))));
+      }, "\xA0")))))))));
     }
   }]);
 
@@ -31460,7 +31460,7 @@ var resetCart = function resetCart() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!*************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fproducts&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fproducts.js ***!
   \*************************************************************************************************************************************************************************/
@@ -31483,5 +31483,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=products.js.map

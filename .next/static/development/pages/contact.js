@@ -213,10 +213,10 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
-        href: "/contact"
+        href: "/"
       }, __jsx("a", {
         className: "nav-link"
-      }, "Contact")))))))));
+      }, "\xA0")))))))));
     }
   }]);
 

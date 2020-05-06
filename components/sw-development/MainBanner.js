@@ -39,7 +39,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>App Development</h2>
+                                    <h3>App Development</h3>
                                     <p>We have a small pool of app development experts (Android & Hybrid) who have developed some remarkable apps in the las few years</p>
                                     <Link href="#">
                                         <a className="btn btn-primary">Contact Us</a>
@@ -82,7 +82,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>AI & Machine Learning</h2>
+                                    <h3>AI & Machine Learning</h3>
                                     <ul>
                                         <li>Machine Learning - Modelling & Execution</li>
                                         <li>Data Labelling & Training</li>
@@ -105,7 +105,7 @@ class MainBanner extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>BPM</h2>
+                                    <h3>BPM</h3>
                                     <ul>
                                         <li>Work with out consultants to model your business process using tools like Lombardi. We have people with more than 8 years of expertise with lombardi</li>
                                     </ul>
@@ -145,7 +145,7 @@ class MainBanner extends Component {
                             </div>
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
-                                    <h2>RPA</h2>
+                                    <h3>RPA</h3>
                                     <ul>
                                         <li>Work with our experts to automate your repetitive business process using RPA tools like BluePrism</li>
                                     </ul>
