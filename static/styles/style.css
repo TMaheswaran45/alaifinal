@@ -5249,6 +5249,7 @@ Coming Soon CSS
   transform: translateX(-50%);
   background: url(../images/oops-bg.jpg) no-repeat;
   -webkit-background-clip: text;
+  background-clip: border-box;
   -webkit-text-fill-color: transparent;
   background-size: cover;
   background-position: center;
@@ -5606,6 +5607,19 @@ Repair Services CSS
 .single-repair-services.bg6 {
   background-image: url(../images/repair-services-img/sw-development-sq.jpg);
 }
+
+.single-repair-services.bg7 {
+  background-image: url(../images/repair-services-img/erp-sq4.jpg);
+}
+
+.single-repair-services.bg8 {
+  background-image: url(../images/repair-services-img/hardware-sq2.jpg);
+}
+
+.single-repair-services.bg9 {
+  background-image: url(../images/repair-services-img/smart-solutions-sq.jpg);
+}
+
 
 .single-repair-services::before {
   position: absolute;

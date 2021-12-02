@@ -17,7 +17,7 @@ export default class Footer extends React.Component {
                                         </a>
                                     </Link>
                                 </div>
-                                <p>ALAI Labs is an IoT Technology company based in Singapore with a development center in India. <br />At ALAI Labs, we are passionate about developing next-generation ingenious solutions. Our Products are affordable without compromising on the capability / quality.</p>
+                                <p>Alai Labs is an IoT Technology company based in Singapore with a development center in India. <br />At ALAI Labs, we are passionate about developing next-generation ingenious solutions. Our Products are affordable without compromising on the capability / quality.</p>
                             </div>
                         </div>
 
@@ -25,13 +25,13 @@ export default class Footer extends React.Component {
 
                         <div className="col-lg-4 col-md-6">
                             <div className="single-footer-widget">
-                                <h3>India Address</h3>
-                                
+                                <h3>India (Development Center)</h3>
+                                <h6>ALAI TECHNOLOGY LABS INDIA PRIVATE LIMITED</h6>
                                 <ul className="footer-contact-info">
                                     <li> 
                                         <Icon.MapPin />
-                                        24, A3, Subhagraha apartments, <br />Balraman St,<br />
-                                        Baktavatsalam Nagar, Adyar, Chennai, India
+                                        24, A3, Subhagraha apartments, <br />Balraman St,
+                                        Baktavatsalam Nagar, <br />Adyar, Chennai, India
                                     </li>
                                     <li>
                                         <Icon.Mail />
@@ -43,11 +43,12 @@ export default class Footer extends React.Component {
                                     </li>
                                 </ul>
                             </div>
+                            <div></div>
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="single-footer-widget">
-                                <h3>Singapore Address</h3>
-                                
+                                <h3>Singapore (Head Office)</h3>
+                                <h6>ALAI LABS PTE LTD</h6>
                                 <ul className="footer-contact-info">
                                     <li> 
                                         <Icon.MapPin />
@@ -91,7 +92,7 @@ export default class Footer extends React.Component {
 
                         <div className="col-lg-12 col-md-12">
                             <div className="copyright-area">
-                                <p>Copyright @2020 Alai Technology Labs. All rights reserved</p>
+                                <p>Copyright @2021 Alai Labs Pte ltd. All rights reserved</p>
                             </div>
                         </div>
                     </div>

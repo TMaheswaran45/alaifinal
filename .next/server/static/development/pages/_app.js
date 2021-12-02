@@ -329,12 +329,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
     }
 
     return __jsx(next_app__WEBPACK_IMPORTED_MODULE_1__["Container"], null, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_2__["DefaultSeo"], {
-      title: "StartP - React Next IT Startups & Digital Services Template",
+      title: "Alai Labs - NextGen IoT Solutions",
       description: "StartP is a React and Bootstrap 4 based Professional website template. This has been built with React, ES6+ and as framework Next.js and Express.js.",
       openGraph: {
         type: "website",
         locale: "en_IE",
-        url: "https://startp-react.envytheme.com/",
+        url: "automatenow.co",
         site_name: "StartP - React Next IT Startups & Digital Services Template"
       }
     }), __jsx(next_head__WEBPACK_IMPORTED_MODULE_5___default.a, null, __jsx("link", {

@@ -228,8 +228,31 @@
   .features-area {
     padding-bottom: 20px;
   }
+
+  .col-container {
+    display: flex;
+    width: 100%;
+  }
+  .col {
+    flex: 1;
+    padding-left: 16px;
+  }
+
+  .col-container .icon {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-bottom: 20px;
+  }
+  .col-container h3 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  
   .single-features {
     padding-left: 20px;
+        
   }
   .single-features .icon {
     position: relative;
@@ -241,6 +264,7 @@
     font-size: 17px;
     margin-bottom: 10px;
   }
+
   .team-area {
     padding-bottom: 20px;
   }
@@ -712,6 +736,7 @@
   }
   .single-repair-services h3 {
     font-size: 17px;
+    
   }
   .single-repair-services .icon {
     width: 65px;
@@ -1388,6 +1413,7 @@
   .services-left-image.single-left-image img.bg-image {
     display: none;
   }
+  
   .single-features {
     padding-left: 20px;
   }

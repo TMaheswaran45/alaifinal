@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_app.js"],{
 
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
@@ -11089,12 +11089,12 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
       }
 
       return __jsx(next_app__WEBPACK_IMPORTED_MODULE_7__["Container"], null, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_8__["DefaultSeo"], {
-        title: "StartP - React Next IT Startups & Digital Services Template",
+        title: "Alai Labs - NextGen IoT Solutions",
         description: "StartP is a React and Bootstrap 4 based Professional website template. This has been built with React, ES6+ and as framework Next.js and Express.js.",
         openGraph: {
           type: "website",
           locale: "en_IE",
-          url: "https://startp-react.envytheme.com/",
+          url: "automatenow.co",
           site_name: "StartP - React Next IT Startups & Digital Services Template"
         }
       }), __jsx(next_head__WEBPACK_IMPORTED_MODULE_11___default.a, null, __jsx("link", {
@@ -11460,7 +11460,7 @@ var initStore = function initStore() {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
-module.exports = __webpack_require__(/*! /Users/murali/Downloads/alai-website-static/default/alai-ws-mp/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! C:\Users\Dell\Desktop\alai-ws-mp\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),

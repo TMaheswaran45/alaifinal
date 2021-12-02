@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/contact.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\contact.js"],{
 
 /***/ "./components/Layouts/DefaultStyle.js":
 /*!********************************************!*\
@@ -157,52 +157,144 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
-        href: "/smart-office"
+        href: "/iiot-sensors-ai-edge"
       }, __jsx("a", {
         className: "nav-link"
-      }, "Smart Offices"))), __jsx("li", {
+      }, "IIoT Sensors and AI Edge Systems ", __jsx(react_feather__WEBPACK_IMPORTED_MODULE_11__["ChevronDown"], null))), __jsx("ul", {
+        className: "dropdown_menu"
+      }, __jsx("li", {
+        className: "nav-item"
+      }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/industrial-vision-system-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Industrial Vision System (Object counting, Identification, Quality check & Maintenance)")), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/robotic-arm-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Robotic Arm")), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/smart-vehicle-entry-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Smart Vehicle Entry System")), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/smart-bin-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Smart Bin")), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/industrial-people-counting-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Industrial Vision System (People counting and Identification) ")), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/face-recognition-terminal-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Face recognition Terminal")), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/uhf-rfid-reader-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "UHF RFID Reader & RF Tag")), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/pos-billing-machine-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "POS Billing Machine")), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/biometric-attendance-system-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Biometric Attendance System"))))), __jsx("li", {
+        className: "nav-item"
+      }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/erp-software"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Smart ERP Solutions ", __jsx(react_feather__WEBPACK_IMPORTED_MODULE_11__["ChevronDown"], null))), __jsx("ul", {
+        className: "dropdown_menu"
+      }, __jsx("li", {
+        className: "nav-item"
+      }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/crm-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Customer Relationship Management")), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/hrm-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Human Resource Management")), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/marketing-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Marketing Management")), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/finance-inventory-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Finance & Inventory Management")), __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/facility-mangement-features"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Facility Management "))))), __jsx("li", {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
         href: "/smart-property"
       }, __jsx("a", {
         className: "nav-link"
-      }, "Smart Properties"))), __jsx("li", {
+      }, "Smart Property"))), __jsx("li", {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
-        href: "/smart-city"
+        href: "#"
       }, __jsx("a", {
         className: "nav-link"
-      }, "Smart Cities"))), __jsx("li", {
+      }, "Smart Waste Management "))), __jsx("li", {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
-        href: "/smart-hospital"
+        href: "/smart-office"
       }, __jsx("a", {
         className: "nav-link"
-      }, "Smart Healthcare"))), __jsx("li", {
+      }, "Smart Office"))), __jsx("li", {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
         href: "/smart-port"
       }, __jsx("a", {
         className: "nav-link"
-      }, "Smart Container Terminals"))), __jsx("li", {
+      }, "Smart Port"))), __jsx("li", {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
         href: "/sw-development"
       }, __jsx("a", {
         className: "nav-link"
-      }, "Software Services"))))), __jsx("li", {
+      }, "Software Development"))), __jsx("li", {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
-        href: "/products"
+        href: "/smart-hospital"
       }, __jsx("a", {
         className: "nav-link"
-      }, "Products"))), __jsx("li", {
+      }, "Smart Hospital"))))), __jsx("li", {
+        className: "nav-item"
+      }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "#"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Our Success story"))), __jsx("li", {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
@@ -213,10 +305,17 @@ var DefaultStyle = /*#__PURE__*/function (_React$Component) {
         className: "nav-item"
       }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
         activeClassName: "active",
-        href: "/"
+        href: "/contact"
       }, __jsx("a", {
         className: "nav-link"
-      }, "\xA0")))))))));
+      }, "Contact Us"))), __jsx("li", {
+        className: "nav-item"
+      }, __jsx(_common_ActiveLink__WEBPACK_IMPORTED_MODULE_10__["default"], {
+        activeClassName: "active",
+        href: "/freedemo"
+      }, __jsx("a", {
+        className: "nav-link"
+      }, "Get a Free Demo")))))))));
     }
   }]);
 
@@ -301,21 +400,21 @@ var Footer = /*#__PURE__*/function (_React$Component) {
         src: __webpack_require__(/*! ../../static/images/alai_logo.png */ "./static/images/alai_logo.png"),
         alt: "logo",
         width: "150px"
-      })))), __jsx("p", null, "ALAI Labs is an IoT Technology company based in Singapore with a development center in India. ", __jsx("br", null), "At ALAI Labs, we are passionate about developing next-generation ingenious solutions. Our Products are affordable without compromising on the capability / quality."))), __jsx("div", {
+      })))), __jsx("p", null, "Alai Labs is an IoT Technology company based in Singapore with a development center in India. ", __jsx("br", null), "At ALAI Labs, we are passionate about developing next-generation ingenious solutions. Our Products are affordable without compromising on the capability / quality."))), __jsx("div", {
         className: "col-lg-4 col-md-6"
       }, __jsx("div", {
         className: "single-footer-widget"
-      }, __jsx("h3", null, "India Address"), __jsx("ul", {
+      }, __jsx("h3", null, "India (Development Center)"), __jsx("h6", null, "ALAI TECHNOLOGY LABS INDIA PRIVATE LIMITED"), __jsx("ul", {
         className: "footer-contact-info"
-      }, __jsx("li", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_7__["MapPin"], null), "24, A3, Subhagraha apartments, ", __jsx("br", null), "Balraman St,", __jsx("br", null), "Baktavatsalam Nagar, Adyar, Chennai, India"), __jsx("li", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_7__["Mail"], null), "Email: ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      }, __jsx("li", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_7__["MapPin"], null), "24, A3, Subhagraha apartments, ", __jsx("br", null), "Balraman St, Baktavatsalam Nagar, ", __jsx("br", null), "Adyar, Chennai, India"), __jsx("li", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_7__["Mail"], null), "Email: ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "#"
       }, __jsx("a", null, "info@alai-labs.com"))), __jsx("li", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_7__["PhoneCall"], null), "Phone: ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "#"
-      }, __jsx("a", null, "+91-44-4851-8350")))))), __jsx("div", {
+      }, __jsx("a", null, "+91-44-4851-8350"))))), __jsx("div", null)), __jsx("div", {
         className: "col-lg-4 col-md-6"
       }, __jsx("div", {
         className: "single-footer-widget"
-      }, __jsx("h3", null, "Singapore Address"), __jsx("ul", {
+      }, __jsx("h3", null, "Singapore (Head Office)"), __jsx("h6", null, "ALAI LABS PTE LTD"), __jsx("ul", {
         className: "footer-contact-info"
       }, __jsx("li", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_7__["MapPin"], null), "10 Anson Road, ", __jsx("br", null), "#28-01 International Plaza, ", __jsx("br", null), "Singapore \u2013 079903"), __jsx("li", null, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_7__["Mail"], null), "Email: ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "#"
@@ -343,7 +442,7 @@ var Footer = /*#__PURE__*/function (_React$Component) {
         className: "col-lg-12 col-md-12"
       }, __jsx("div", {
         className: "copyright-area"
-      }, __jsx("p", null, "Copyright @2020 Alai Technology Labs. All rights reserved"))))), __jsx("img", {
+      }, __jsx("p", null, "Copyright @2021 Alai Labs Pte ltd. All rights reserved"))))), __jsx("img", {
         src: __webpack_require__(/*! ../../static/images/map.png */ "./static/images/map.png"),
         className: "map",
         alt: "map"
@@ -721,38 +820,6 @@ var ContactBody = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, null, __jsx("section", {
-        className: "contact-info-area ptb-80"
-      }, __jsx("div", {
-        className: "container"
-      }, __jsx("div", {
-        className: "row"
-      }, __jsx("div", {
-        className: "col-lg-4 col-md-6"
-      }, __jsx("div", {
-        className: "contact-info-box"
-      }, __jsx("div", {
-        className: "icon"
-      }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_9__["Mail"], null)), __jsx("h3", null, "Mail Here"), __jsx("p", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "#"
-      }, __jsx("a", null, "admin@startp.com"))), __jsx("p", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "#"
-      }, __jsx("a", null, "info@startp.com"))))), __jsx("div", {
-        className: "col-lg-4 col-md-6"
-      }, __jsx("div", {
-        className: "contact-info-box"
-      }, __jsx("div", {
-        className: "icon"
-      }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_9__["Map"], null)), __jsx("h3", null, "Visit Here"), __jsx("p", null, "27 Division St, New York, NY 10002, ", __jsx("br", null), " USA"))), __jsx("div", {
-        className: "col-lg-4 col-md-6 offset-lg-0 offset-md-3"
-      }, __jsx("div", {
-        className: "contact-info-box"
-      }, __jsx("div", {
-        className: "icon"
-      }, __jsx(react_feather__WEBPACK_IMPORTED_MODULE_9__["Phone"], null)), __jsx("h3", null, "Call Here"), __jsx("p", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "#"
-      }, __jsx("a", null, "+123 456 7890"))), __jsx("p", null, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        href: "#"
-      }, __jsx("a", null, "+241 452 4526")))))))), __jsx(_GoogleMapComponent__WEBPACK_IMPORTED_MODULE_10__["default"], null), __jsx("section", {
         className: "contact-area ptb-80"
       }, __jsx("div", {
         className: "container"
@@ -5475,10 +5542,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fcontact.js!./":
-/*!*******************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fcontact.js ***!
-  \*******************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CDell%5CDesktop%5Calai-ws-mp%5Cpages%5Ccontact.js!./":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CDell%5CDesktop%5Calai-ws-mp%5Cpages%5Ccontact.js ***!
+  \***********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -31609,7 +31676,7 @@ module.exports = "/_next/static/images/about-one-9199eda9e588b416f7cfafa68e659c2
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/alai_logo-f49327dec228e11d2f7c1768453728e6.png";
+module.exports = "/_next/static/images/alai_logo-3bbae5f6d7c8b1ee5272392f9156b03c.png";
 
 /***/ }),
 
@@ -31690,14 +31757,14 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALYAAACSCAYAAADo
 
 /***/ }),
 
-/***/ 10:
-/*!***********************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fcontact.js ***!
-  \***********************************************************************************************************************************************************************/
+/***/ 5:
+/*!***************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CDell%5CDesktop%5Calai-ws-mp%5Cpages%5Ccontact.js ***!
+  \***************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fcontact.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2FUsers%2Fmurali%2FDownloads%2Falai-website-static%2Fdefault%2Falai-ws-mp%2Fpages%2Fcontact.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CDell%5CDesktop%5Calai-ws-mp%5Cpages%5Ccontact.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=C%3A%5CUsers%5CDell%5CDesktop%5Calai-ws-mp%5Cpages%5Ccontact.js!./");
 
 
 /***/ }),
@@ -31713,5 +31780,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js"]]]);
+},[[5,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=contact.js.map

@@ -11,7 +11,7 @@ class Cta extends Component {
                             <div className="cta-repair-content">
                                 <h3>Reach us to discover new possibilities</h3>
                                 <p>The solutions we have developed till now are just the tip of the iceberg. The possibilities IoT offers are limitless. our team with a very diversified skillset can offer you simple and realistic solutions to your needs. Please reach out to us to see how we can be of assistance. You would sure not regret it.</p>
-                                <Link href="#">
+                                <Link href="/contact?style=default">
                                     <a className="btn btn-primary">Contact Us</a>
                                 </Link>
                             </div>

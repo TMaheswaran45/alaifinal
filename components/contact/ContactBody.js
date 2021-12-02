@@ -91,7 +91,7 @@ export default class ContactBody extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <section className="contact-info-area ptb-80">
+                {/* <section className="contact-info-area ptb-80">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-4 col-md-6">
@@ -143,9 +143,9 @@ export default class ContactBody extends React.Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
-                <GoogleMapComponent />
+               {/* <GoogleMapComponent />*/}
 
                 <section className="contact-area ptb-80">
                     <div className="container">

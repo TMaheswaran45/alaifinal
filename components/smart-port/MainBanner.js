@@ -6,7 +6,7 @@ class MainBanner extends Component {
     render() {
         return (
             <div className="repair-main-banner">
-            <div className="container">
+             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-12">
                         <div className="repair-banner-image">

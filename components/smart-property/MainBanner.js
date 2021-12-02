@@ -47,8 +47,8 @@ class MainBanner extends Component {
                                     <li>Visitor enters the apartment either after his face is matched or after presenting the QR code</li>
                                     <li>Unregistered Visitor? No problem. Get the visitor to talk to the resident using the video call module installed at the guards gate</li>
                                     </ul>
-                                    <Link href="#">
-                                        <a className="btn btn-primary">Get Started</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">For More Information</a>
                                     </Link>
                                 </div>
                             </div>
@@ -93,8 +93,8 @@ class MainBanner extends Component {
                                         <li>Register license plates of vehicles of owners in the property</li>
                                         <li>Automatically open gate once plate is recognized</li>
                                     </ul>
-                                    <Link href="#">
-                                        <a className="btn btn-primary">Download Brochure</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">For More Information</a>
                                     </Link>
                                 </div>
                             </div>
@@ -117,8 +117,8 @@ class MainBanner extends Component {
                                     <li>Track resolution status using the app</li>
                                     <li>Management can view and track all incidents using smart phone</li>
                                     </ul>
-                                    <Link href="#">
-                                        <a className="btn btn-primary">View More Details</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">For More Information</a>
                                     </Link>
                                 </div>
                             </div>
@@ -164,8 +164,8 @@ class MainBanner extends Component {
                                         <li>Reserve your slot online</li>
                                         <li>Enjoy using it</li>
                                     </ul>
-                                    <Link href="#">
-                                        <a className="btn btn-primary">Download Brochure</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">For More Information</a>
                                     </Link>
                                 </div>
                             </div>
@@ -189,8 +189,8 @@ class MainBanner extends Component {
                                         <li>Monitor energy consumption of common utilities</li>
                                         <li>Save on utility bills by using smart management features built in the app</li>
                                     </ul>
-                                    <Link href="#">
-                                        <a className="btn btn-primary">Get Started</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">For More Information</a>
                                     </Link>
                                 </div>
                             </div>
@@ -230,8 +230,8 @@ class MainBanner extends Component {
                                         <li>Secure access to facilities using Smart Property App</li>
                                         <li>Provide access using face recognition terminals or simple app based access</li>
                                     </ul>
-                                    <Link href="#">
-                                        <a className="btn btn-primary">Download Brochure</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">For More Information</a>
                                     </Link>
                                 </div>
                             </div>
@@ -255,8 +255,8 @@ class MainBanner extends Component {
                                         <li><b>CAMO FIT WIFI Hidden Smart Switch </b> - Perfect intelligent control solutions for your home or workplace. It also Fits for various household appliances, such as lamps, washer machine. With the help of CAMO FIT WIFI Hidden Smart Switch we can control our voice and compatible with amazon Alex, Google home, IFTTT. </li>
                                         <li><b>QUICK FIT WIFI & RF Smart Switch </b> - Absolutely secure and perfect combination between the wireless and wired switch. It is Exquisite, elegant and it is thunder and lighting resistance.</li>
                                     </ul>
-                                    <Link href="#">
-                                        <a className="btn btn-primary">Get Started</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">For More Information</a>
                                     </Link>
                                 </div>
                             </div>

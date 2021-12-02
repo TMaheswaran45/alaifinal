@@ -42,8 +42,8 @@ class MainBanner extends Component {
                                 <div className="repair-banner-content">
                                     <h3>Smart Lockers</h3>
                                     <p>Hi Tech lockers that open and close based on face recognition. Register up to 1000 users with a single installation. No more headaches with lost locker keys or pins</p>
-                                    <Link href="#">
-                                        <a className="btn btn-primary">Get Started</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">For More Information</a>
                                     </Link>
                                 </div>
                             </div>
@@ -89,8 +89,8 @@ class MainBanner extends Component {
                                         <li>Automatically check temperature on entry and stop access if temperature is beyond threshold</li>
                                         <li>Automatically check for sickness based on emotions and alert accordingly</li>
                                     </ul>
-                                    <Link href="#">
-                                        <a className="btn btn-primary">Get Started</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">For More Information</a>
                                     </Link>
                                 </div>
                             </div>
@@ -113,8 +113,8 @@ class MainBanner extends Component {
                                         <li>Enable access based on QR Code / Biometrics</li>
                                         <li>Automatically turn on / off utilities in meeting room based on schedule</li>
                                     </ul>
-                                    <Link href="#">
-                                        <a className="btn btn-primary">Get Started</a>
+                                    <Link href="/contact">
+                                        <a className="btn btn-primary">For More Information</a>
                                     </Link>
                                 </div>
                             </div>
