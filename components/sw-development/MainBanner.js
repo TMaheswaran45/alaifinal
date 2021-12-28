@@ -40,7 +40,7 @@ class MainBanner extends Component {
                             <div className="col-lg-6">
                                 <div className="repair-banner-content">
                                     <h3>App Development</h3>
-                                    <p>We have a small pool of app development experts (Android & Hybrid) who have developed some remarkable apps in the las few years</p>
+                                    <ul><li>We have a small pool of app development experts (Android & Hybrid) who have developed some remarkable apps in the las few years</li></ul>
                                     <Link href="/contact">
                                         <a className="btn btn-primary">For More Information</a>
                                     </Link>

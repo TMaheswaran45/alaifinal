@@ -2241,9 +2241,9 @@ Team CSS
 }
 
 .single-team .team-image img {
-  border: 3px solid #cdf1d8;
+  /* border: 3px solid #cdf1d8; */
   width: auto !important;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   display: inline-block !important;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -2301,7 +2301,7 @@ Team CSS
   background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%);
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  padding: 10px 15px;
+  padding: 2px 2px;
   border-radius: 75px;
   margin-bottom: 25px;
   margin-left: 10px;
@@ -5585,15 +5585,15 @@ Repair Services CSS
 }
 
 .single-repair-services.bg1 {
-  background-image: url(../images/repair-services-img/smart-office-sq.jpg);
+  background-image: url(../images/repair-services-img/smart-office-sq1.jpg);
 }
 
 .single-repair-services.bg2 {
-  background-image: url(../images/repair-services-img/smart-property-sq.jpg);
+  background-image: url(../images/repair-services-img/smart-property-sq1.jpg);
 }
 
 .single-repair-services.bg3 {
-  background-image: url(../images/repair-services-img/smart-city-sq.jpg);
+  background-image: url(../images/repair-services-img/waste-sq.jpg);
 }
 
 .single-repair-services.bg4 {
@@ -5601,7 +5601,7 @@ Repair Services CSS
 }
 
 .single-repair-services.bg5 {
-  background-image: url(../images/repair-services-img/smart-port-sq.jpg);
+  background-image: url(../images/repair-services-img/smart-port-sq1.jpg);
 }
 
 .single-repair-services.bg6 {
@@ -5613,11 +5613,11 @@ Repair Services CSS
 }
 
 .single-repair-services.bg8 {
-  background-image: url(../images/repair-services-img/hardware-sq2.jpg);
+  background-image: url(../images/repair-services-img/sucess-sq.jpg);
 }
 
 .single-repair-services.bg9 {
-  background-image: url(../images/repair-services-img/smart-solutions-sq.jpg);
+  background-image: url(../images/repair-services-img/iiot-sq1.jpg);
 }
 
 
@@ -5741,11 +5741,13 @@ Repair CTA CSS
   padding-top: 10px;
   padding-bottom: 10px;
   background-image: url(../images/banner-bg2.jpg);
+  
 }
 
 .repair-cta-area container {
   padding-bottom: 10px;
   background-image: url(../images/banner-bg2.jpg);
+  
 }
 
 
@@ -5764,6 +5766,8 @@ Repair CTA CSS
 .cta-repair-img {
   text-align: right;
   background-image: url(../images/banner-bg2.jpg);
+  
+  
 }
 
 .circle-box {
@@ -8403,6 +8407,8 @@ Agency CTA CSS
   visibility: visible;
   width: 100%;
 }
+
+
 
 /* End Home eight Agency Demo */
 /*# sourceMappingURL=style.css.map */

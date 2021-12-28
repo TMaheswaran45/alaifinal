@@ -14,7 +14,7 @@ export default function POSBillingMachineFeaturesContent() {
                         <div className="col-lg-12">
                             <div className="repair-banner-content">
                                 <h4>What is POS Billing Machine ?</h4>
-                                <p>The POS billing machine is a point-of-sales billing machine that performs functions every time a sale is done. For example, updating inventory, generating an invoice, maintaining stock, etc. The retail POS billing machine is User friendly and automates your business.</p>
+                                <p>The POS billing machine is a point-of-sales billing machine that performs functions every time a sale is done. For example, updating inventory, generating an invoice, maintaining stock, etc. The retail POS billing machine is User friendly and automates your business.</p>
 
                             </div>
                         </div>
@@ -26,16 +26,17 @@ export default function POSBillingMachineFeaturesContent() {
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
                                 <h3>Benefit</h3>
-                                <p> ● Easy to install, no more installation hassles<br />
-                                    ● Zero Maintenance – Low Servicing Costs<br />
-                                    ● Simple Invoicing<br />
-                                    ● Time-Saving<br />
-                                    ● Better Purchasing / Supplier Order Management<br />
-                                    ● Getting Closer To Your Customer<br />
-                                    ● Track your sales by printing reports – Commission Reports, Bill-wise summary, Monthly reports, and many more.<br />
-                                </p>
+                                <ul>
+                                    <li>Easy to install, no more installation hassles</li>
+                                    <li>Zero Maintenance – Low Servicing Costs</li>
+                                    <li>Simple Invoicing</li>
+                                    <li>Time-Saving</li>
+                                    <li>Better Purchasing / Supplier Order Management</li>
+                                    <li>Getting Closer To Your Customer</li>
+                                    <li>Track your sales by printing reports – Commission Reports, Bill-wise summary, Monthly reports, and many more.</li>
+                                </ul>
                                 <div className="separate"></div>
-                                
+
                                 {/* <div className="separate"></div>
                                 <ul className="features-details-list">
                                     <li>Create effective email campaigns to reach and interact with your customer.</li>
@@ -69,7 +70,7 @@ export default function POSBillingMachineFeaturesContent() {
             </section>
 
             {/* <!-- 9 features or CRM --> ptb-80*/}
-           {/* <section className="features-area bg-f9f6f6">
+            {/* <section className="features-area bg-f9f6f6">
                 <div className="container-fluid p-5">
 
 

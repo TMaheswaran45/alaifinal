@@ -26,15 +26,16 @@ export default function FaceRecognitionTerminalFeaturesContent() {
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
                                 <h3>Benefit of Face recognition Terminal</h3>
-                                <p> ● Plug & play<br />
-                                    ● Forced mask wearing alert<br />
-                                    ● High performance processor with deep learning algorithm<br />
-                                    ● recognition distance: 0.3 to 2 m <br />
-                                    ● Communicates with the third-party turnstile via IO output or Wiegand<br />
-                                    ● Audio prompt for authentication result<br />
-                                </p>
+                                <ul>
+                                    <li>Plug & play</li>
+                                    <li>Forced mask wearing alert</li>
+                                    <li>High performance processor with deep learning algorithm</li>
+                                    <li>recognition distance: 0.3 to 2 m</li>
+                                    <li>Communicates with the third-party turnstile via IO output or Wiegand</li>
+                                    <li>Audio prompt for authentication result</li>
+                                </ul>
                                 <div className="separate"></div>
-                                
+
                                 {/* <div className="separate"></div>
                                 <ul className="features-details-list">
                                     <li>Create effective email campaigns to reach and interact with your customer.</li>

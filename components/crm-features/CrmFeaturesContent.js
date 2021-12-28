@@ -26,15 +26,16 @@ export default function CrmFeaturesContent() {
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
                                 <h3>Benefit of CRM</h3>
-                                <p> ● Create effective email campaigns to reach and interact with your customer. <br />
-                                    ● Proactively chat with your website visitors and convert them into potential customer. <br />
-                                    ● Create, schedule and deliver your social media content where your audiences are most likely to engage. <br />
-                                    ● Manage your sales pipeline, spot opportunities, increase win rates and grow your business. <br />
-                                    ● Provide unmatched customer service across multiple channels, languages and time zones. <br />
-                                    ● Plan, track and collaborate on client deliverables using our project management tools. <br />
-                                    ● Gain data-driven insights on your sales performance with smart dashboards and KPIs. <br />
-                                    ● Gather opinions, analyze results and discover better ways to exceed customer expectations. <br />
-                                </p>
+                                <ul>
+                                    <li>Create effective email campaigns to reach and interact with your customer. </li>
+                                    <li>Proactively chat with your website visitors and convert them into potential customer. </li>
+                                    <li>Create, schedule and deliver your social media content where your audiences are most likely to engage. </li>
+                                    <li>Manage your sales pipeline, spot opportunities, increase win rates and grow your business. </li>
+                                    <li>Provide unmatched customer service across multiple channels, languages and time zones. </li>
+                                    <li>Plan, track and collaborate on client deliverables using our project management tools. </li>
+                                    <li>Gain data-driven insights on your sales performance with smart dashboards and KPIs. </li>
+                                    <li>Gather opinions, analyze results and discover better ways to exceed customer expectations. </li>
+                                </ul>
                                 <div className="separate"></div>
                             </div>
                         </div>
@@ -72,14 +73,14 @@ export default function CrmFeaturesContent() {
                                 </div>
 
                                 <h3>Sales Force Automation</h3>
-                                <p>
-                                    <ul>
-                                        <li>Lead Management</li>
-                                        <li>Deal Management</li>
-                                        <li>Contact Management</li>
-                                        <li>Workflow Automation</li>
-                                    </ul>
-                                </p>
+
+                                <ul>
+                                    <li>Lead Management</li>
+                                    <li>Deal Management</li>
+                                    <li>Contact Management</li>
+                                    <li>Workflow Automation</li>
+                                </ul>
+
                             </div>
                         </div>
 
@@ -90,13 +91,13 @@ export default function CrmFeaturesContent() {
                                 </div>
 
                                 <h3>Analytics</h3>
-                                <p>
-                                    <ul>
-                                        <li>Reports</li>
-                                        <li>Analytical Components</li>
-                                        <li>Capabilities</li>
-                                    </ul>
-                                </p>
+
+                                <ul>
+                                    <li>Reports</li>
+                                    <li>Analytical Components</li>
+                                    <li>Capabilities</li>
+                                </ul>
+
                                 <p><br /></p>
                             </div>
                         </div>
@@ -108,12 +109,12 @@ export default function CrmFeaturesContent() {
                                 </div>
 
                                 <h3>Predictive Sales and Intelligence</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Lead & Deal Prediction</li>
                                     <li>Zia Voice</li>
                                     <li>Macro Suggestions</li>
                                 </ul>
-                                </p>
+
 
                             </div>
                         </div>
@@ -125,12 +126,12 @@ export default function CrmFeaturesContent() {
                                 </div>
 
                                 <h3>Process Management</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Sales Process Builder</li>
                                     <li>Processing Rules</li>
                                     <li>Review Process</li>
                                 </ul>
-                                </p>
+
                                 <p><br /></p>
                             </div>
                         </div>
@@ -142,12 +143,13 @@ export default function CrmFeaturesContent() {
                                 </div>
 
                                 <h3>Sales Enablement</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Quotes and Finance</li>
                                     <li>Partner Portals</li>
                                     <li>Calendar</li>
                                     <li>G-Suite and Office 365</li>
-                                </ul></p>
+                                </ul>
+
                             </div>
                         </div>
 
@@ -158,12 +160,13 @@ export default function CrmFeaturesContent() {
                                 </div>
 
                                 <h3>Customization</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Layouts</li>
                                     <li>Custom Components</li>
                                     <li>Views and Filters</li>
                                     <li>Global Selling</li>
-                                </ul></p>
+                                </ul>
+
                             </div>
                         </div>
 
@@ -174,12 +177,13 @@ export default function CrmFeaturesContent() {
                                 </div>
 
                                 <h3>Omnichannel</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Email</li>
                                     <li>Telephony</li>
                                     <li>Social</li>
                                     <li>Customer portals</li>
-                                </ul></p>
+                                </ul>
+
                             </div>
                         </div>
 
@@ -190,12 +194,13 @@ export default function CrmFeaturesContent() {
                                 </div>
 
                                 <h3>Performance Management</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Forecasting</li>
                                     <li>Territory Management</li>
                                     <li>Gamification</li>
 
-                                </ul></p>
+                                </ul>
+
                             </div>
                         </div>
 
@@ -206,12 +211,13 @@ export default function CrmFeaturesContent() {
                                 </div>
 
                                 <h3>Marketing Automation</h3>
-                                <p><ul>
+                                <ul>
                                     <li> Customer Segmentation</li>
                                     <li>Lead Nurturing</li>
                                     <li>Google Ads Integration</li>
                                     <li>Event Management</li>
-                                </ul></p>
+                                </ul>
+
                             </div>
                         </div>
 

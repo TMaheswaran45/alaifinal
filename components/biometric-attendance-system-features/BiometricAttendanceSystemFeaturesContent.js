@@ -26,15 +26,16 @@ export default function BiometricAttendanceSystemFeaturesContent() {
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
                                 <h3>Benefit of Biometric Attendance system ?</h3>
-                                <p> ● Easy to Operate and User Friendly<br />
-                                    ● Quick and Accurate Identification and Authentication<br />
-                                    ● Record attendance reliably<br />
-                                    ● Prevents fraud<br />
-                                    ● Mobile Access and Authentication<br />
-                                    ● Increased Security<br />                                
-                                </p>
+                                <ul>
+                                    <li>Easy to Operate and User Friendly</li>
+                                    <li>Quick and Accurate Identification and Authentication</li>
+                                    <li>Record attendance reliably</li>
+                                    <li>Prevents fraud</li>
+                                    <li>Mobile Access and Authentication</li>
+                                    <li>Increased Security</li>
+                                </ul>
                                 <div className="separate"></div>
-                                
+
                                 {/* <div className="separate"></div>
                                 <ul className="features-details-list">
                                     <li>Create effective email campaigns to reach and interact with your customer.</li>
@@ -51,7 +52,7 @@ export default function BiometricAttendanceSystemFeaturesContent() {
 
                         <div className="col-lg-6 features-details-image">
                             <img
-                                src={require('../../static/images/Biometric-Attendance.jpg')}
+                                src={require('../../static/images/biometric.png')}
                                 className="wow zoomIn"
                                 data-wow-delay="0.6s"
                                 alt="image" height="900px" width="600px"

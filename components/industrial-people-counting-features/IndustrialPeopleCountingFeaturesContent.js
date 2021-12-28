@@ -14,7 +14,7 @@ export default function IndustrialPeopleCountingFeaturesContent() {
                         <div className="col-lg-12">
                             <div className="repair-banner-content">
                                 <h4>What is Industrial Vision System (People counting and Identification) ?</h4>
-                                <p>People counting cameras are devices that count and monitor the flow and behavior of people visiting public places like airports, shopping centers, museums, and sports areas, etc. People counters can help to evaluate and compare the number of people visiting stores. They gather data by counting the number of people entering and exiting these places and by measuring their actions, sizes, and movement.</p>
+                                <p>People counting cameras are devices that count and monitor the flow and behavior of people visiting public places like airports, shopping centers, museums, and sports areas, etc. People counters can help to evaluate and compare the number of people visiting stores. They gather data by counting the number of people entering and exiting these places and by measuring their actions, sizes, and movement.</p>
 
                             </div>
                         </div>
@@ -26,13 +26,14 @@ export default function IndustrialPeopleCountingFeaturesContent() {
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
                                 <h3>Benefit</h3>
-                                <p> ● Ensure Social Distancing Practices<br />
-                                    ● It gives you real time data on usage of space<br />
-                                    ● Easy Installation and Configuration<br />
-                                    ● Local and Cloud Storage Data Counting Report<br />
-                                    ● Video Security<br />
-                                    ● Understand customer traffic<br />                                
-                                </p>
+                                <ul>
+                                    <li>Ensure Social Distancing Practices</li>
+                                    <li>It gives you real time data on usage of space</li>
+                                    <li>Easy Installation and Configuration</li>
+                                    <li>Local and Cloud Storage Data Counting Report</li>
+                                    <li>Video Security</li>
+                                    <li>Understand customer traffic</li>
+                                </ul>
                                 <div className="separate"></div>
                                 
                                 {/* <div className="separate"></div>

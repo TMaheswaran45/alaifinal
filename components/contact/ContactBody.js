@@ -152,12 +152,12 @@ export default class ContactBody extends React.Component {
                         <div className="section-title">
                             <h2>Get In Touch With Us</h2>
                             <div className="bar"></div>
-                            <p>Anything On your Mind. We’ll Be Glad To Assist You!</p>
+                            <p>Anything On your Mind. We'll Be Glad To Assist You!</p>
                         </div>
 
                         <div className="row h-100 justify-content-center align-items-center">
                             <div className="col-lg-6 col-md-12">
-                                <img src={require("../../static/images/about-one.png")} alt="image" />
+                                <img src={require("../../static/images/contact-us.jpg")} alt="image" />
                             </div>
 
                             <div className="col-lg-6 col-md-12">

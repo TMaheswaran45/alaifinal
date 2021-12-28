@@ -45,21 +45,12 @@ export default function FacilityMangementFeaturesContent() {
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
                                 <h3>Instant Feedback System</h3>
-                                <p> ● Collect feedback from occupants and raise helpdesk calls through web, mobile and kiosk devices, customizable user interfaces.</p>
+                                <ul> <li>Collect feedback from occupants and raise helpdesk calls through web, mobile and kiosk devices, customizable user interfaces.</li></ul>
                                 <h3>Facility Booking System</h3>
-                                <p> ● Schedule a meeting , booking of meeting rooms via kiosk / touch displays, visual booking, attendees pre-registration with visitor management, automate facility reservation.</p>
+                                <ul> <li>Schedule a meeting , booking of meeting rooms via kiosk / touch displays, visual booking, attendees pre-registration with visitor management, automate facility reservation.</li></ul>
                                 <h3>Instant Feedback System</h3>
-                                <p> ● Visitor self sign-in / out, interactive visitor management kiosk to scan visitors, black listed verification.</p>
-                                {/* <ul className="features-details-list">
-                                    <li>Create effective email campaigns to reach and interact with your customer.</li>
-                                    <li>Proactively chat with your website visitors and convert them into potential customer.</li>
-                                    <li>Create, schedule and deliver your social media content where your audiences are most likely to engage.</li>
-                                    <li>Manage your sales pipeline, spot opportunities, increase win rates and grow your business.</li>
-                                    <li>Provide unmatched customer service across multiple channels, languages and time zones.</li>
-                                    <li>Plan, track and collaborate on client deliverables using our project management tools.</li>
-                                    <li>Gain data-driven insights on your sales performance with smart dashboards and KPIs.</li>
-                                    <li>Gather opinions, analyze results and discover better ways to exceed customer expectations.</li>
-                                </ul>*/}
+                                <ul> <li>Visitor self sign-in / out, interactive visitor management kiosk to scan visitors, black listed verification.</li></ul>
+
                             </div>
                         </div>
                     </div>
@@ -96,7 +87,7 @@ export default function FacilityMangementFeaturesContent() {
                                     Scan the QR Code Using your Mobile QR Scanner will redirect to the feedback form.
 
                                 </p>
-                                
+
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 pb-1">
@@ -112,7 +103,7 @@ export default function FacilityMangementFeaturesContent() {
                                     alt="image" height="575px" width="500px"
                                 />
                                 <p>
-                                    <br/>
+                                    <br />
                                     Now You can Access the Feedback form with help of your browser Ex: Have any Cleanliness in the Garden area you can give your grievances with help of the Feedback form
 
                                 </p>
@@ -126,9 +117,9 @@ export default function FacilityMangementFeaturesContent() {
 
                                 <h3>Step 3:</h3>
                                 <img
-                                    src={require('../../static/images/facility-management-dashboard.jpg')}
+                                    src={require('../../static/images/dash-qr.jpg')}
                                     className="wow zoomIn"
-                                    alt="image" 
+                                    alt="image"
                                 />
                                 <p>
                                     We give an attractive Dashboard for an Admin use it helps to admin can view complaints and assign to the concerned department, Once Issue solved both of admin and user got a notification.

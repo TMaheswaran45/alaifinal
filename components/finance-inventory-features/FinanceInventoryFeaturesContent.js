@@ -35,39 +35,42 @@ export default function FinanceInventoryFeaturesContent() {
 
                         <div className="col-lg-3 features-details mt-2">
                             <div className="features-details-desc">
-                                <p> ●  Inventory Control<br />
-                                    ●  Inventory Management<br />
-                                    ●  Warehouse Management<br />
-                                    ●  Multichannel Selling<br />
-                                    ●  Order Management<br />
-                                    ●  Order Fulfillment<br />
-                                    ●  Reports<br />
-                                    ●  Sales Reports<br />
-                                    ●  Multi-Currency<br />
-                                    ●  FIFO Tracking<br />
-                                    ●  Automated Re-ordering<br />
-                                    ●  Stock Adjustment<br />
-                                    ●  Barcode Inventory Management<br />
-                                    ●  Serial Number Tracking<br />
-                                </p>
+
+                                <ul>
+                                    <li>  Inventory Control</li>
+                                    <li>  Inventory Management</li>
+                                    <li>  Warehouse Management</li>
+                                    <li>  Multichannel Selling</li>
+                                    <li>  Order Management</li>
+                                    <li>  Order Fulfillment</li>
+                                    <li>  Reports</li>
+                                    <li>  Sales Reports</li>
+                                    <li>  Multi-Currency</li>
+                                    <li>  FIFO Tracking</li>
+                                    <li>  Automated Re-ordering</li>
+                                    <li>  Stock Adjustment</li>
+                                    <li>  Barcode Inventory Management</li>
+                                    <li>  Serial Number Tracking</li>
+                                </ul>
                             </div>
                         </div>
                         <div className="col-lg-3 features-details mt-1">
                             <div className="features-details-desc">
                                 <h3></h3>
-                                <p> ●  Batch and Expiry Date Tracking<br />
-                                    ●  Order Transfer Tracking<br />
-                                    ●  Channel Performance Measurement<br />
-                                    ●  Payment Gateways<br />
-                                    ●  Automatic Packing Slips<br />
-                                    ●  Dashboards<br />
-                                    ●  Shipping Labels and Real-Time Rates<br />
-                                    ●  Post-Shipment Update<br />
-                                    ●  Drop shipping<br />
-                                    ●  Purchase Reports<br />
-                                    ●  Product Listing<br />
-                                    ●  Item Kitting<br />
-                                </p>
+                                <ul>
+                                    <li>Batch and Expiry Date Tracking</li>
+                                    <li>Order Transfer Tracking</li>
+                                    <li>Channel Performance Measurement</li>
+                                    <li>Payment Gateways</li>
+                                    <li>Automatic Packing Slips</li>
+                                    <li>Dashboards</li>
+                                    <li>Shipping Labels and Real-Time Rates</li>
+                                    <li>Post-Shipment Update</li>
+                                    <li>Drop shipping</li>
+                                    <li>Purchase Reports</li>
+                                    <li>Product Listing</li>
+                                    <li>Item Kitting</li>
+                                </ul>
                             </div>
                         </div>
 
@@ -91,10 +94,10 @@ export default function FinanceInventoryFeaturesContent() {
                                 src={require('../../static/images/finance-banner.jpg')}
                                 className="wow zoomIn"
                                 data-wow-delay="0.6s"
-                                alt="image" height="500px"width="1200px"
+                                alt="image" height="500px" width="1200px"
                             />
                         </div>
-                    
+
 
                     </div>
                 </div>
@@ -111,17 +114,17 @@ export default function FinanceInventoryFeaturesContent() {
                                     <Icon.Settings />
                                 </div>
                                 <h3>Invoice Software</h3>
-                                <p>
-                                    <ul>
+
+                                <ul>
                                     <li>Customizable invoices using templates</li>
                                     <li>Project management and time tracking</li>
                                     <li>Receive online payments</li>
-                                    </ul>
-                                </p>
+                                </ul>
+
                                 <p><br /></p>
-                                
+
                             </div>
-                            
+
                         </div>
 
                         <div className="col-lg-6 col-md-6">
@@ -131,14 +134,14 @@ export default function FinanceInventoryFeaturesContent() {
                                 </div>
 
                                 <h3>Analytics</h3>
-                                <p>
-                                    <ul>
+
+                                <ul>
                                     <li>Recurring payments & accounting </li>
-                                    <li>Subscription metrics & reports</li> 
+                                    <li>Subscription metrics & reports</li>
                                     <li>Subscription automation </li>
                                     <li>See real-time subscription metrics</li>
-                                    </ul>
-                                </p>
+                                </ul>
+
                             </div>
                         </div>
 
@@ -148,12 +151,12 @@ export default function FinanceInventoryFeaturesContent() {
                                     <Icon.Grid />
                                 </div>
                                 <h3>Expense</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Make online and offline travel arrangements</li>
                                     <li>Automate expense reporting</li>
                                     <li>Customize the app</li>
                                 </ul>
-                                </p>
+
                                 <p><br /></p>
                             </div>
                         </div>
@@ -165,14 +168,14 @@ export default function FinanceInventoryFeaturesContent() {
                                 </div>
 
                                 <h3>Checkout Process</h3>
-                                <p>
-                                    <ul>
+
+                                <ul>
                                     <li>Customizable invoices using templates</li>
-                                    <li>Project management and time tracking</li> 
+                                    <li>Project management and time tracking</li>
                                     <li>Subscription automation</li>
                                     <li>Receive online payments</li>
-                                    </ul>
-                                </p>
+                                </ul>
+
                             </div>
                         </div>
                     </div>

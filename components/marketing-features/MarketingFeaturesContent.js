@@ -15,14 +15,14 @@ export default function MarketingFeaturesContent() {
                             <div className="repair-banner-content">
                                 <h4>What is Marketing Management?</h4>
                                 <p>That software helps you manage your marketing activities successfully across multiple brands Like Social media, Email marketing, Survey & etc.. & Channels </p>
-                                
+
                             </div>
-                           
+
                             <div className="repair-banner-content">
                                 <h4>Why ALAI Marketing Management?</h4>
                                 <p>Marketing software is a very important tools because it helps to promote your business day to day marketing activities such as create brand awareness and to make your business stand out. Without marketing software, your business doesn't have a voice and you can't reach out and connect with people.</p>
                             </div>
-                            
+
                         </div>
                         <div className="col-lg-6 features-details-image">
                             <img
@@ -32,10 +32,10 @@ export default function MarketingFeaturesContent() {
                                 alt="image"
                             />
                         </div>
-                        
+
                     </div>
                     <div className="separate"></div>
-                    
+
 
                     <div className="row align-items-center">
                         <div className="col-lg-12 features-details-image">
@@ -47,7 +47,7 @@ export default function MarketingFeaturesContent() {
                             />
                             <div className="separate"></div>
                         </div>
-                        
+
                         {/*<div className="col-lg-6 features-details">
                             <div className="features-details-desc">
                                 <h3>Benefit of CRM</h3>
@@ -94,14 +94,14 @@ export default function MarketingFeaturesContent() {
                                 </div>
 
                                 <h3>Email Campaigns</h3>
-                                <p>
-                                    <ul>
-                                        <li>Contact management</li>
-                                        <li>Customizable email templates</li>
-                                        <li>Automate your email marketing efforts</li>
-                                        <li>Real-time email analytics  </li>
-                                    </ul>
-                                </p>
+
+                                <ul>
+                                    <li>Contact management</li>
+                                    <li>Customizable email templates</li>
+                                    <li>Automate your email marketing efforts</li>
+                                    <li>Real-time email analytics</li>
+                                </ul>
+
                             </div>
                         </div>
 
@@ -112,15 +112,15 @@ export default function MarketingFeaturesContent() {
                                 </div>
 
                                 <h3>Survey System</h3>
-                                <p>
-                                    <ul>
-                                        <li>Create and customize</li>
-                                        <li>Send surveys via various ways</li>
-                                        <li>Collect responses</li>
-                                        <li>Analyze reports</li>
-                                    </ul>
-                                </p>
-                                <p><br/></p>
+
+                                <ul>
+                                    <li>Create and customize</li>
+                                    <li>Send surveys via various ways</li>
+                                    <li>Collect responses</li>
+                                    <li>Analyze reports</li>
+                                </ul>
+
+                                <p><br /></p>
                             </div>
                         </div>
 
@@ -131,14 +131,14 @@ export default function MarketingFeaturesContent() {
                                 </div>
 
                                 <h3>Social Network Marketing</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Plan, Schedule, and Publish</li>
                                     <li>Monitor everything across channels</li>
                                     <li>Collaborate with Team</li>
                                     <li>Approve content before publishing</li>
 
                                 </ul>
-                                </p>
+
                             </div>
                         </div>
 
@@ -149,18 +149,18 @@ export default function MarketingFeaturesContent() {
                                 </div>
 
                                 <h3>Webpage monitor – Page Sense</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Track website metrics</li>
                                     <li>Analyze visitor behavior</li>
                                     <li>Optimize website</li>
                                     <li>Personalize the website</li>
                                     <li>Engage with customers</li>
                                 </ul>
-                                </p>
+
                             </div>
                         </div>
 
-                        
+
 
                         <div className="col-lg-4 col-md-4">
                             <div className="single-features">
@@ -169,14 +169,15 @@ export default function MarketingFeaturesContent() {
                                 </div>
 
                                 <h3>Automate Marketing Activities</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Personalized journeys</li>
                                     <li>Lead management</li>
                                     <li>Behavioral marketing</li>
                                     <li>Multichannel marketing</li>
                                     <li>Advanced analytics</li>
 
-                                </ul></p>
+                                </ul>
+
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4">
@@ -186,13 +187,13 @@ export default function MarketingFeaturesContent() {
                                 </div>
 
                                 <h3>Business Data & Analytics</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Import your data</li>
                                     <li>Visualize your data</li>
                                     <li>Share and communicate with your team</li>
                                 </ul>
-                                </p>
-                                <p><br/></p>
+
+                                <p><br /></p>
                             </div>
                         </div>
 
@@ -203,19 +204,19 @@ export default function MarketingFeaturesContent() {
                                 </div>
 
                                 <h3>Webinars (Engage Audience)</h3>
-                                <p>
-                                    <ul>
-                                        <li>Create and manage webinars</li>
-                                        <li>Present to a wide audience</li>
-                                        <li>Engage your audience Easily</li>
-                                        <li>Analyze and follow up </li>
-                                    </ul>
-                                </p>
-                                <p><br/></p>
+
+                                <ul>
+                                    <li>Create and manage webinars</li>
+                                    <li>Present to a wide audience</li>
+                                    <li>Engage your audience Easily</li>
+                                    <li>Analyze and follow up </li>
+                                </ul>
+
+                                <p><br /></p>
                             </div>
                         </div>
 
-                        
+
                         <div className="col-lg-4 col-md-4">
                             <div className="single-features">
                                 <div className="icon bg-eb6b3d">
@@ -223,14 +224,15 @@ export default function MarketingFeaturesContent() {
                                 </div>
 
                                 <h3>Event Management (Plan & Execute)</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Planning and Organizing event</li>
                                     <li>Collaborating with the team members</li>
                                     <li>Managing sponsors</li>
                                     <li>event ticketing (paid Available)</li>
                                     <li>Able to create a virtual event On Air</li>
 
-                                </ul></p>
+                                </ul>
+
                             </div>
                         </div>
                     </div>

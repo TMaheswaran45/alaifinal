@@ -26,12 +26,13 @@ export default function UHFRFIDReaderFeaturesContent() {
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
                                 <h3>Benefit</h3>
-                                <p> ● It Increases Operational Efficiency<br />
-                                    ● It Eliminates Human Error<br />
-                                    ● It Grants Access to Real-Time Data<br />
-                                    ● Better control of production<br />
-                                    ● Tracking assets and managing inventory<br />
-                                </p>
+                                   <ul> 
+                                    <li>It Increases Operational Efficiency</li>
+                                    <li>It Eliminates Human Error</li>
+                                    <li>It Grants Access to Real-Time Data</li>
+                                    <li>Better control of production</li>
+                                    <li>Tracking assets and managing inventory</li>
+                                    </ul>
                                 <div className="separate"></div>
 
                                 {/* <div className="separate"></div>

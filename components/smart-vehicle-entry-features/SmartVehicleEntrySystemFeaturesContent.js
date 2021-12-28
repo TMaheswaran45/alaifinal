@@ -16,24 +16,26 @@ export default function SmartVehicleEntrySystemFeaturesContent() {
                                 <h4>What is Smart Vehicle Entry System ?</h4>
                                 <p>ANPR is image processing technology which is used to identify vehicles by their number plates using Optical Character Recognition. This technology is used in various security traffic applications such as access-control, entry & exit systems Like Apartment, Buildings, Industries, etc.,.</p>
                                 <h5>How does work?</h5>
-                                <p> ● Detection of vehicle<br />
-                                    ● Capture of images<br />
-                                    ● Process of recognition<br />
-                                </p>
+                                <ul>
+                                    <li>Detection of vehicle</li>
+                                    <li>Capture of images</li>
+                                    <li>Process of recognition</li>
+                                </ul>
+
                             </div>
                         </div>
-                        
+
                     </div>
                     {/* <div className="separate"></div>  ptb-80*/}
                     <div className="row align-items-center">
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
                                 <h3>Detection of vehicle</h3>
-                                <p>● The Vehicle approaches the secured area and the process starts when the vehicle steps over a magnetic loop detector. The loop detector senses the car and it’s presence is signal.<br /></p>
+                                ● The Vehicle approaches the secured area and the process starts when the vehicle steps over a magnetic loop detector. The loop detector senses the car and it’s presence is signal.<br />
                                 <h3>Capture of Images</h3>
-                                <p>● The ANPR unit activates the illumination and takes picture of the front and rear plates using ANPR Camera. The images of the vehicle is read by the ANPR unit’s image processing hardware system.<br /></p>
+                                ● The ANPR unit activates the illumination and takes picture of the front and rear plates using ANPR Camera. The images of the vehicle is read by the ANPR unit’s image processing hardware system.<br />
                                 <h3>Process of recognition</h3>
-                                <p>● The ANPR unit analyzes the image with different image processing software. The ANPR unit checks if the vehicle appears predefined list of authorized car and if found it signals to open the gate.<br /></p>
+                                ● The ANPR unit analyzes the image with different image processing software. The ANPR unit checks if the vehicle appears predefined list of authorized car and if found it signals to open the gate.<br />
 
 
                                 <div className="separate"></div>
@@ -47,7 +49,7 @@ export default function SmartVehicleEntrySystemFeaturesContent() {
                                 src={require('../../static/images/Smart-vehicle-entry-system.jpg')}
                                 className="wow zoomIn"
                                 data-wow-delay="0.6s"
-                                alt="image" 
+                                alt="image"
                             />
                         </div>
 

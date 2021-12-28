@@ -77,7 +77,11 @@ class DefaultStyle extends React.Component {
                                         </a>
                                     </li>
 
-
+                                    <li className="nav-item">
+                                        <Link activeClassName="active" href="/about">
+                                            <a className="nav-link">About</a>
+                                        </Link>
+                                    </li>
 
                                     <li className="nav-item">
                                         <Link activeClassName="active" href="#">
@@ -165,7 +169,7 @@ class DefaultStyle extends React.Component {
                                             </li>
 
                                             <li className="nav-item">
-                                                <Link activeClassName="active" href="#">
+                                                <Link activeClassName="active" href="/waste-management-system">
                                                     <a className="nav-link">Smart Waste Management </a>
                                                 </Link>
                                             </li>
@@ -205,16 +209,12 @@ class DefaultStyle extends React.Component {
 
 
                                     <li className="nav-item">
-                                        <Link activeClassName="active" href="#">
+                                        <Link activeClassName="active" href="/our-success-story">
                                             <a className="nav-link">Our Success story</a>
                                         </Link>
                                     </li>
 
-                                    <li className="nav-item">
-                                        <Link activeClassName="active" href="/about">
-                                            <a className="nav-link">About</a>
-                                        </Link>
-                                    </li>
+
 
                                     <li className="nav-item">
                                         <Link activeClassName="active" href="/contact">
@@ -222,11 +222,11 @@ class DefaultStyle extends React.Component {
                                         </Link>
                                     </li>
 
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link activeClassName="active" href="/freedemo">
                                             <a className="nav-link">Get a Free Demo</a>
                                         </Link>
-                                    </li>
+                                    </li> */}
 
                                 </ul>
                             </div>

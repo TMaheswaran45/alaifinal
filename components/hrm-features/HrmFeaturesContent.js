@@ -19,7 +19,7 @@ export default function HrmFeaturesContent() {
                             </div>
                         </div>
                     </div>
-                <div className="row align-items-center">
+                    <div className="row align-items-center">
                         <div className="col-lg-6 features-details-image">
                             <img
                                 src={require('../../static/images/hr2.jpg')}
@@ -32,15 +32,17 @@ export default function HrmFeaturesContent() {
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
                                 <h3>Benefit of HRM</h3>
-                                <p> ● Create effective email campaigns to reach and interact with your customer. <br />
-                                    ● Proactively chat with your website visitors and convert them into potential customer. <br />
-                                    ● Create, schedule and deliver your social media content where your audiences are most likely to engage. <br />
-                                    ● Manage your sales pipeline, spot opportunities, increase win rates and grow your business. <br />
-                                    ● Provide unmatched customer service across multiple channels, languages and time zones. <br />
-                                    ● Plan, track and collaborate on client deliverables using our project management tools. <br />
-                                    ● Gain data-driven insights on your sales performance with smart dashboards and KPIs. <br />
-                                    ● Gather opinions, analyze results and discover better ways to exceed customer expectations. <br />
-                                </p>
+                                <ul>
+                                    <li>Create effective email campaigns to reach and interact with your customer. </li>
+                                    <li>Proactively chat with your website visitors and convert them into potential customer. </li>
+                                    <li>Create, schedule and deliver your social media content where your audiences are most likely to engage. </li>
+                                    <li>Manage your sales pipeline, spot opportunities, increase win rates and grow your business. </li>
+                                    <li>Provide unmatched customer service across multiple channels, languages and time zones. </li>
+                                    <li>Plan, track and collaborate on client deliverables using our project management tools. </li>
+                                    <li>Gain data-driven insights on your sales performance with smart dashboards and KPIs. </li>
+                                    <li>Gather opinions, analyze results and discover better ways to exceed customer expectations. </li>
+                                </ul>
+
 
                                 {/* <ul className="features-details-list">
                                     <li>Create effective email campaigns to reach and interact with your customer.</li>
@@ -75,16 +77,16 @@ export default function HrmFeaturesContent() {
                                 </div>
 
                                 <h6>Effective new hire onboarding</h6>
-                                <p>
-                                    <ul>
-                                        <li>Interactive welcome wall </li>
-                                        <li>Customizable new hire forms </li>
-                                        <li>Easy assigning of tasks, training and goals</li>
-                                        <li>Employee socialization to help understand the organizational culture</li>
-                                    </ul>
-                                </p>
-                                <p><br/></p>
-                                <p><br/></p>
+
+                                <ul>
+                                    <li>Interactive welcome wall </li>
+                                    <li>Customizable new hire forms </li>
+                                    <li>Easy assigning of tasks, training and goals</li>
+                                    <li>Employee socialization to help understand the organizational culture</li>
+                                </ul>
+
+                                <p><br /></p>
+                                <p><br /></p>
                             </div>
                         </div>
 
@@ -95,15 +97,15 @@ export default function HrmFeaturesContent() {
                                 </div>
 
                                 <h6>Centralized Employee Database</h6>
-                                <p>
-                                    <ul>
-                                        <li>Employee management from a centralized location</li>
-                                        <li>Reduced errors and elimination of redundant data entry</li>
-                                        <li>Access to complete employee information anywhere, anytime</li>
-                                        <li>Quick employee search based on required criteria</li>
-                                    </ul>
-                                </p>
-                                
+
+                                <ul>
+                                    <li>Employee management from a centralized location</li>
+                                    <li>Reduced errors and elimination of redundant data entry</li>
+                                    <li>Access to complete employee information anywhere, anytime</li>
+                                    <li>Quick employee search based on required criteria</li>
+                                </ul>
+
+
                             </div>
                         </div>
 
@@ -114,14 +116,14 @@ export default function HrmFeaturesContent() {
                                 </div>
 
                                 <h3>Employee Self-service</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Let your employees access, update and modify their own data</li>
                                     <li>Access to attendance and leave reports</li>
                                     <li>Log time on jobs</li>
                                     <li>Apply Leave</li>
                                 </ul>
-                                </p>
-                                
+
+
                             </div>
                         </div>
 
@@ -134,13 +136,13 @@ export default function HrmFeaturesContent() {
                                 </div>
 
                                 <h3>Easy to use Timesheets</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Easy scheduling of jobs & work items </li>
                                     <li>Recording job entries on a daily, weekly & monthly basis </li>
                                     <li>Log both billable & non-billable hours</li>
                                     <li>Clear and accurate visual reports for analysis and forecasting</li>
                                 </ul>
-                                </p>
+
                             </div>
                         </div>
 
@@ -151,13 +153,14 @@ export default function HrmFeaturesContent() {
                                 </div>
 
                                 <h3>Attendance Management</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Intuitive web & mobile check-in and check-out</li>
                                     <li>Customizable leave and attendance settings</li>
                                     <li> API to integrate the attendance system with the attendance Terminals </li>
                                     <li>Multiple shifts, Ip restrictions, user id & shift mapping </li>
                                     <li>Geo-tracking of check-in and check-out at different locations</li>
-                                </ul></p>
+                                </ul>
+
                             </div>
                         </div>
 
@@ -168,12 +171,12 @@ export default function HrmFeaturesContent() {
                                 </div>
 
                                 <h6>Employee Collaboration & Live Feeds</h6>
-                                <p><ul>
+                                <ul>
                                     <li>Instant notifications of company announcements and other information </li>
                                     <li>Real-time alerts and timely updates</li>
                                     <li>Improved decision making with increased employee collaboration</li>
                                 </ul>
-                                </p>
+
                             </div>
                         </div>
 
@@ -184,13 +187,14 @@ export default function HrmFeaturesContent() {
                                 </div>
 
                                 <h3>Performance Management</h3>
-                                <p><ul>
+                                <ul>
                                     <li>360-degree feedback throughout the year </li>
                                     <li>Goal setting and tracking </li>
                                     <li>Employee self-appraisal </li>
                                     <li>Performance Reports to help management appraise </li>
                                     <li>Employees Analytics for insights into overall performance of teams</li>
-                                </ul></p>
+                                </ul>
+
                             </div>
                         </div>
 
@@ -201,13 +205,14 @@ export default function HrmFeaturesContent() {
                                 </div>
 
                                 <h3>HRM Mobile</h3>
-                                <p><ul>
+                                <ul>
                                     <li>Flexible and intuitive mobile check-in and check-out</li>
                                     <li>Perform quick employee search using tags and other criteria </li>
                                     <li>Call, text and email employees directly from your device</li>
                                     <li>View the departments in your organization and it's members</li>
 
-                                </ul></p>
+                                </ul>
+
                             </div>
                         </div>
 
@@ -218,12 +223,13 @@ export default function HrmFeaturesContent() {
                                 </div>
 
                                 <h3>Intelligent workflow automation </h3>
-                                <p><ul>
+                                <ul>
                                     <li>Automatic mail alerts for improved workflow </li>
                                     <li>Configuration of multi-level approvals </li>
                                     <li>Checklists to track tasks and everything that needs to be done </li>
                                     <li>Reminders for key events such as appraisals, probation Reviews, birthdays and much more</li>
-                                </ul></p>
+                                </ul>
+
                             </div>
                         </div>
 

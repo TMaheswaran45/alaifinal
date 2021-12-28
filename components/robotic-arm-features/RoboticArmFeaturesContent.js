@@ -14,7 +14,7 @@ export default function RoboticArmFeaturesContent() {
                         <div className="col-lg-12">
                             <div className="repair-banner-content">
                                 <h4>What is robotic Arm?</h4>
-                                <p>Robotic arms are machines that are programmed to execute a specific task or job quickly, efficiently, and extremely accurately. The typical applications of industrial robotic arms are welding, painting, assembly, pick and place for printed circuit boards, packaging, labeling, palletizing, product inspection, and testing. They also have the ability to assist in material handling and provide interfaces</p>
+                                <p>Robotic arms are machines that are programmed to execute a specific task or job quickly, efficiently, and extremely accurately. The typical applications of industrial robotic arms are welding, painting, assembly, pick and place for printed circuit boards, packaging, labeling, palletizing, product inspection, and testing. They also have the ability to assist in material handling and provide interfaces</p>
 
                             </div>
                         </div>
@@ -26,14 +26,15 @@ export default function RoboticArmFeaturesContent() {
                         <div className="col-lg-6 features-details pt-0">
                             <div className="features-details-desc">
                                 <h3>Benefit of Robotic Arm</h3>
-                                <p> ● Pay scale start from ( 3kg to 10kg)<br />
-                                    ● Increased Productivity (Longer working period:)<br />
-                                    ● Work In Hazardous Environments<br />
-                                    ● Cost Effectiveness<br />
-                                    ● Improved safety<br />
-                                    ● Ability to operate in atmospheres that are not welcoming to human beings<br />
-
-                                </p>
+                                <ul>
+                                    <li>Pay scale start from ( 3kg to 10kg)</li>
+                                    <li>Increased Productivity (Longer working period:)</li>
+                                    <li>Work In Hazardous Environments</li>
+                                    <li>Cost Effectiveness</li>
+                                    <li>Improved safety</li>
+                                    <li>Ability to operate in atmospheres that are not welcoming to human beings</li>
+                                    </ul>
+                             
                                 
 
                                 {/* <div className="separate"></div>

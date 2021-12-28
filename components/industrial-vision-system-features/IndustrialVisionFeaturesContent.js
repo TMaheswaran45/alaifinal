@@ -26,18 +26,21 @@ export default function IndustrialVisionFeaturesContent() {
                         <div className="col-lg-6 features-details">
                             <div className="features-details-desc">
                                 <h3>Benefit of Industrial Vision System</h3>
-                                <p> ● Higher quality<br />
-                                    ● Lower production costs<br />
-                                    ● Increased productivity<br />
-                                    ● Production flexibility<br />
-                                    ● Scrap rate reduction<br />
-                                    ● Inventory control<br />
-                                    ● Improving productivity and product quality<br />
-                                    ● Reducing the number of unqualified products<br />
-                                    ● Reducing the labor intensity of testing and inspection personnel<br />
-                                    ● Reduced floorspace<br />
-                                    ● Less machine downtime and reduced setup time<br />
-                                </p>
+                                
+                                 <ul>
+                                    <li>Higher quality</li>
+                                    <li>Lower production costs</li>
+                                    <li>Increased productivity</li>
+                                    <li>Production flexibility</li>
+                                    <li>Scrap rate reduction</li>
+                                    <li>Inventory control</li>
+                                    <li>Improving productivity and product quality</li>
+                                    <li>Reducing the number of unqualified products</li>
+                                    <li>Reducing the labor intensity of testing and inspection personnel</li>
+                                    <li>Reduced floorspace</li>
+                                    <li>Less machine downtime and reduced setup time</li>
+                                    </ul>
+                                                              
                                 <div className="separate"></div>
 
                                 {/* <div className="separate"></div>
